@@ -28,7 +28,14 @@ class YoutubeFollower():
     def __init__(self, n_splits, depth, verbose=False, loc=None, lang=None):
         self._verbose = verbose
 
-        self._video_info = {}
+        # pull in video info from previous crawls to minimize API abuse
+        if os.path.exists('results/video_info.json'):
+            print("Opening the thing")
+            with open('results/video_info.json') as f:
+                self._video_info = json.load(f)
+        else:
+            self._video_info = {}
+
         self._search_info = {}
         self._loc = loc
         self._lang = lang
@@ -50,7 +57,7 @@ class YoutubeFollower():
 
         os.makedirs(out_dir)
 
-        with open(os.path.join(out_dir, 'video_info.json'), 'w') as f:
+        with open(os.path.join('results/video_info.json'), 'w') as f:
             json.dump(yf._video_info, f)
 
         with open(os.path.join(out_dir, 'search_info.json'), 'w') as f:
@@ -84,24 +91,21 @@ class YoutubeFollower():
     def populate_info(self):
         """
         Fills the video info dictionary with video data
-
-        INPUT:
-            video_id: (str)
         """
-
-        # Get the metadata and comments
-        video_ids = ", ".join(list(self._search_info.keys()))
+        print("Getting all metadata...")
+        video_ids = set(self._search_info.keys())
+        video_ids = list(video_ids.difference(set(self._video_info.keys())))
         metadata = youtube_utils.get_metadata(video_ids)
 
         for video_id in self._search_info:
             if video_id in self._video_info:
-                print('Video info for {} already logged; skipping'.format(video_id))
+                print('\n\nVideo info for {} already logged; skipping'.format(video_id))
                 continue
 
             print("\nLogging info for {}".format(video_id))
 
             video_data = metadata.get(video_id, {})
-            comments = youtube_utils.get_comments(video_id, max_results=15)
+            comments = youtube_utils.get_comments(video_id, max_results=20)
 
             self._video_info[video_id] = {'views': video_data['views'],
                                          'likes': video_data['likes'],

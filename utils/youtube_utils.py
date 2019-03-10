@@ -49,9 +49,10 @@ def search(query, max_results=10):
     return results
 
 
-def get_metadata(video_ids):
+def get_metadata_batch(video_ids):
     """
-    Gets the video metadata for the video matching video_id
+    Helper for get_metadata. Gets metadata for batches of max length of 45
+    video_ids
 
     INPUT:
         video_id: (str)
@@ -60,8 +61,8 @@ def get_metadata(video_ids):
         result: (dict) video metadata for each video: result[video_id] = {}
     """
 
-    # Call the videos.list method to retrieve results matching the
-    # specified video_id
+    video_ids = ", ".join(video_ids)
+
     video_response = youtube.videos().list(
         id=video_ids,
         part='snippet, contentDetails, statistics'
@@ -89,6 +90,27 @@ def get_metadata(video_ids):
                             'n_comments': statistics.get('commentCount', -1)}
 
     return result
+
+def get_metadata(video_ids):
+    """
+    Returns the metadata for the videos in video_ids as a nested dictionary
+
+    INPUT:
+        video_ids: (str) list of video_ids
+
+    OUTPUT:
+        result: nested dictionary of video_id metadata
+
+    """
+    result = {}
+    batch_size = 45
+
+    for ix in range(0, len(video_ids), batch_size):
+        batch = video_ids[ix: ix + batch_size]
+        result.update(get_metadata_batch(batch))
+
+    return result
+
 
 def get_comments(video_id, max_results=5):
     """
