@@ -97,10 +97,7 @@ class YoutubeFollower():
         video_ids = list(video_ids.difference(set(self._video_info.keys())))
         metadata = youtube_utils.get_metadata(video_ids)
 
-        for video_id in self._search_info:
-            if video_id in self._video_info:
-                print('\n\nVideo info for {} already logged; skipping'.format(video_id))
-                continue
+        for video_id in video_ids:
 
             print("\nLogging info for {}".format(video_id))
 
