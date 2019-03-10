@@ -49,7 +49,7 @@ def search(query, max_results=10):
     return results
 
 
-def get_metadata(video_id):
+def get_metadata(video_ids):
     """
     Gets the video metadata for the video matching video_id
 
@@ -57,13 +57,13 @@ def get_metadata(video_id):
         video_id: (str)
 
     OUTPUT:
-        result: (dict) video metadata
+        result: (dict) video metadata for each video: result[video_id] = {}
     """
 
     # Call the videos.list method to retrieve results matching the
     # specified video_id
     video_response = youtube.videos().list(
-        id=video_id,
+        id=video_ids,
         part='snippet, contentDetails, statistics'
         ).execute()
 
@@ -72,23 +72,21 @@ def get_metadata(video_id):
     for video_result in video_response.get('items', []):
         # Get video title, publication date, description, category_id
         snippet = video_result.get('snippet')
-        result['title'] = snippet.get('title', -1)
-        result['date'] = snippet.get('publishedAt', -1)
-        result['description'] = snippet.get('description', -1)
-        result['category_id'] = snippet.get('categoryId', -1)
-        result['channel'] = snippet.get('channelTitle', -1)
-
-        # Get video caption indicator and duration
         contentDetails = video_result.get('contentDetails')
-        result['has_captions'] = contentDetails.get('caption', -1)
-        result['duration'] = contentDetails.get('duration', -1)
-
-        # Get like/dislikes, views, n_comments
         statistics = video_result.get('statistics')
-        result['likes'] = statistics.get('likeCount', -1)
-        result['dislikes'] = statistics.get('dislikeCount', -1)
-        result['views'] = statistics.get('viewCount', -1)
-        result['n_comments'] = statistics.get('commentCount', -1)
+        video_id = video_result['id']
+
+        result[video_id] = {'title': snippet.get('title', -1),
+                            'date': snippet.get('publishedAt', -1),
+                            'description': snippet.get('description', -1),
+                            'category_id': snippet.get('categoryId', -1),
+                            'channel': snippet.get('channelTitle', -1),
+                            'has_captions': contentDetails.get('caption', -1),
+                            'duration': contentDetails.get('duration', -1),
+                            'likes': statistics.get('likeCount', -1),
+                            'dislikes': statistics.get('dislikeCount', -1),
+                            'views': statistics.get('viewCount', -1),
+                            'n_comments': statistics.get('commentCount', -1)}
 
     return result
 
