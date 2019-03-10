@@ -1,0 +1,856 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.240
+♪ (PBS Digital Studios theme) ♪
+
+00:00:02.660 --> 00:00:06.220
+Does the speed of light actually
+have anything to do with light?
+
+00:00:06.460 --> 00:00:11.140
+♪ (Space Time theme) ♪
+
+00:00:11.320 --> 00:00:14.160
+So what is it about the speed
+of light that's so special?
+
+00:00:14.320 --> 00:00:16.580
+Why does the universe
+seem to conspire to,
+
+00:00:16.580 --> 00:00:21.400
+1) keep photons from traveling at any speed but 300,000 kilometers per second
+
+00:00:21.400 --> 00:00:24.440
+in a vacuum, according to
+ any observer, and,
+
+00:00:24.440 --> 00:00:28.120
+2) keep anything from traveling faster than that speed?
+
+00:00:28.280 --> 00:00:32.380
+The answer: this statement is
+false, or at least backwards.
+
+00:00:32.580 --> 00:00:35.960
+The universe doesn't arrange itself
+to keep the speed of light constant.
+
+00:00:36.120 --> 00:00:38.480
+In fact, spacetime couldn't
+care less about light.
+
+00:00:38.660 --> 00:00:41.760
+The cosmic speed limit is
+about something much deeper.
+
+00:00:41.920 --> 00:00:46.760
+This universal constant is, perhaps more accurately, 
+the 'speed of causality'.
+
+00:00:46.940 --> 00:00:51.480
+In a previous episode, we talked about causality
+by way of the 'spacetime interval'.
+
+00:00:51.640 --> 00:00:55.800
+Causal connections give us the only ordering of events that all observers will agree on.
+
+00:00:56.000 --> 00:00:59.100
+But why must causality
+have a maximum speed?
+
+00:00:59.280 --> 00:01:01.800
+And why is that speed the
+same as the speed of light?
+
+00:01:01.960 --> 00:01:07.240
+To understand this, let's first get our heads around two of the most important insights in physics ever.
+
+00:01:07.420 --> 00:01:07.920
+Ready?
+
+00:01:08.100 --> 00:01:12.380
+First, 1632—frilly collars,
+pilgrims in Plymouth,
+
+00:01:12.390 --> 00:01:15.020
+and in Italy, Galileo was
+about to be dragged off
+
+00:01:15.020 --> 00:01:18.110
+by the Inquisition for his
+book supporting Copernicus
+
+00:01:18.110 --> 00:01:20.840
+and the whole, "Earth is not the
+center of the universe," thing.
+
+00:01:21.010 --> 00:01:25.780
+But in his book, there's another, less 
+well known idea—his 'Principle of Relativity'.
+
+00:01:25.940 --> 00:01:30.140
+This is not Einstein's Relativity, but instead, the brilliant precursor.
+
+00:01:30.320 --> 00:01:34.100
+Not only is Earth or, indeed,
+any other location not special,
+
+00:01:34.280 --> 00:01:37.660
+but Galileo posits that no
+velocity is special, either.
+
+00:01:37.820 --> 00:01:42.960
+To put it another way, all experiments should give the same results regardless of the velocity
+
+00:01:42.960 --> 00:01:46.320
+of your non-accelerating, or
+inertial, frame of reference.
+
+00:01:46.460 --> 00:01:49.600
+This Galilean Relativity
+is an incredible insight
+
+00:01:49.600 --> 00:01:52.660
+that Isaac Newton would later
+codify into his Laws of Motion.
+
+00:01:52.850 --> 00:01:56.620
+Fast forward to the 1800s—
+top hats, steam trains,
+
+00:01:56.620 --> 00:02:00.600
+and mad experiments to uncover
+the laws of electricity and magnetism.
+
+00:02:00.790 --> 00:02:03.900
+Enter James Clerk Maxwell,
+scientific maestro,
+
+00:02:03.910 --> 00:02:06.960
+who weaves these laws into
+his eponymous equations,
+
+00:02:06.960 --> 00:02:11.130
+describing the entire electromagnetic 
+phenomenon with such elegance.
+
+00:02:11.130 --> 00:02:14.100
+By the late 1800s, we
+have Maxwell's equations,
+
+00:02:14.100 --> 00:02:16.960
+Newton's mechanics, various
+other awesome theories.
+
+00:02:17.130 --> 00:02:20.460
+And there's this sense
+that physics might be done,
+
+00:02:20.460 --> 00:02:26.660
+except there are hints of something horribly wrong lurking in the math—actually, two hints.
+
+00:02:26.850 --> 00:02:31.320
+The first clues to the bizarre 
+quantum nature of reality had emerged.
+
+00:02:31.320 --> 00:02:33.480
+And more importantly
+for this episode,
+
+00:02:33.480 --> 00:02:38.140
+Maxwell's equations had cast confusion
+on the sacred Galilean Relativity.
+
+00:02:38.350 --> 00:02:41.680
+In fact, we now know that
+even Newton's mechanics
+
+00:02:41.680 --> 00:02:46.340
+were using assumptions that implied an 
+infinite speed of light, which is really bad.
+
+00:02:46.520 --> 00:02:49.500
+It would imply that space and
+time and matter don't exist.
+
+00:02:49.680 --> 00:02:51.160
+But I'm getting ahead of myself.
+
+00:02:51.320 --> 00:02:53.660
+First, let me explain the
+issue with Maxwell's equations.
+
+00:02:53.840 --> 00:02:57.740
+Imagine a pony on roller blades 
+with a monkey skateboarding along its back.
+
+00:02:57.900 --> 00:02:59.680
+And make it an electric monkey.
+
+00:02:59.860 --> 00:03:03.180
+Why? Well, magnetism comes from
+moving electric charges.
+
+00:03:03.370 --> 00:03:06.200
+So an electric skater monkey
+on a rollerblading pony
+
+00:03:06.200 --> 00:03:08.760
+generates a magnetic
+field, obviously.
+
+00:03:08.950 --> 00:03:12.340
+And I can figure out the 
+field strength from Maxwell's equations
+
+00:03:12.340 --> 00:03:15.320
+based on what I see is the monkey's total velocity.
+
+00:03:15.320 --> 00:03:16.820
+But what is that velocity?
+
+00:03:16.820 --> 00:03:19.900
+Galileo and Newton tell
+us that total monkey speed
+
+00:03:19.900 --> 00:03:22.900
+equals pony blade speed
+plus monkey skate speed.
+
+00:03:23.090 --> 00:03:27.100
+But what if this very clever pony
+also solves Maxwell's equations?
+
+00:03:27.290 --> 00:03:32.360
+She sees the monkey moving at only monkey skate speed, and so gets a totally different magnetic field.
+
+00:03:32.520 --> 00:03:35.040
+So who's right, me or the pony?
+
+00:03:35.220 --> 00:03:37.760
+The key lies in what
+we actually measure.
+
+00:03:37.940 --> 00:03:42.380
+We don't measure magnetic field.
+We measure its effect. We measure force.
+
+00:03:42.560 --> 00:03:45.400
+And the pony measures
+the same force that I do.
+
+00:03:45.580 --> 00:03:49.760
+See, there's a velocity-dependent trade-off between the electric and magnetic fields.
+
+00:03:49.950 --> 00:03:54.660
+The two work together to give you the same electromagnetic—the Lorentz—force,
+
+00:03:54.660 --> 00:03:56.380
+regardless of reference frame.
+
+00:03:56.570 --> 00:03:59.800
+This tells us that the electromagnetic force holds clues
+
+00:03:59.800 --> 00:04:04.040
+to the fundamental interplay between 
+space, time, and velocity.
+
+00:04:04.220 --> 00:04:05.820
+How do we unravel that connection?
+
+00:04:06.000 --> 00:04:08.950
+It's going to be encoded in the transformation that
+
+00:04:08.950 --> 00:04:11.440
+will allow Maxwell's equations to jump seamlessly
+
+00:04:11.440 --> 00:04:14.720
+between reference frames—the transformation
+
+00:04:14.720 --> 00:04:17.260
+that represents space and time in our reality.
+
+00:04:17.420 --> 00:04:20.620
+This transformation thing,
+it's like a mathy magic wand
+
+00:04:20.620 --> 00:04:24.120
+that you wave at your description 
+of spacetime or your physical laws.
+
+00:04:24.300 --> 00:04:27.480
+And it'll bump you between
+reference frames, Harry Potter-style.
+
+00:04:27.660 --> 00:04:28.740
+Wingardium leviosa.
+
+00:04:28.920 --> 00:04:32.830
+An example is the Galilean transformation,
+which basically says that
+
+00:04:32.830 --> 00:04:37.540
+velocities add together and space and time
+ don't depend on velocity.
+
+00:04:37.730 --> 00:04:39.740
+Newton's mechanics use it, and we just applied it
+
+00:04:39.740 --> 00:04:43.060
+to Maxwell's equations to get total monkey speed.
+
+00:04:43.240 --> 00:04:46.520
+But it turns out that there's no way 
+to write out Maxwell's equations so
+
+00:04:46.520 --> 00:04:50.380
+that they give consistent results 
+under the Galilean transformation.
+
+00:04:50.560 --> 00:04:53.160
+They aren't invariant
+to that transformation.
+
+00:04:53.360 --> 00:04:56.720
+They sort of give the right force at low speeds, 
+but the fields are a mess.
+
+00:04:56.880 --> 00:04:59.360
+And at high speeds—
+forget about it.
+
+00:04:59.560 --> 00:05:02.300
+So does this mean
+Maxwell was wrong?
+
+00:05:02.480 --> 00:05:06.020
+No, it means that Galilean
+transformation is wrong.
+
+00:05:06.220 --> 00:05:09.660
+The transformation underpinning
+Newton's mechanics is wrong.
+
+00:05:09.840 --> 00:05:13.840
+The only transformation that works 
+is called the Lorentz transformation.
+
+00:05:14.020 --> 00:05:16.820
+And it was discovered even
+before Einstein's Relativity.
+
+00:05:17.020 --> 00:05:20.400
+But it was Einstein who realized
+that the Lorentz transformation
+
+00:05:20.400 --> 00:05:22.920
+tells us how space
+and time are connected
+
+00:05:22.920 --> 00:05:26.060
+and that it also predicts
+the speed of causality.
+
+00:05:26.240 --> 00:05:31.720
+Now, you can get to this transformation the way Lorentz and Einstein did by requiring a constant speed of light.
+
+00:05:31.930 --> 00:05:34.240
+As an example, there's
+a link to the derivation
+
+00:05:34.240 --> 00:05:36.920
+via the spacetime interval
+in the description.
+
+00:05:37.100 --> 00:05:38.960
+But forget about
+the speed of light.
+
+00:05:39.160 --> 00:05:43.380
+This transformation is so profound 
+that it is inevitable
+
+00:05:43.380 --> 00:05:47.860
+based on a few simple statements 
+about the nature of space and time.
+
+00:05:48.040 --> 00:05:48.940
+Let me show you how.
+
+00:05:49.120 --> 00:05:52.300
+First, we're not going to pretend 
+that we know how velocities add.
+
+00:05:52.480 --> 00:05:56.360
+We don't know that, "total monkey speed equals pony blade speed plus monkey skate speed."
+
+00:05:56.540 --> 00:05:57.880
+Why would you assume
+such as a thing?
+
+00:05:58.020 --> 00:06:00.760
+Next, no preferred
+inertial reference frame.
+
+00:06:00.940 --> 00:06:04.200
+Under our new transformation,
+the laws of physics will work the same
+
+00:06:04.200 --> 00:06:07.500
+regardless of position, orientation, or velocity.
+
+00:06:07.690 --> 00:06:10.100
+It doesn't matter where the
+pony is, how fast it's going,
+
+00:06:10.100 --> 00:06:12.140
+or in what direction
+it's skating.
+
+00:06:12.300 --> 00:06:13.580
+This must be true.
+
+00:06:13.740 --> 00:06:17.200
+The Earth is whizzing around the sun,
+the sun around the Milky Way.
+
+00:06:17.360 --> 00:06:20.440
+Position, orientation, and velocity 
+are changing massively.
+
+00:06:20.640 --> 00:06:23.120
+Yet our experiments don't
+seem to care about that.
+
+00:06:23.300 --> 00:06:26.200
+Finally, assume that
+the universe make sense.
+
+00:06:26.380 --> 00:06:30.260
+Require that we can consistently 
+transform between reference frames.
+
+00:06:30.440 --> 00:06:32.300
+I should be able to use
+the same transformation
+
+00:06:32.300 --> 00:06:35.340
+to get to the monkey's frame 
+as I use to get to the pony's frame
+
+00:06:35.340 --> 00:06:37.360
+just by using the different velocities.
+
+00:06:37.540 --> 00:06:39.390
+I should also be able
+to jump consistently
+
+00:06:39.390 --> 00:06:42.620
+through multiple frames of
+reference and back again.
+
+00:06:42.780 --> 00:06:46.300
+E.g., I can go to the monkey's frame
+by first going to the pony's frame,
+
+00:06:46.300 --> 00:06:47.900
+and then going from pony to monkey.
+
+00:06:48.060 --> 00:06:49.910
+And I can also get
+back to my frame
+
+00:06:49.910 --> 00:06:52.160
+by putting a minus
+sign on the velocities.
+
+00:06:52.340 --> 00:06:54.900
+Essentially, we're just
+requiring basic consistency
+
+00:06:54.900 --> 00:06:56.640
+in how the dimensions work.
+
+00:06:56.800 --> 00:07:01.160
+Finally, finally—use these axioms 
+to do a teensy bit of algebra.
+
+00:07:01.340 --> 00:07:02.820
+See the link in the description.
+
+00:07:03.000 --> 00:07:05.640
+The result is the
+Lorentz transformation.
+
+00:07:05.820 --> 00:07:10.980
+It's the only one that satisfies all of these pretty fundamental statements
+
+00:07:10.980 --> 00:07:14.880
+about the relativity, symmetry, 
+and consistency of our universe.
+
+00:07:15.060 --> 00:07:17.460
+It must describe our reality.
+
+00:07:17.640 --> 00:07:21.160
+And therefore, there must
+be a cosmic speed limit. Why?
+
+00:07:21.340 --> 00:07:27.540
+This absolute speed limit—let's call it 'c'—is the one parameter defining the Lorentz transformation.
+
+00:07:27.730 --> 00:07:30.280
+Through this parameter,
+the Lorentz transformation
+
+00:07:30.280 --> 00:07:32.700
+predicts the cosmic speed limit.
+
+00:07:32.880 --> 00:07:35.780
+Now, the Galilean transformation 
+turns out just to be
+
+00:07:35.780 --> 00:07:40.800
+a special case of the Lorentz transformation 
+where c equals infinity.
+
+00:07:40.990 --> 00:07:47.180
+And honestly, just from the symmetry and relativity arguments that we made, c could be infinity.
+
+00:07:47.320 --> 00:07:51.820
+But for other reasons—still unrelated to light—
+we know that it cannot be.
+
+00:07:52.020 --> 00:07:54.740
+The Lorentz transformation finally allows us
+
+00:07:54.740 --> 00:07:57.150
+to write down a version of Maxwell's equation
+
+00:07:57.150 --> 00:07:59.060
+that is invariant
+to transformation.
+
+00:07:59.220 --> 00:08:02.520
+With it, we can write down
+one law for electromagnetism
+
+00:08:02.520 --> 00:08:04.580
+that works in all
+frames of reference.
+
+00:08:04.780 --> 00:08:08.110
+This is further evidence
+that our new transformation
+
+00:08:08.110 --> 00:08:10.360
+accurately describes
+our reality.
+
+00:08:10.560 --> 00:08:14.760
+But it only works for a
+very specific value of c.
+
+00:08:14.940 --> 00:08:16.920
+That value has to
+be a combination
+
+00:08:16.920 --> 00:08:20.560
+of the fundamental constants
+of Maxwell's equations.
+
+00:08:20.740 --> 00:08:24.320
+For the laws of electricity
+and magnetism to work,
+
+00:08:24.320 --> 00:08:28.420
+we need a finite maximum cosmic speed, 
+even without considering light.
+
+00:08:28.580 --> 00:08:32.600
+But check this out: the exact same combination that gives us the cosmic speed limit
+
+00:08:32.600 --> 00:08:35.280
+also happens to define the speed of propagation
+
+00:08:35.280 --> 00:08:38.500
+of electromagnetic waves—the speed of light.
+
+00:08:38.660 --> 00:08:40.600
+c is the speed of light.
+
+00:08:40.760 --> 00:08:43.380
+But it's the speed
+of causality first.
+
+00:08:43.570 --> 00:08:47.820
+It's the maximum speed at which any two parts of the universe can talk to each other.
+
+00:08:47.980 --> 00:08:49.880
+In fact, it's the
+maximum speed at which
+
+00:08:49.880 --> 00:08:52.920
+any observers can see two
+parts of the universe talk to each other.
+
+00:08:53.100 --> 00:08:55.360
+Because of this,
+it's the only speed
+
+00:08:55.360 --> 00:08:57.720
+that any massless
+particle can travel.
+
+00:08:57.900 --> 00:09:02.860
+So lights or photons, also gravitational waves
+and gluons, all have no mass.
+
+00:09:03.040 --> 00:09:05.320
+And so they travel at the
+maximum possible speed.
+
+00:09:05.500 --> 00:09:07.640
+Mass is an impediment to motion.
+
+00:09:07.800 --> 00:09:09.300
+No mass, no impediment.
+
+00:09:09.480 --> 00:09:12.740
+So massless things go as
+fast as it's possible to go.
+
+00:09:12.930 --> 00:09:16.680
+In fact, the very existence
+of mass and space and time
+
+00:09:16.680 --> 00:09:19.700
+tells us that the universal
+speed limit is finite.
+
+00:09:19.869 --> 00:09:23.260
+Einstein's interpretation of the meaning 
+of the Lorentz transformation
+
+00:09:23.260 --> 00:09:28.120
+gives us the Special Theory of Relativity—
+time dilation, length contraction,
+
+00:09:28.120 --> 00:09:31.000
+and, of course, mass
+to energy equivalence,
+
+00:09:31.000 --> 00:09:34.440
+as described by the famous
+equation, E=mc².
+
+00:09:34.600 --> 00:09:36.460
+Awesome episode
+on that one here.
+
+00:09:36.640 --> 00:09:39.580
+These are unavoidable 
+conclusions once we have
+
+00:09:39.580 --> 00:09:42.120
+the basic relationship between
+ space and time
+
+00:09:42.120 --> 00:09:44.810
+as described by the 
+Lorentz transformation,
+
+00:09:44.810 --> 00:09:46.780
+and we accept Einstein's
+ interpretation of it.
+
+00:09:46.960 --> 00:09:49.160
+So what happens without a
+universal speed limit
+
+00:09:49.160 --> 00:09:51.580
+and we pretend c equals infinity?
+
+00:09:51.760 --> 00:09:55.920
+There is no matter, because it would take 
+infinite energy to make any mass.
+
+00:09:56.080 --> 00:09:59.480
+There is only massless particles
+traveling at infinite speed.
+
+00:09:59.660 --> 00:10:02.220
+Time dilation and length
+contraction are infinite.
+
+00:10:02.410 --> 00:10:06.200
+There is no time and space,
+no cause or effect,
+
+00:10:06.200 --> 00:10:10.820
+because all locations and times 
+communicate with each other instantly.
+
+00:10:11.020 --> 00:10:14.040
+The universe is an
+infinitesimal here-and-now.
+
+00:10:14.200 --> 00:10:18.840
+This is all pretty paradoxical, and so there are, 
+by definition, inconsistencies in this picture.
+
+00:10:19.020 --> 00:10:23.740
+However, the paradox itself tells us that
+an infinite speed limit is impossible.
+
+00:10:23.920 --> 00:10:29.640
+The finite speed of causality is fundamental to us having a universe in the first place.
+
+00:10:29.820 --> 00:10:35.040
+And we want a universe, so I can see you back here 
+on the next episode of "Space Time."
+
+00:10:35.200 --> 00:10:39.660
+Last time on "Space Time," we talked about the edge of the universe and Counter-Strike.
+
+00:10:39.820 --> 00:10:40.920
+Let's get into the comments.
+
+00:10:41.060 --> 00:10:44.900
+Denny Hiu asks how a universe
+that is already infinite [can] expand,
+
+00:10:44.900 --> 00:10:46.680
+and what is it expanding into?
+
+00:10:46.840 --> 00:10:51.860
+Great question. The weird thing here is that some infinities can be bigger than other infinities.
+
+00:10:52.040 --> 00:10:56.060
+Imagine an infinitely long ruler 
+with markings spaced at every inch.
+
+00:10:56.250 --> 00:10:58.520
+If we stretched the ruler
+so that the markings are
+
+00:10:58.520 --> 00:11:02.660
+spaced at every two inches, 
+the ruler is still infinitely long.
+
+00:11:02.840 --> 00:11:06.200
+But every section of the
+ruler has twice as much space.
+
+00:11:06.380 --> 00:11:08.940
+Now replace the
+markers with galaxies,
+
+00:11:08.940 --> 00:11:11.840
+and that's basically what's
+happening with our universe.
+
+00:11:12.000 --> 00:11:14.300
+It doesn't need to
+expand into anything.
+
+00:11:14.480 --> 00:11:17.400
+Every chunk of internal
+volume is just getting bigger.
+
+00:11:17.560 --> 00:11:20.380
+RedomaxRedomax asks what you would see
+
+00:11:20.380 --> 00:11:22.600
+if you traveled 18 times the distance to
+
+00:11:22.600 --> 00:11:25.900
+the particle horizon to come back to where you started.
+
+00:11:26.080 --> 00:11:29.620
+So that number, 18 times
+the particle horizon,
+
+00:11:29.620 --> 00:11:32.630
+only applies if the universe
+has positive curvature—
+
+00:11:32.630 --> 00:11:35.630
+making it a hyposphere—and the curvature
+
+00:11:35.630 --> 00:11:39.080
+is the maximum that it could be,
+given the current flatness measurements.
+
+00:11:39.260 --> 00:11:40.860
+But if you travelled that distance—
+
+00:11:40.860 --> 00:11:44.580
+again, assuming the universe froze in its expansion, which it won't—
+
+00:11:44.580 --> 00:11:48.320
+then you'd get back to your starting point
+a long, long, long time later.
+
+00:11:48.510 --> 00:11:50.520
+If you travelled at
+the speed of light,
+
+00:11:50.525 --> 00:11:54.310
+it would take around
+750 billion years,
+
+00:11:54.310 --> 00:11:57.980
+or 55 times the current
+age of the universe.
+
+00:11:58.140 --> 00:12:00.800
+The Milky Way would have
+merged with Andromeda,
+
+00:12:00.800 --> 00:12:04.620
+and all stars besides red
+dwarves would be long dead.
+
+00:12:04.800 --> 00:12:09.580
+Epsilon Lazerface says that, "… if you go outside the universe, you become a Super Saiyan."
+
+00:12:09.730 --> 00:12:12.020
+Well, there really would be no way to know that
+
+00:12:12.020 --> 00:12:15.860
+unless you traveled outside *The Universe*.
+
+00:12:16.040 --> 00:12:19.600
+LassieDog999 makes fun of
+the way I say "geodesic".
+
+00:12:19.780 --> 00:12:21.920
+"geo-dez-ic" "geo-dee-zic"
+"to-may-to" "to-mah-to"
+
+00:12:22.060 --> 00:12:24.880
+If it's good enough for the Queen of England,
+it's good enough for me.
+
+00:12:25.070 --> 00:12:28.020
+Tenebrae says, "This was
+the most intelligent way
+
+00:12:28.020 --> 00:12:32.580
+they have ever heard of saying,
+'We have absolutely no idea.'"
+
+00:12:32.740 --> 00:12:33.760
+Thank you.
+
+00:12:33.940 --> 00:12:36.580
+I knew my PhD would end up
+being good for something.
+
+00:12:36.740 --> 00:12:41.820
+♪ (Space Time theme) ♪
+
