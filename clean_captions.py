@@ -11,7 +11,8 @@ def vtt_to_txt(filepath):
 
     """
     filename = filepath.split('/')[-1]
-
+    if filename.startswith('.'):
+        return
     try:
         captions = open(filepath, 'r').readlines()
     except UnicodeError:
@@ -19,10 +20,8 @@ def vtt_to_txt(filepath):
         return
     
     video_id = filename.split('.')[0]
-    
     # only hold onto english subtitles (easier on text processing)
     language = captions[2].split('Language: ')[1].strip()
-
 
     if language != 'en':
         return
@@ -36,7 +35,7 @@ def vtt_to_txt(filepath):
         else:
             result.append(line.encode('utf-8', 'ignore').decode('utf-8').lower())
             
-    with open(os.path.join('results/captions_clean', video_id + '.txt'), 'w') as f:
+    with open(os.path.join('derived_data/captions_clean', video_id + '.txt'), 'w') as f:
         f.write(" ".join(result))
         
 
