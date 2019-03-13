@@ -1,12 +1,11 @@
 #!/bin/sh
-python youtube_recommendations.py --query=mueller --n_roots=10 --n_splits=2 --depth=8
-python youtube_recommendations.py --query=clinton --n_roots=5 --n_splits=2 --depth=8
-python youtube_recommendations.py --query="cory booker" --n_roots=5 --n_splits=2 --depth=8
-python youtube_recommendations.py --query=obama --n_roots=5 --n_splits=2 --depth=8
-python youtube_recommendations.py --query="kevin mccarthy" --n_roots=5 --n_splits=2 --depth=8
-python youtube_recommendations.py --query=kushner --n_roots=5 --n_splits=2 --depth=8
-python youtube_recommendations.py --query=democrats --n_roots=10 --n_splits=2 --depth=8
-python youtube_recommendations.py --query=republicans --n_roots=10 --n_splits=2 --depth=8
-python youtube_recommendations.py --query=nra --n_roots=5 --n_splits=2 --depth=8
-python youtube_recommendations.py --query="fox news" --n_roots=5 --n_splits=2 --depth=8
+python youtube_recommendations.py --query="paul ryan" --n_roots=7 --n_splits=2 --depth=8
+python youtube_recommendations.py --query=gillibrand --n_roots=7 --n_splits=2 --depth=8
+python youtube_recommendations.py --query=biden --n_roots=7 --n_splits=2 --depth=8
+python youtube_recommendations.py --query="gavin newsom" --n_roots=7 --n_splits=2 --depth=8
+python youtube_recommendations.py --query="beto orourke" --n_roots=7 --n_splits=2 --depth=8
+python youtube_recommendations.py --query="ted cruz" --n_roots=7 --n_splits=2 --depth=8
+python youtube_recommendations.py --query="susan collins" --n_roots=7 --n_splits=2 --depth=8
+python youtube_recommendations.py --query="lindsay graham" --n_roots=7 --n_splits=2 --depth=8
+python youtube_recommendations.py --query=kavanaugh --n_roots=7 --n_splits=2 --depth=8
 

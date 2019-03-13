@@ -1,0 +1,3828 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:05.980 --> 00:00:07.860
+Tom: Everybody, welcome to Impact Theory.
+
+00:00:07.860 --> 00:00:12.460
+You’re here because you believe as I do
+that human potential is nearly limitless.
+
+00:00:12.460 --> 00:00:16.260
+You know that having potential is not the
+same thing as actually doing something with
+
+00:00:16.260 --> 00:00:17.260
+it.
+
+00:00:17.260 --> 00:00:21.520
+Our goal with this show and company is to
+introduce you to the people and ideas that
+
+00:00:21.520 --> 00:00:24.300
+are going to help you actually execute on
+your dreams.
+
+00:00:24.300 --> 00:00:25.300
+All right.
+
+00:00:25.300 --> 00:00:28.100
+Today’s guest is a hacker turned neuroscientist.
+
+00:00:28.100 --> 00:00:32.700
+He is a fascinating blend of a wide variety
+of disciplines and this diversity has led
+
+00:00:32.700 --> 00:00:38.820
+him to explore some promising albeit nontraditional
+ways of investigating the brain, namely cracking
+
+00:00:38.820 --> 00:00:42.690
+open the skull and peering inside whilst the
+person is still living.
+
+00:00:42.690 --> 00:00:48.600
+What he’s found is so interesting it makes
+my eyes bleed and has made him a much sought-after
+
+00:00:48.600 --> 00:00:54.170
+speaker and leading thinker who is influencing
+academia and business in equal measure.
+
+00:00:54.170 --> 00:01:00.750
+His education is a wondrous grab bag of joy
+and includes a PhD in neuroscience from Caltech
+
+00:01:00.750 --> 00:01:05.970
+and both an MA and Philosophy and a BSC in
+Physics from Tel Aviv University.
+
+00:01:05.970 --> 00:01:10.860
+He is a visiting faculty member at MIT’s
+Media Lab and his work has been published
+
+00:01:10.860 --> 00:01:17.010
+in such prestigious scholarly journals as
+Nature, the highest ranking journal in world,
+
+00:01:17.010 --> 00:01:22.150
+as well as widely-distributed publications
+such as Scientific American Mind, Wired and
+
+00:01:22.150 --> 00:01:23.860
+New Scientist.
+
+00:01:23.860 --> 00:01:28.870
+He was named one of the 40 leading professors
+under 40 and his ground-breaking work has
+
+00:01:28.870 --> 00:01:33.350
+brought him acclaim and attention from all
+over the globe including Hollywood where he’s
+
+00:01:33.350 --> 00:01:39.060
+been tapped as a consultant and contributor
+on such hit shows as Mr. Robot, my favorite,
+
+00:01:39.060 --> 00:01:42.480
+Limitless, Bull, Falling Water, and Ancient
+Aliens.
+
+00:01:42.480 --> 00:01:47.110
+He’s also the Alfred P. Sloan professor
+at the American Film Institute where he teaches
+
+00:01:47.110 --> 00:01:49.720
+a screenwriting course on science and film.
+
+00:01:49.720 --> 00:01:56.000
+He holds multiple patents and is a multi-time
+national storytelling champion whose talks
+
+00:01:56.000 --> 00:01:58.500
+have garnered him millions of views.
+
+00:01:58.500 --> 00:02:02.620
+Please help me in welcoming the professor
+of neuroscience and business at the Kellogg’s
+
+00:02:02.620 --> 00:02:08.140
+School of Management and the neuroscience
+program at Northwestern University, the neurosurgeon
+
+00:02:08.140 --> 00:02:14.180
+who has actually walked into a bank and robbed
+it, Dr. Moran Cerf.
+
+00:02:14.180 --> 00:02:16.310
+Moran: Thank you.
+
+00:02:16.310 --> 00:02:21.580
+Tom: Thank you so much for joining us.
+
+00:02:21.580 --> 00:02:27.280
+I think the only reasonable place to start
+with you is to ask how does it feel to rob
+
+00:02:27.280 --> 00:02:28.280
+a bank?
+
+00:02:28.280 --> 00:02:30.739
+Moran: It feels remarkable.
+
+00:02:30.739 --> 00:02:37.640
+I think … I’m trying to go back to the
+memory of doing it the first time.
+
+00:02:37.640 --> 00:02:41.980
+It’s something that you [crosstalk 00:02:40]
+before and after your life is ...
+
+00:02:41.980 --> 00:02:43.530
+Tom: How many times have you robbed a bank?
+
+00:02:43.530 --> 00:02:51.129
+Moran: I robbed a bank the way you mean as
+in went into one and stole the cash, four
+
+00:02:51.129 --> 00:02:55.249
+times and stole money virtually dozens of
+times.
+
+00:02:55.249 --> 00:02:57.599
+Tom: The stealing money virtually was your
+job.
+
+00:02:57.599 --> 00:02:58.609
+Moran: Right.
+
+00:02:58.609 --> 00:03:03.219
+Tom: Walk us through how you end up walking
+into a bank and actually robbing it.
+
+00:03:03.219 --> 00:03:07.510
+Moran: There are a number of people right
+now whose job is to actually break into banks
+
+00:03:07.510 --> 00:03:09.599
+and steal the money online.
+
+00:03:09.599 --> 00:03:11.480
+This is a job that’s called pen tester.
+
+00:03:11.480 --> 00:03:16.959
+You’re hired by the bank’s board to try
+and find ways to online steal the money.
+
+00:03:16.959 --> 00:03:18.549
+This is common.
+
+00:03:18.549 --> 00:03:23.269
+There are some banks who would let you also
+try to test the physical security which would
+
+00:03:23.269 --> 00:03:27.239
+mean to actually go there and see if the cameras
+are pointing to the right place, if someone
+
+00:03:27.239 --> 00:03:31.780
+left a Post-It note with the password on the
+computer, and also to actually go and say,
+
+00:03:31.780 --> 00:03:32.780
+"Hey, give me your money."
+
+00:03:32.780 --> 00:03:37.920
+It’s not that popular among hackers because
+they’re really good at that normally, but
+
+00:03:37.920 --> 00:03:40.980
+every now and then, you’ll hear about a
+group of hackers who’ll try that we were
+
+00:03:40.980 --> 00:03:42.639
+among those who went instead.
+
+00:03:42.639 --> 00:03:46.959
+Let’s see if we can rob the bank the way
+westerners did it.
+
+00:03:46.959 --> 00:03:49.609
+Tom: How do you then end up becoming a neuroscientist?
+
+00:03:49.609 --> 00:03:50.950
+Your job was pretty sexy.
+
+00:03:50.950 --> 00:03:53.609
+It’s not like it was drooling boring.
+
+00:03:53.609 --> 00:03:56.700
+You were robbing banks and hacking computers.
+
+00:03:56.700 --> 00:04:01.319
+Moran: The story involved a lot of characters
+who influenced it, but I would say that the
+
+00:04:01.319 --> 00:04:07.010
+one person who influenced me the most is Francis
+Crick who is at the time maybe the most influential
+
+00:04:07.010 --> 00:04:12.379
+neuroscientist studying consciousness in San
+Diego that I happen to meet when I was a hacker,
+
+00:04:12.379 --> 00:04:16.489
+so totally something doing else in my life,
+and had an evening with him.
+
+00:04:16.489 --> 00:04:20.519
+In this evening, he learned about my career
+and said that your job is to basically look
+
+00:04:20.519 --> 00:04:25.350
+at the black box, see what comes in, what
+goes out, and learn how it works.
+
+00:04:25.350 --> 00:04:26.350
+This is what hackers do.
+
+00:04:26.350 --> 00:04:30.480
+He said, “Think about using that in something
+that’s going to be much more valuable to
+
+00:04:30.480 --> 00:04:31.691
+the world which is looking at the brain.”
+
+00:04:31.691 --> 00:04:33.490
+The brain is this black box.
+
+00:04:33.490 --> 00:04:37.420
+Instead of trying to figure out the code,
+try to see how people behave, understand what
+
+00:04:37.420 --> 00:04:41.300
+they do and learn how their brains work to
+make it happen.
+
+00:04:41.300 --> 00:04:43.890
+This took me two years to actually apply the
+advice but …
+
+00:04:43.890 --> 00:04:47.810
+Tom: [Inaudible 00:04:45] You’re talking
+about Francis Crick from Crick and Watson,
+
+00:04:47.810 --> 00:04:52.020
+the people who discovered the double helix
+of DNA which is pretty interesting.
+
+00:04:52.020 --> 00:04:53.440
+Honestly, tell us about researching.
+
+00:04:53.440 --> 00:04:56.660
+I didn’t realize how recently he was active.
+
+00:04:56.660 --> 00:04:59.760
+It felt a little more decent to me.
+
+00:04:59.760 --> 00:05:01.870
+You’ve called him your idol.
+
+00:05:01.870 --> 00:05:05.800
+What was it about him in particular that made
+him your idol?
+
+00:05:05.800 --> 00:05:10.320
+Moran: First of all, he tackled interesting
+questions, right, because a lot of scientist,
+
+00:05:10.320 --> 00:05:14.530
+they try to do the same thing many, many times
+just to accumulate more knowledge on the same
+
+00:05:14.530 --> 00:05:15.530
+problem.
+
+00:05:15.530 --> 00:05:16.530
+He was not that kind of guy.
+
+00:05:16.530 --> 00:05:19.920
+He really tried to look at all the things
+that I was told as a kid, the interesting
+
+00:05:19.920 --> 00:05:23.920
+things in science but you should not ever
+study them until you have a Nobel Prize.
+
+00:05:23.920 --> 00:05:28.200
+Studying dreams, consciousness, whether there’s
+aliens out there, free will, all the cool
+
+00:05:28.200 --> 00:05:32.470
+things that we think about when we were kids
+but are told as we enter academia don’t
+
+00:05:32.470 --> 00:05:34.900
+ever touch this thing at least until you get
+a Nobel Prize.
+
+00:05:34.900 --> 00:05:39.310
+He was looking into all of those things and
+really diving into them, so I felt that this
+
+00:05:39.310 --> 00:05:40.310
+was what’s interesting.
+
+00:05:40.310 --> 00:05:43.610
+Tom: You actually made a list, right, when
+you first started your … Was it your PhD?
+
+00:05:43.610 --> 00:05:46.960
+You made the list of like here are the important
+questions I think I want to explore?
+
+00:05:46.960 --> 00:05:50.720
+Moran: Day one on my fridge, I had this Post-It
+note with all the things that I wanted to
+
+00:05:50.720 --> 00:05:55.260
+do if I ever get a PhD.
+
+00:05:55.260 --> 00:05:56.910
+Among those things were the things I mentioned.
+
+00:05:56.910 --> 00:05:57.910
+Tom: All right.
+
+00:05:57.910 --> 00:05:59.570
+Let’s take them piece by piece.
+
+00:05:59.570 --> 00:06:07.510
+I’m really fascinated by Free Will certainly,
+and I’m assuming that you followed Sam Harris
+
+00:06:07.510 --> 00:06:11.380
+in terms of his talk about free will and all
+the stuff that he has done on that.
+
+00:06:11.380 --> 00:06:12.940
+What is it that draws you to Free Will?
+
+00:06:12.940 --> 00:06:13.940
+Why are you interested?
+
+00:06:13.940 --> 00:06:18.090
+Moran: I think that in a way, there’s an
+application to free will, right.
+
+00:06:18.090 --> 00:06:24.280
+We live life thinking we make decisions all
+the time and responsible for our decisions
+
+00:06:24.280 --> 00:06:27.000
+and also determined and defined by those.
+
+00:06:27.000 --> 00:06:29.500
+If I ask you what do you want to have for
+lunch and I offer you five different things
+
+00:06:29.500 --> 00:06:32.560
+and you make a choice, then your choice is
+somehow your identity.
+
+00:06:32.560 --> 00:06:35.900
+This is like what you care about.
+
+00:06:35.900 --> 00:06:39.140
+If I told you right now that I could predict
+what you’re going to choose an hour before
+
+00:06:39.140 --> 00:06:45.150
+you made a choice, a day, 20 years before,
+it takes away some of our identity in a way
+
+00:06:45.150 --> 00:06:50.430
+but also gives us meaning because it says,
+okay, there’s actually a narrative that
+
+00:06:50.430 --> 00:06:52.600
+we carry with us throughout life.
+
+00:06:52.600 --> 00:06:58.290
+Now, the choice has become really something
+that defines who we are, not just the moment
+
+00:06:58.290 --> 00:07:00.280
+of but as a person in the world.
+
+00:07:00.280 --> 00:07:04.100
+I always care about like free will, understanding
+it, predicting it, and also using it to change
+
+00:07:04.100 --> 00:07:05.100
+things.
+
+00:07:05.100 --> 00:07:09.479
+If you think that, okay, [inaudible 00:07:06]
+determine do I have any meaning to my life
+
+00:07:09.479 --> 00:07:10.479
+… I’m sorry.
+
+00:07:10.479 --> 00:07:14.510
+They are not determined, we do have control
+over them and that’s what makes us human.
+
+00:07:14.510 --> 00:07:18.500
+Tom: You believe that we do have free will
+or you believe that it’s totally different
+
+00:07:18.500 --> 00:07:19.650
+on how we’re thinking of them.
+
+00:07:19.650 --> 00:07:21.240
+We have to totally re-imagine it.
+
+00:07:21.240 --> 00:07:23.890
+Morgan: There’s like two kind of moments
+that need to be addressed.
+
+00:07:23.890 --> 00:07:29.180
+One is whether we do actually have this moment
+of spark that happens when the choice is totally
+
+00:07:29.180 --> 00:07:31.200
+arbitrary and we have like a choice.
+
+00:07:31.200 --> 00:07:36.180
+I do believe that we have that free will,
+a toss of a coin where something gets determined.
+
+00:07:36.180 --> 00:07:40.530
+What’s interesting is the moment when we
+become aware of the free will choice, as in
+
+00:07:40.530 --> 00:07:44.040
+I ask you … [inaudible 00:07:41] ask you
+do you want the fish or the steak at this
+
+00:07:44.040 --> 00:07:45.630
+moment like you have two options.
+
+00:07:45.630 --> 00:07:46.740
+Now, you’re about to make a choice.
+
+00:07:46.740 --> 00:07:47.740
+What do you want?
+
+00:07:47.740 --> 00:07:48.740
+Tom: Steak for sure.
+
+00:07:48.740 --> 00:07:52.590
+Morgan: You had a second now where you had
+to look at all the options, I gave you only
+
+00:07:52.590 --> 00:07:54.340
+two, and make a decision.
+
+00:07:54.340 --> 00:07:58.531
+Now, at some point if I ask you when did you
+make the choice, you would say, "Well, maybe
+
+00:07:58.531 --> 00:08:00.860
+as soon as I finished the sentence."
+
+00:08:00.860 --> 00:08:03.250
+Maybe you would say a fraction of a second
+afterwards.
+
+00:08:03.250 --> 00:08:09.060
+The question is, A, how far before did we
+know the answer to that.
+
+00:08:09.060 --> 00:08:12.230
+Also, was there anything I could have said
+differently that would have make you say the
+
+00:08:12.230 --> 00:08:13.630
+fish.
+
+00:08:13.630 --> 00:08:16.772
+Most importantly, what’s the gap between
+the moment you would tell me that’s the
+
+00:08:16.772 --> 00:08:19.120
+moment that you chose and the moment that
+you actually chose.
+
+00:08:19.120 --> 00:08:22.480
+Apparently, there is a gap and this gap is
+what we call the illusion of free will.
+
+00:08:22.480 --> 00:08:27.060
+The moment where you say that’s the moment,
+[inaudible 00:08:25], this is when it happened.
+
+00:08:27.060 --> 00:08:29.350
+I can look at your brain and say, “You know
+what?
+
+00:08:29.350 --> 00:08:31.620
+Actually here, your dinner that you’re going
+to choose.”
+
+00:08:31.620 --> 00:08:35.200
+Or even like if you want to take it one step
+further, we can actually stimulate your brain
+
+00:08:35.200 --> 00:08:36.200
+and make you choose this thing.
+
+00:08:36.200 --> 00:08:37.200
+I would tell you and I’d say, "Who made
+the choice?"
+
+00:08:37.200 --> 00:08:38.870
+You say, "I have to make the choice myself.
+
+00:08:38.870 --> 00:08:39.870
+This was my decision."
+
+00:08:39.870 --> 00:08:41.699
+I’d say, “Well, you know what, here’s
+me zapping your brain performance making you
+
+00:08:41.699 --> 00:08:42.699
+say fish.”
+
+00:08:42.699 --> 00:08:44.839
+[crosstalk 00:08:43]
+Tom: What are you [inaudible 00:08:44] with?
+
+00:08:44.839 --> 00:08:45.939
+Transcranial magnetic stimulation?
+
+00:08:45.939 --> 00:08:46.939
+Morgan: Yes.
+
+00:08:46.939 --> 00:08:47.939
+This is not to me but there are people who
+…
+
+00:08:47.939 --> 00:08:49.220
+Tom: Yeah, so what would you do?
+
+00:08:49.220 --> 00:08:51.360
+Can you really do the steak-fish one?
+
+00:08:51.360 --> 00:08:56.319
+Morgan: The only demo that I saw was one person
+basically having a little box and they have
+
+00:08:56.319 --> 00:08:59.740
+buttons and they have to choose whether they
+want to press the left or the right.
+
+00:08:59.740 --> 00:09:04.430
+People sit there and they pressed left, right,
+right, left, left, left for like 10 minutes.
+
+00:09:04.430 --> 00:09:07.560
+Then someone asked them what is your choice
+which button to press at any point?
+
+00:09:07.560 --> 00:09:10.600
+They’d say of course and then you zoom out
+and you see a person sitting with a PMS like
+
+00:09:10.600 --> 00:09:11.839
+this machine that looks at the brain.
+
+00:09:11.839 --> 00:09:14.360
+They’re basically playing like a [puppeteer
+00:09:13]; left, right, right, left.
+
+00:09:14.360 --> 00:09:15.959
+Tom: Get the fuck out of here.
+
+00:09:15.959 --> 00:09:16.959
+That’s real?
+
+00:09:16.959 --> 00:09:17.959
+Morgan: That’s real.
+
+00:09:17.959 --> 00:09:18.959
+What’s interesting isn’t that you can
+do that.
+
+00:09:18.959 --> 00:09:19.959
+This is not surprising.
+
+00:09:19.959 --> 00:09:21.750
+We know that we can actually zap your brain
+and make you move your head.
+
+00:09:21.750 --> 00:09:25.470
+What’s surprising is that you would tell
+me it was my choice like you would believe
+
+00:09:25.470 --> 00:09:26.470
+that it was your decision.
+
+00:09:26.470 --> 00:09:29.420
+You wouldn’t question the fact that what
+you did was your decision.
+
+00:09:29.420 --> 00:09:34.240
+This to me was an interesting part that we
+can have this way with our brain to always
+
+00:09:34.240 --> 00:09:35.240
+defend it.
+
+00:09:35.240 --> 00:09:37.240
+In other words, whatever I did I wanted to
+do.
+
+00:09:37.240 --> 00:09:39.839
+If I do this thing, it was my choice.
+
+00:09:39.839 --> 00:09:41.649
+Now we know that it wasn’t necessarily your
+choice.
+
+00:09:41.649 --> 00:09:45.600
+That things affected you, that things made
+you do what you did, and you will always claim
+
+00:09:45.600 --> 00:09:48.810
+that it was your decision so we can actually
+show you that you’re not really fully …
+
+00:09:48.810 --> 00:09:51.670
+Tom: How do people respond when you show them?
+
+00:09:51.670 --> 00:09:52.670
+Morgan: Funny.
+
+00:09:52.670 --> 00:09:56.550
+They mostly try to defend free will so they
+try to argue with me.
+
+00:09:56.550 --> 00:09:57.970
+I showed them the video of me telling things.
+
+00:09:57.970 --> 00:09:58.970
+They say, no, no, no.
+
+00:09:58.970 --> 00:10:01.990
+We have this experiment that we bring them
+to the lab and we just tell them things.
+
+00:10:01.990 --> 00:10:04.160
+We say, "Okay, what do you want to eat after
+the experiment?
+
+00:10:04.160 --> 00:10:06.089
+Where do you want to sit, here or there?"
+
+00:10:06.089 --> 00:10:07.920
+We ask them to make decisions and we don’t
+really tell them anything.
+
+00:10:07.920 --> 00:10:10.299
+Just say take decisions, like sit here or
+there?
+
+00:10:10.299 --> 00:10:11.399
+Do you want this pen or that pen?
+
+00:10:11.399 --> 00:10:13.149
+Do you want the light on or off?
+
+00:10:13.149 --> 00:10:16.399
+Then we ask them after the experiments how
+many choices did you made?
+
+00:10:16.399 --> 00:10:20.759
+The people who experienced us toying with
+their free will think that they made hundreds
+
+00:10:20.759 --> 00:10:21.759
+of choices.
+
+00:10:21.759 --> 00:10:25.449
+They made about 14 but they really feel that,
+okay, I had to make choices, I control everything,
+
+00:10:25.449 --> 00:10:29.189
+this was my decision, they cannot try to grasp
+into the ideal free will and say, "I had a
+
+00:10:29.189 --> 00:10:30.660
+lot of decisions to my life and I made them."
+
+00:10:30.660 --> 00:10:32.100
+They become a little more religious.
+
+00:10:32.100 --> 00:10:33.600
+They become a little bit more ethical.
+
+00:10:33.600 --> 00:10:38.130
+A lot of things happen to you when you feel
+that what’s in question is your identity.
+
+00:10:38.130 --> 00:10:39.910
+Tom: That is so interesting.
+
+00:10:39.910 --> 00:10:44.450
+I’ve heard a lot of these studies and I’ve
+not heard where you’re literally playing
+
+00:10:44.450 --> 00:10:46.850
+conga drums and whether they did the right
+and left.
+
+00:10:46.850 --> 00:10:52.420
+I’ve seen one where you know they’re about
+to do it before they do and so you turn the
+
+00:10:52.420 --> 00:10:57.620
+buttons on essentially to buzz them and tell
+them not to press which is hilarious, but
+
+00:10:57.620 --> 00:10:59.110
+I didn’t know about that one.
+
+00:10:59.110 --> 00:11:00.110
+It’s so interesting.
+
+00:11:00.110 --> 00:11:02.720
+Okay, so you’re a guy with deep background
+in narrative.
+
+00:11:02.720 --> 00:11:07.610
+You teach a screenwriting course, for God’s
+sake.
+
+00:11:07.610 --> 00:11:14.129
+Help me understand how you know that you can
+manipulate the brain and yet you still believe
+
+00:11:14.129 --> 00:11:15.129
+in free will.
+
+00:11:15.129 --> 00:11:18.339
+It sounds like you believe in free will and
+the way that it’s tied to your own self
+
+00:11:18.339 --> 00:11:19.379
+narrative.
+
+00:11:19.379 --> 00:11:22.220
+Moran: Here’s the idea.
+
+00:11:22.220 --> 00:11:26.410
+I feel that there’s a lot of things that
+affect our decision.
+
+00:11:26.410 --> 00:11:30.829
+The temperature in the room, the height of
+the chair, the weight of the book we’re
+
+00:11:30.829 --> 00:11:31.829
+holding; a lot of things.
+
+00:11:31.829 --> 00:11:35.509
+This is studied by a lot of people in many,
+many ways that show time and again that you
+
+00:11:35.509 --> 00:11:37.759
+can actually change a person’s behavior.
+
+00:11:37.759 --> 00:11:42.600
+We can list those things so someone can take
+them and now have list of things that they
+
+00:11:42.600 --> 00:11:47.209
+can apply if they want to have better interactions
+with people, what temperature should the room
+
+00:11:47.209 --> 00:11:48.499
+be, what they should do.
+
+00:11:48.499 --> 00:11:49.499
+We know that.
+
+00:11:49.499 --> 00:11:50.499
+We know that thing.
+
+00:11:50.499 --> 00:11:55.320
+At the same time, we still live life as if
+it’s our decisions entirely.
+
+00:11:55.320 --> 00:12:01.569
+We know that I can trick you by making the
+price of the food 6.99 rather than 7 and you
+
+00:12:01.569 --> 00:12:04.009
+would think it’s 6, not 7, just like the
+simplest one in the book.
+
+00:12:04.009 --> 00:12:07.089
+All of us know it and it still works.
+
+00:12:07.089 --> 00:12:11.510
+Take that to a larger scale, we know that
+there’s hundreds of thousands of biases
+
+00:12:11.510 --> 00:12:16.029
+that affect our brain and even if I tell you
+what they are, you would still work the same
+
+00:12:16.029 --> 00:12:17.029
+way.
+
+00:12:17.029 --> 00:12:22.649
+Free will is becoming interesting to me when
+we learn all of those things and we say, "Okay.
+
+00:12:22.649 --> 00:12:24.220
+Then who am I?"
+
+00:12:24.220 --> 00:12:25.889
+Who’s in charge?
+
+00:12:25.889 --> 00:12:29.089
+Who’s the puppeteer in this example?
+
+00:12:29.089 --> 00:12:34.899
+The reality is that … what we learn is that
+there are more than one puppeteer in our brain.
+
+00:12:34.899 --> 00:12:36.260
+There’s many, many.
+
+00:12:36.260 --> 00:12:40.430
+Every day, one other guy wakes up, and so
+one day with this guy, one day with this guy,
+
+00:12:40.430 --> 00:12:41.610
+and they’re vying for dominance.
+
+00:12:41.610 --> 00:12:44.360
+They fight and they compete.
+
+00:12:44.360 --> 00:12:49.480
+They make a decision together, they vote,
+and ultimately we protect the person who spoke
+
+00:12:49.480 --> 00:12:51.550
+last and we say this is who I am.
+
+00:12:51.550 --> 00:12:54.569
+To me, the most interesting is that we can
+now actually all their characters.
+
+00:12:54.569 --> 00:12:55.750
+We can show them fighting.
+
+00:12:55.750 --> 00:12:58.310
+We can tell you that there’s more people
+in your brain.
+
+00:12:58.310 --> 00:13:02.509
+In doing so, we can actually allow you to
+really manifest different sides of yours so
+
+00:13:02.509 --> 00:13:05.800
+you know maybe that you’re making better
+choices in the morning and I make that choices
+
+00:13:05.800 --> 00:13:06.800
+in the evening.
+
+00:13:06.800 --> 00:13:08.910
+You might know that you’re making better
+decisions when you’re hungry and I am when
+
+00:13:08.910 --> 00:13:11.460
+I’m full; when you’re talking to friends,
+when you’re alone.
+
+00:13:11.460 --> 00:13:12.949
+We can now profile your brain.
+
+00:13:12.949 --> 00:13:15.990
+Tom: If somebody is watching us right now
+and they’re thinking, “Okay, wait.
+
+00:13:15.990 --> 00:13:19.399
+Do I make better decisions when I’m hungry
+or full, night, day?”
+
+00:13:19.399 --> 00:13:22.129
+What are you looking for and what can they
+look for at home?
+
+00:13:22.129 --> 00:13:26.809
+Morgan: I would say what we do with a lot
+of people who are in senior positions in companies
+
+00:13:26.809 --> 00:13:31.130
+that want to actually make decisions better,
+we have a protocol that’s a little bit tedious.
+
+00:13:31.130 --> 00:13:34.069
+It’s not easy to do it but I’ll tell you
+what it is, and then you can think of ways
+
+00:13:34.069 --> 00:13:35.430
+to maybe try it yourself.
+
+00:13:35.430 --> 00:13:41.500
+We have them basically walk for a week with
+a diary and make choices and just write them
+
+00:13:41.500 --> 00:13:42.500
+down.
+
+00:13:42.500 --> 00:13:46.230
+Tell us like I had this fish or the steak
+for lunch and I chose this and this is how
+
+00:13:46.230 --> 00:13:47.230
+I’ve chosen.
+
+00:13:47.230 --> 00:13:48.779
+They also write whether they were happy or
+not with the choice.
+
+00:13:48.779 --> 00:13:53.579
+Now, this is done the way they wouldn’t
+normally but we also add one more thing.
+
+00:13:53.579 --> 00:13:56.129
+We put EEG cap on their head …
+Tom: All day?
+
+00:13:56.129 --> 00:13:57.689
+Morgan: … for more than 24 hours.
+
+00:13:57.689 --> 00:13:59.980
+They walk with something that measures their
+brain activity.
+
+00:13:59.980 --> 00:14:01.980
+There’s moments where they have to replace
+the battery.
+
+00:14:01.980 --> 00:14:03.910
+There’s a little like gaps there.
+
+00:14:03.910 --> 00:14:08.329
+Altogether, we have them walk through life
+with both living life the way they do and
+
+00:14:08.329 --> 00:14:12.019
+reflect on their choices but also have us
+look at their brain.
+
+00:14:12.019 --> 00:14:16.430
+What we do at the end of the three days, one
+week, as long as they would do that … It’s
+
+00:14:16.430 --> 00:14:19.360
+uncomfortable and embarrassing sometimes.
+
+00:14:19.360 --> 00:14:22.820
+We ask them to look at all the choices and
+tell us which ones were good, which ones were
+
+00:14:22.820 --> 00:14:23.820
+bad.
+
+00:14:23.820 --> 00:14:26.589
+Then we look at their brains and we see what
+words their brain looking like.
+
+00:14:26.589 --> 00:14:30.360
+What did it look like when they made choices
+that they were happy with?
+
+00:14:30.360 --> 00:14:34.829
+We sometimes see that there are things in
+their brain that are repeated so maybe they
+
+00:14:34.829 --> 00:14:37.290
+made choices more using this part of the brain.
+
+00:14:37.290 --> 00:14:40.639
+I’m only trying to simplify it by looking
+at the part of the brain that are more emotional
+
+00:14:40.639 --> 00:14:43.230
+rather than rational.
+
+00:14:43.230 --> 00:14:46.589
+We see that they activate more part of the
+brain that are buried deep inside that has
+
+00:14:46.589 --> 00:14:49.189
+to do with reflection rather than like thinking.
+
+00:14:49.189 --> 00:14:51.610
+We tell them, “Here’s what we learned
+about you.
+
+00:14:51.610 --> 00:14:54.119
+You are better in this and that state.”
+
+00:14:54.119 --> 00:14:55.119
+That’s one thing.
+
+00:14:55.119 --> 00:14:58.290
+It’s not easy to apply because you still
+have to have this thing on your head.
+
+00:14:58.290 --> 00:14:59.629
+Not everyone can do that.
+
+00:14:59.629 --> 00:15:03.389
+At least people in senior positions who feel
+that [inaudible 00:015:02] critical come to
+
+00:15:03.389 --> 00:15:04.389
+us and say, “Okay, help me.
+
+00:15:04.389 --> 00:15:05.740
+I want to know who I am better.”
+
+00:15:05.740 --> 00:15:10.209
+Tom: Now, what about those study you did where
+you’ve got the cyclist on the bike, they’re
+
+00:15:10.209 --> 00:15:14.089
+going hard, hard, hard, hard, hard, and you
+watch for certain brain states where you know,
+
+00:15:14.089 --> 00:15:15.970
+“Okay, they’re going to quit.”
+
+00:15:15.970 --> 00:15:20.949
+Then you use that information overtime to
+get them to delay quitting farther and farther.
+
+00:15:20.949 --> 00:15:21.949
+How does that work?
+
+00:15:21.949 --> 00:15:26.760
+Morgan: Behind that lies the idea that the
+brain is kind of like a muscle, and specifically,
+
+00:15:26.760 --> 00:15:28.660
+there’s part of the brain that we really
+care about.
+
+00:15:28.660 --> 00:15:30.699
+It’s the part that’s doing self control.
+
+00:15:30.699 --> 00:15:34.939
+If you think about it in simple way [inaudible
+00:015:33] is that you start running.
+
+00:15:34.939 --> 00:15:36.489
+You go running.
+
+00:15:36.489 --> 00:15:40.889
+The first mile, your legs say let’s run,
+and the brain controls them so let’s run,
+
+00:15:40.889 --> 00:15:42.949
+and there another part of the brain that says
+no problem at all.
+
+00:15:42.949 --> 00:15:46.619
+After one mile, your legs say it’s a little
+bit painful but the part of the other brain
+
+00:15:46.619 --> 00:15:48.249
+that controls them say keep going.
+
+00:15:48.249 --> 00:15:51.980
+After 10 miles, the legs say I want to quit,
+and the other part say, no, keep going.
+
+00:15:51.980 --> 00:15:54.790
+It’s like there’s a battle there and at
+some point you're going to break.
+
+00:15:54.790 --> 00:15:58.360
+Now when you’re going to break depends on
+a lot of things, your muscles, but it also
+
+00:15:58.360 --> 00:16:05.269
+depends on this control coming from the front
+of your brain that overrides your experience,
+
+00:16:05.269 --> 00:16:07.319
+your pain.
+
+00:16:07.319 --> 00:16:12.749
+If we can see this moment where you break,
+the moment where you stop despite the fact
+
+00:16:12.749 --> 00:16:15.800
+that you can do a little more, we can come
+back to you tomorrow and say, “Let’s do
+
+00:16:15.800 --> 00:16:16.800
+the same thing you did yesterday.
+
+00:16:16.800 --> 00:16:17.800
+Have you run?
+
+00:16:17.800 --> 00:16:20.449
+Only this time when you get to the moment
+when we see that you’re about to break,
+
+00:16:20.449 --> 00:16:21.449
+we’re going to play a sound.
+
+00:16:21.449 --> 00:16:24.929
+We’re going to tell you that we can see
+that you’re about to break and we ask you
+
+00:16:24.929 --> 00:16:28.989
+to just continue for one more minute at this
+moment that is beyond what you did yesterday.”
+
+00:16:28.989 --> 00:16:31.550
+Tom: What, in that moment, how do you appeal
+to them?
+
+00:16:31.550 --> 00:16:33.689
+Is it like, come on, mother fucker, like you
+got this or …
+
+00:16:33.689 --> 00:16:34.689
+Moran: That’s basically it.
+
+00:16:34.689 --> 00:16:38.230
+There’s a question in sport for a while,
+why is it that people do better when they
+
+00:16:38.230 --> 00:16:40.200
+play home game versus outside game?
+
+00:16:40.200 --> 00:16:43.999
+What is it about your mom being in the audience
+that makes you win the game?
+
+00:16:43.999 --> 00:16:46.819
+In theory, they doesn’t matter like throwing
+the basketball should be the same.
+
+00:16:46.819 --> 00:16:52.069
+Somehow, we know that if your friends are
+there, if you’re feeling better, we know
+
+00:16:52.069 --> 00:16:53.069
+that people do better when they’re, "Oh.
+
+00:16:53.069 --> 00:16:54.069
+They're kind of winning."
+
+00:16:54.069 --> 00:16:55.559
+There’s a lot of things that affect our
+brain.
+
+00:16:55.559 --> 00:16:57.689
+What we try to understand right now is where
+is it in their brain.
+
+00:16:57.689 --> 00:17:04.730
+What is this part of the brain that gets better
+when your emotions are highlighted or heightened?
+
+00:17:04.730 --> 00:17:07.000
+Now we're seeing it.
+
+00:17:07.000 --> 00:17:11.319
+Tom: This is life like what you’re talking
+about right now.
+
+00:17:11.319 --> 00:17:16.240
+Boys and girls at home, I’m telling you
+there’s a banality to being an entrepreneur.
+
+00:17:16.240 --> 00:17:21.079
+There is a willingness to suffer to being
+an entrepreneur, to being a great mom.
+
+00:17:21.079 --> 00:17:25.089
+Whatever it is that you’re trying to do,
+suffering is involved.
+
+00:17:25.089 --> 00:17:32.799
+It literally like being able to extend your
+breakpoint is what it’s about.
+
+00:17:32.799 --> 00:17:35.860
+When I read-
+Moran: What I’m going to say is that we
+
+00:17:35.860 --> 00:17:39.700
+all face those moments when the alarm buzzes
+at 6 a.m.
+
+00:17:39.700 --> 00:17:42.970
+We set the alarm at 10 p.m. and suddenly in
+the morning we’re different people like
+
+00:17:42.970 --> 00:17:44.780
+we’re not the person who wants to wake up
+anymore.
+
+00:17:44.780 --> 00:17:47.590
+It’s the same brain that sets the alarm
+at 10 p.m. but now suddenly it’s 6 a.m.
+
+00:17:47.590 --> 00:17:48.590
+We’re not the same guy.
+
+00:17:48.590 --> 00:17:49.950
+This is the moment like that.
+
+00:17:49.950 --> 00:17:53.460
+We have to make a choice when we’re going
+running, when we’re about to eat a cake.
+
+00:17:53.460 --> 00:17:54.720
+There’s like a tasty cake and we’re on
+a diet.
+
+00:17:54.720 --> 00:17:59.049
+We say, oh, I shouldn’t eat the cake but
+there’s a conflict.
+
+00:17:59.049 --> 00:18:02.450
+Now is the moment where those two parts of
+the brain come to life.
+
+00:18:02.450 --> 00:18:05.980
+The more you know about yourself, the more
+you’re aware of those situations, the better
+
+00:18:05.980 --> 00:18:07.690
+you can do in controlling them.
+
+00:18:07.690 --> 00:18:10.299
+The more you know about yourself, you can
+do better in all of those tasks.
+
+00:18:10.299 --> 00:18:11.360
+That’s the ultimate thing.
+
+00:18:11.360 --> 00:18:12.640
+That’s why we’re here.
+
+00:18:12.640 --> 00:18:14.350
+We're giving you the knowledge.
+
+00:18:14.350 --> 00:18:15.540
+Once you know it, it doesn’t work anymore.
+
+00:18:15.540 --> 00:18:19.470
+Once you know that 6.99 isn’t 7, it’s
+harder for it to work.
+
+00:18:19.470 --> 00:18:22.480
+Just knowing is enough for people to do better.
+
+00:18:22.480 --> 00:18:24.490
+Know that it’s in your capacity to change.
+
+00:18:24.490 --> 00:18:26.080
+That’s what we want.
+
+00:18:26.080 --> 00:18:28.970
+Tom: Like how does somebody become more self-aware?
+
+00:18:28.970 --> 00:18:33.220
+How do they begin to identify those things
+that are particular to them so that they can
+
+00:18:33.220 --> 00:18:37.380
+extend their breaking point or so that they
+can disprove whatever?
+
+00:18:37.380 --> 00:18:41.950
+Moran: All they need to do is they need to
+communicate science in tangible way so people
+
+00:18:41.950 --> 00:18:43.390
+would know all the option.
+
+00:18:43.390 --> 00:18:46.049
+I said there’s hundreds and thousands of
+options but there’re actually a couple of
+
+00:18:46.049 --> 00:18:49.590
+hundreds of biases that, we, humans have.
+
+00:18:49.590 --> 00:18:51.700
+I can give you examples in a second.
+
+00:18:51.700 --> 00:18:53.539
+Once you know them, they don’t work anymore.
+
+00:18:53.539 --> 00:18:57.390
+The job of scientist is to just translate
+the knowledge of the brain into words that
+
+00:18:57.390 --> 00:19:02.050
+it can be then spoken to an audience who then
+lives by then, and that’s it.
+
+00:19:02.050 --> 00:19:04.570
+All they need to do is just do this.
+
+00:19:04.570 --> 00:19:07.149
+Speak to people and list their biases.
+
+00:19:07.149 --> 00:19:08.149
+Then it doesn’t work anymore.
+
+00:19:08.149 --> 00:19:10.510
+At least when it happens you become a little
+bit better in controlling that.
+
+00:19:10.510 --> 00:19:11.510
+That’s all we need.
+
+00:19:11.510 --> 00:19:12.510
+It’s pretty simple.
+
+00:19:12.510 --> 00:19:13.929
+Once you know it, it doesn’t work.
+
+00:19:13.929 --> 00:19:17.200
+Tom: Let’s use an example from your life.
+
+00:19:17.200 --> 00:19:19.500
+I love this story, by the way.
+
+00:19:19.500 --> 00:19:21.690
+You’re about to be published in Nature.
+
+00:19:21.690 --> 00:19:26.970
+It’s your first big break in science, and
+this is really going to set up your career.
+
+00:19:26.970 --> 00:19:30.630
+Then someone wakes you up from a nap and you
+basically say, “Yeah, recording dreams is
+
+00:19:30.630 --> 00:19:31.630
+possible.”
+
+00:19:31.630 --> 00:19:32.630
+You can’t take it back.
+
+00:19:32.630 --> 00:19:34.370
+You’re like “Wait, wait, that’s not
+what I meant.”
+
+00:19:34.370 --> 00:19:35.789
+It goes crazy.
+
+00:19:35.789 --> 00:19:40.769
+The part that I love is Christopher Nolan
+calls you up and says, “Hey, I just did
+
+00:19:40.769 --> 00:19:41.970
+this movie, Inception.
+
+00:19:41.970 --> 00:19:44.280
+You’re now the dream recording guy.
+
+00:19:44.280 --> 00:19:49.440
+I want you to come with me and do a worldwide
+tour,” which would be a huge break for you
+
+00:19:49.440 --> 00:19:55.700
+and just be … I’m sure money and certainly
+notoriety and you had to think about it.
+
+00:19:55.700 --> 00:20:01.250
+Even though you knew going means essentially
+reinforcing this opinion that I actually don’t
+
+00:20:01.250 --> 00:20:05.650
+agree with, but turning it down means that
+I had passed up that opportunity.
+
+00:20:05.650 --> 00:20:09.580
+What did you go through in the 24 hours before
+you gave the answer?
+
+00:20:09.580 --> 00:20:13.220
+Moran: To give you the full story, I’m finishing
+my PhD.
+
+00:20:13.220 --> 00:20:14.659
+I haven’t decided what I’d do next.
+
+00:20:14.659 --> 00:20:15.980
+Am I continuing in science?
+
+00:20:15.980 --> 00:20:18.830
+Do I go like back to being a hacker?
+
+00:20:18.830 --> 00:20:23.130
+This is like a moment of [inaudible 00:20:21]
+in my life and suddenly there comes this moment
+
+00:20:23.130 --> 00:20:29.300
+where the end of my five-year PhD is getting
+a lot of attention but all wrong; my career
+
+00:20:29.300 --> 00:20:30.300
+hindrance of this thing.
+
+00:20:30.300 --> 00:20:36.830
+Then I have suddenly an option to actually
+own this thing and become this dream expert
+
+00:20:36.830 --> 00:20:42.559
+even though it’s based on a lie.
+
+00:20:42.559 --> 00:20:46.370
+I was fortunate enough to have enough checks
+and balances that I didn’t really have to
+
+00:20:46.370 --> 00:20:50.420
+go far with that so here’s the interesting
+reflection that I have right now.
+
+00:20:50.420 --> 00:20:54.220
+I knew it was impossible to look at people’s
+dreams and [inaudible 00:20:52] I said it
+
+00:20:54.220 --> 00:21:02.500
+in sleepy state and created this like amazing
+story for people that scientists are now recording
+
+00:21:02.500 --> 00:21:05.520
+dreams.
+
+00:21:05.520 --> 00:21:08.809
+The mistake was to leave this.
+
+00:21:08.809 --> 00:21:12.639
+To say it’s not possible, I’m not going
+to own this thing even though the world cares
+
+00:21:12.639 --> 00:21:13.639
+about it.
+
+00:21:13.639 --> 00:21:17.850
+If anything can be learned from this thing
+is that the world really wanted to have people
+
+00:21:17.850 --> 00:21:21.610
+record dreams because that’s why it’s
+such a big thing because people care about
+
+00:21:21.610 --> 00:21:22.610
+it.
+
+00:21:22.610 --> 00:21:23.610
+Dreams are interesting.
+
+00:21:23.610 --> 00:21:27.240
+I went and I said it's impossible and I want
+to kill the story.
+
+00:21:27.240 --> 00:21:29.380
+This was a mistake.
+
+00:21:29.380 --> 00:21:33.940
+Three years later, I’m sitting at home,
+now 2013, and I got a call from BBC again.
+
+00:21:33.940 --> 00:21:37.200
+BBC were the first ones to let the story go
+away.
+
+00:21:37.200 --> 00:21:43.500
+They called me again and they say, “Professor
+Cerf, we wanted you to comment on dream recording
+
+00:21:43.500 --> 00:21:44.750
+and the possibility of doing that.”
+
+00:21:44.750 --> 00:21:46.350
+I said, “Guys, are you kidding me?
+
+00:21:46.350 --> 00:21:47.460
+I’m done with that.
+
+00:21:47.460 --> 00:21:50.280
+This is not too ... Like let’s not even
+begin going there.”
+
+00:21:50.280 --> 00:21:51.480
+They said, “No, no.
+
+00:21:51.480 --> 00:21:53.400
+We know that you’re going to do that.
+
+00:21:53.400 --> 00:21:59.120
+We want you to comment on the work of Professor
+Kamitani from Japan who is doing it right
+
+00:21:59.120 --> 00:22:00.120
+now.”
+
+00:22:00.120 --> 00:22:02.940
+Someone in Japan didn’t know that it was
+impossible.
+
+00:22:02.940 --> 00:22:06.899
+He just didn’t hear me going anywhere public
+and saying it’s impossible so he just did
+
+00:22:06.899 --> 00:22:08.350
+it.
+
+00:22:08.350 --> 00:22:12.490
+Three years after I said it was impossible,
+someone did it, and two years after that,
+
+00:22:12.490 --> 00:22:13.490
+I joined.
+
+00:22:13.490 --> 00:22:17.790
+Now half the thing I do in life is actually
+looking at people’s dreams.
+
+00:22:17.790 --> 00:22:20.549
+The mistake I made, it wasn’t just saying
+something is possible when it was not.
+
+00:22:20.549 --> 00:22:23.100
+It was to say that something was impossible
+before I knew it because I think that science
+
+00:22:23.100 --> 00:22:27.080
+is all about going to those dark places and
+trying to find what’s impossible.
+
+00:22:27.080 --> 00:22:30.750
+My mistake was to say it was impossible before
+I was sure about it.
+
+00:22:30.750 --> 00:22:34.289
+I should have said we don’t know yet, we
+didn’t do it yet, but we should investigate.
+
+00:22:34.289 --> 00:22:39.200
+I was quick to say “I didn’t do it, it’s
+impossible,” so I delayed things by three
+
+00:22:39.200 --> 00:22:40.200
+years.
+
+00:22:40.200 --> 00:22:41.610
+Five years after, I’m doing it right now.
+
+00:22:41.610 --> 00:22:43.769
+Tom: Dude, can I shake your hand?
+
+00:22:43.769 --> 00:22:50.440
+I fucking love that so much like most people
+cannot look at something like that and say
+
+00:22:50.440 --> 00:22:53.620
+the mistake that I made was actually in the
+opposite direction and I should’ve been
+
+00:22:53.620 --> 00:22:54.620
+bolder.
+
+00:22:54.620 --> 00:22:56.120
+I should’ve made a wiser proclamation.
+
+00:22:56.120 --> 00:22:59.020
+Then to actually join the team, that’s so
+cool.
+
+00:22:59.020 --> 00:23:01.520
+Moran: Dreams is something that I was told
+not to study.
+
+00:23:01.520 --> 00:23:03.419
+Now that’s what I do in my life every day.
+
+00:23:03.419 --> 00:23:07.230
+Now I’m never saying something is possible
+before I’m certain that it’s impossible.
+
+00:23:07.230 --> 00:23:08.230
+Tom: I love that.
+
+00:23:08.230 --> 00:23:12.279
+I love it even more if you would go so far
+as to say nothing is truly impossible.
+
+00:23:12.279 --> 00:23:14.639
+Then you’d really have me.
+
+00:23:14.639 --> 00:23:15.639
+Moran: I’ll go with you.
+
+00:23:15.639 --> 00:23:19.960
+You mentioned that I teach screenwriting and
+I work with TV.
+
+00:23:19.960 --> 00:23:25.559
+The reason I do that is because I feel that
+the best ideas for my research come from those
+
+00:23:25.559 --> 00:23:31.909
+hours with the kids who write plays, with
+the fellows at the American Film Institute
+
+00:23:31.909 --> 00:23:37.570
+who writes science fiction, from movies that
+inspired me like The Matrix.
+
+00:23:37.570 --> 00:23:39.309
+You mentioned that like this has inspired
+us.
+
+00:23:39.309 --> 00:23:41.080
+We are kids of 1999.
+
+00:23:41.080 --> 00:23:43.409
+What happened then affected us.
+
+00:23:43.409 --> 00:23:45.450
+Star Trek affected my dad’s generation.
+
+00:23:45.450 --> 00:23:49.740
+The best paper that I had ever written has
+a thousand of citation.
+
+00:23:49.740 --> 00:23:56.500
+The episode of Limitless that I worked on
+last week and came out has five million people
+
+00:23:56.500 --> 00:23:57.500
+watching it.
+
+00:23:57.500 --> 00:24:00.029
+Those are the kids who are going to be me
+in 20 years.
+
+00:24:00.029 --> 00:24:04.180
+If they think, oh, this is maybe possible,
+they’re going to do that.
+
+00:24:04.180 --> 00:24:05.760
+You’re asking me how to change their behavior.
+
+00:24:05.760 --> 00:24:06.760
+This is how.
+
+00:24:06.760 --> 00:24:09.039
+To know what the possibilities are.
+
+00:24:09.039 --> 00:24:13.120
+Tom: I love that so much.
+
+00:24:13.120 --> 00:24:18.100
+Here’s the people watching the show, they
+know my story very, very well, and I now run
+
+00:24:18.100 --> 00:24:20.490
+it into the ground because it’s so important.
+
+00:24:20.490 --> 00:24:24.580
+I am not an example of what happens when innate
+talent meets hard work.
+
+00:24:24.580 --> 00:24:29.880
+I’m an example of what happens with a human
+being anytime hard work is applied because
+
+00:24:29.880 --> 00:24:31.630
+I didn’t show early signs of promise.
+
+00:24:31.630 --> 00:24:33.500
+I got a 990 on my SATs.
+
+00:24:33.500 --> 00:24:34.710
+I was taking it twice.
+
+00:24:34.710 --> 00:24:37.040
+I don’t qualify for men’s or anything
+like that.
+
+00:24:37.040 --> 00:24:39.230
+I have an average IQ.
+
+00:24:39.230 --> 00:24:46.380
+It’s like none of my raw materials are very
+impressive but I work hard.
+
+00:24:46.380 --> 00:24:50.340
+I work hard over a very long period of time.
+
+00:24:50.340 --> 00:24:54.309
+In doing so, I’ve completely transformed
+my life and I’ve transformed my mind to
+
+00:24:54.309 --> 00:24:56.790
+the point where now people just assume I’m
+smart.
+
+00:24:56.790 --> 00:25:01.399
+The same people, right, that were looking
+at me 20 years ago did not assume I was smart
+
+00:25:01.399 --> 00:25:02.950
+but they do now.
+
+00:25:02.950 --> 00:25:07.041
+The reason this conversation is so important
+to be having with a neuroscientist is it all
+
+00:25:07.041 --> 00:25:11.690
+comes down to me to the narrative that you
+tell yourself, when I was undereducated and
+
+00:25:11.690 --> 00:25:17.480
+lost and bordering on depress and all of that,
+it was because the narrative that I told myself
+
+00:25:17.480 --> 00:25:19.700
+was that I was a victim of something.
+
+00:25:19.700 --> 00:25:23.340
+Once I gave up the victim mentality and I
+realized I can do anything that I set my mind
+
+00:25:23.340 --> 00:25:25.309
+to, so now it’s a spiritual question, right?
+
+00:25:25.309 --> 00:25:29.070
+If you really believe you can do anything
+you set your mind to, then how you spend your
+
+00:25:29.070 --> 00:25:32.600
+time is a spiritual question.
+
+00:25:32.600 --> 00:25:35.140
+Once I said, “Okay, what I’m going to
+spend my time on is self-improvement.
+
+00:25:35.140 --> 00:25:38.450
+I’m going to see how much can I manipulate
+my own brain.”
+
+00:25:38.450 --> 00:25:41.280
+I began researching the brain to understand
+what’s malleable and what’s not; learning
+
+00:25:41.280 --> 00:25:42.280
+about myelin.
+
+00:25:42.280 --> 00:25:46.480
+If you don’t even know what myelin is to
+like think that you’ve already maxed yourself
+
+00:25:46.480 --> 00:25:48.870
+out is fucking crazy.
+
+00:25:48.870 --> 00:25:53.549
+Researching the brain, finding out the anatomical
+mechanisms that are at play, and the coming
+
+00:25:53.549 --> 00:25:55.030
+to, okay, this comes down to self-narrative.
+
+00:25:55.030 --> 00:25:59.880
+If I’m telling myself dreams can be recorded,
+then they really can’t because I will stop
+
+00:25:59.880 --> 00:26:01.159
+shy of that.
+
+00:26:01.159 --> 00:26:05.100
+When you’re talking about never saying that
+something is impossible when you’re not
+
+00:26:05.100 --> 00:26:09.440
+really sure, what I start thinking is thinking
+big like thinking really big and watching
+
+00:26:09.440 --> 00:26:15.350
+The Matrix and saying, "Okay, either that
+level of VR is actually possible or stopping
+
+00:26:15.350 --> 00:26:20.809
+bullets is actually possible," like whatever
+the thing is that you take away from it.
+
+00:26:20.809 --> 00:26:26.000
+Time travel was one of the things on your
+list.
+
+00:26:26.000 --> 00:26:31.429
+The promise I make to people watching the
+show is from watching the show, you will accomplish
+
+00:26:31.429 --> 00:26:34.140
+more than you would have if you didn’t watch
+the show.
+
+00:26:34.140 --> 00:26:41.170
+One of the key reasons for that is you’ll
+finally understand that if you fail to think
+
+00:26:41.170 --> 00:26:43.039
+big, that’s on you.
+
+00:26:43.039 --> 00:26:46.299
+The only reason you’re not thinking big
+is because you’re scared, because there’s
+
+00:26:46.299 --> 00:26:51.049
+nothing in the machinations of the brain,
+there’s nothing in what has come before
+
+00:26:51.049 --> 00:26:54.789
+you in science, nothing that would lead you
+to believe the thing you currently think is
+
+00:26:54.789 --> 00:26:56.050
+impossible actually is.
+
+00:26:56.050 --> 00:26:58.640
+Moran: Let me say this in neuroscience words.
+
+00:26:58.640 --> 00:27:03.460
+I love it so here’s how I’m going to say
+it.
+
+00:27:03.460 --> 00:27:07.620
+Your brain goes with you and it carries all
+of the history in the form of memories.
+
+00:27:07.620 --> 00:27:11.169
+All of you have from what happened before
+you is stored in the form of memories and
+
+00:27:11.169 --> 00:27:13.259
+they’re not accurate and they’re compressed.
+
+00:27:13.259 --> 00:27:15.470
+That’s only about the past.
+
+00:27:15.470 --> 00:27:18.120
+You have no idea in the future even though
+your brain tries to predict it all the time.
+
+00:27:18.120 --> 00:27:19.120
+This is what dreams are for.
+
+00:27:19.120 --> 00:27:20.260
+This is what decisions are for.
+
+00:27:20.260 --> 00:27:23.740
+You try to simulate the future and make predictions.
+
+00:27:23.740 --> 00:27:24.740
+You don’t know what’s going on.
+
+00:27:24.740 --> 00:27:29.419
+All you have is this sliver of reality which
+is the present which is all you have, and
+
+00:27:29.419 --> 00:27:31.169
+you control everything that happens there.
+
+00:27:31.169 --> 00:27:35.389
+The nice thing about the present is that actually
+it interacts with everything in your brain
+
+00:27:35.389 --> 00:27:36.480
+and you can change things.
+
+00:27:36.480 --> 00:27:41.110
+What we learned in the last five years is
+that memories are different in how they work.
+
+00:27:41.110 --> 00:27:46.350
+If I have to summarize it to one sentence,
+they change every time you use them.
+
+00:27:46.350 --> 00:27:50.700
+If you have a memory stored here or what you
+had for lunch yesterday and I ask you what
+
+00:27:50.700 --> 00:27:52.259
+did you had for lunch, you basically open
+them.
+
+00:27:52.259 --> 00:27:55.630
+Right now you tell me a story, but whatever
+happens right now goes into the story and
+
+00:27:55.630 --> 00:27:56.879
+you say it differently.
+
+00:27:56.879 --> 00:28:00.509
+If I ask you tomorrow what you had for lunch,
+you’ll open the modified version.
+
+00:28:00.509 --> 00:28:04.139
+Every time I ask you the same question, you
+open a different version which means you can
+
+00:28:04.139 --> 00:28:05.610
+actually change the past.
+
+00:28:05.610 --> 00:28:07.919
+You can actually change your experience of
+things.
+
+00:28:07.919 --> 00:28:08.919
+This is why therapy works.
+
+00:28:08.919 --> 00:28:12.559
+Your girlfriend breaks up with you, you go
+to a therapist, she asks you what happened.
+
+00:28:12.559 --> 00:28:15.500
+You tell the story, she intervenes, you say
+it differently.
+
+00:28:15.500 --> 00:28:17.260
+A week after, what happened, you tell a different
+story.
+
+00:28:17.260 --> 00:28:20.110
+After five meetings, you have a different
+version of the reality.
+
+00:28:20.110 --> 00:28:24.190
+That is powerful because it means that we
+control the narrative that we have.
+
+00:28:24.190 --> 00:28:28.649
+We don’t really have to be confounded to
+the story that we experienced.
+
+00:28:28.649 --> 00:28:29.679
+We can actually change it.
+
+00:28:29.679 --> 00:28:34.940
+That’s what the brain is for, to simulate
+and change and adjust and synthesize better
+
+00:28:34.940 --> 00:28:36.299
+version of life.
+
+00:28:36.299 --> 00:28:37.659
+We can make ourselves happy.
+
+00:28:37.659 --> 00:28:40.370
+We can make bad things look better.
+
+00:28:40.370 --> 00:28:46.309
+We can control things and it’s all by virtue
+of just telling a story, looking it differently,
+
+00:28:46.309 --> 00:28:47.350
+and saving it again.
+
+00:28:47.350 --> 00:28:48.350
+It’s as simple as that.
+
+00:28:48.350 --> 00:28:52.399
+We have the ability to actually change a story
+all the time.
+
+00:28:52.399 --> 00:28:55.090
+Learning is one way to do that.
+
+00:28:55.090 --> 00:28:57.120
+Thinking and reflecting about ourselves is
+another way to do that.
+
+00:28:57.120 --> 00:28:58.809
+Having more experiences allows us to do that.
+
+00:28:58.809 --> 00:29:00.370
+We know all of these now.
+
+00:29:00.370 --> 00:29:05.049
+Suddenly, there’s essence to this self-help
+book that we read when we were kids and we
+
+00:29:05.049 --> 00:29:07.100
+know how to implement that.
+
+00:29:07.100 --> 00:29:10.570
+I become a preacher but …
+Tom: No, but I love it, I love it, and I hope
+
+00:29:10.570 --> 00:29:17.429
+people are listening to your sermon because
+like that is the most important thing anybody
+
+00:29:17.429 --> 00:29:23.150
+struggling to have success should know is
+the narrative that you tell yourself about
+
+00:29:23.150 --> 00:29:27.220
+yourself is the most important thing you have.
+
+00:29:27.220 --> 00:29:34.759
+If you tell yourself a story of struggle,
+inadequacy, not being good enough, failure,
+
+00:29:34.759 --> 00:29:39.450
+like all of that, then that’s going to reinforce
+because that literally becomes your identity.
+
+00:29:39.450 --> 00:29:43.450
+Going back to what you’re saying at the
+very beginning, you’ve got people and they’re
+
+00:29:43.450 --> 00:29:46.279
+justifying why they made some choice, right.
+
+00:29:46.279 --> 00:29:49.610
+When you said do you want the fish or the
+steak, dude, inside I was like my narrative
+
+00:29:49.610 --> 00:29:53.010
+as a human being is I’m the guy who chooses
+the steak, right.
+
+00:29:53.010 --> 00:29:54.740
+I know that isn’t even difficult.
+
+00:29:54.740 --> 00:29:58.380
+It would’ve been easier if you said steak
+or cake because I’m really the guy that
+
+00:29:58.380 --> 00:29:59.750
+chooses steak over cake.
+
+00:29:59.750 --> 00:30:01.779
+It’s like that’s pure narrative.
+
+00:30:01.779 --> 00:30:06.049
+That’s what I want to tell myself.
+
+00:30:06.049 --> 00:30:10.440
+The big breakthrough in my life, the big breakthrough
+on a map of my timeline if you were going
+
+00:30:10.440 --> 00:30:15.340
+to put a demarcation point, it is the day
+I stopped thinking of myself as smart because
+
+00:30:15.340 --> 00:30:18.539
+I wasn’t, and I started thinking of myself
+as a learner.
+
+00:30:18.539 --> 00:30:21.809
+That changed everything because now the narrative
+that I was reinforcing, the memories I was
+
+00:30:21.809 --> 00:30:27.200
+pulling out changing just a little bit and
+then putting back all revolved around reimagining
+
+00:30:27.200 --> 00:30:31.370
+myself as somebody who learns faster than
+other people, is willing to learn, will put
+
+00:30:31.370 --> 00:30:34.090
+in the time and the effort to learn.
+
+00:30:34.090 --> 00:30:39.340
+It became this identity which was anti-fragile,
+right, because now you could tell me I was
+
+00:30:39.340 --> 00:30:40.340
+stupid and it didn’t matter.
+
+00:30:40.340 --> 00:30:41.340
+It didn’t hurt me.
+
+00:30:41.340 --> 00:30:42.340
+It just compelled me to learn more.
+
+00:30:42.340 --> 00:30:46.590
+The reason I shook your hand earlier is I
+really am moved when you say I was wrong about
+
+00:30:46.590 --> 00:30:47.590
+that.
+
+00:30:47.590 --> 00:30:48.590
+I should’ve done this.
+
+00:30:48.590 --> 00:30:54.240
+Any time people can say that, can just own
+a mistake and see a better solution, that’s
+
+00:30:54.240 --> 00:30:58.379
+somebody who’s polishing a self-image in
+a way that’s anti-fragile that the more
+
+00:30:58.379 --> 00:31:03.289
+they look at that failure, the harder they
+go in an even better direction.
+
+00:31:03.289 --> 00:31:04.289
+It’s really incredible.
+
+00:31:04.289 --> 00:31:05.289
+All right.
+
+00:31:05.289 --> 00:31:10.639
+I want to ask you all the questions that I
+get asked to which I have no answer and I’m
+
+00:31:10.639 --> 00:31:13.419
+hoping … because I get asked these questions
+a lot.
+
+00:31:13.419 --> 00:31:14.460
+All right.
+
+00:31:14.460 --> 00:31:18.030
+Number one, how can I get more motivation?
+
+00:31:18.030 --> 00:31:20.740
+It’s the one thing because I’ve never
+lacked motivation.
+
+00:31:20.740 --> 00:31:25.500
+I don’t know how to help people.
+
+00:31:25.500 --> 00:31:27.090
+Moran: Tough.
+
+00:31:27.090 --> 00:31:30.320
+Here’s how I would think about it.
+
+00:31:30.320 --> 00:31:33.390
+Motivation is a word, right.
+
+00:31:33.390 --> 00:31:39.169
+It’s a label that we put, set of events
+in our brain.
+
+00:31:39.169 --> 00:31:41.409
+What you actually want is the outcome of that.
+
+00:31:41.409 --> 00:31:44.389
+You want to do things when it’s held.
+
+00:31:44.389 --> 00:31:48.240
+I think there a few things that we know work.
+
+00:31:48.240 --> 00:31:50.700
+One is evidence of past successes.
+
+00:31:50.700 --> 00:31:57.240
+If I say to you and go back to your memories
+and I reframe them as successes, suddenly
+
+00:31:57.240 --> 00:31:59.759
+the current event that’s the same is a success.
+
+00:31:59.759 --> 00:32:03.940
+I think one thing is having success stories
+and identification [inaudible 00:32:02].
+
+00:32:03.940 --> 00:32:05.381
+There’s a lot of people out there.
+
+00:32:05.381 --> 00:32:10.150
+There was a person that is like you that had
+similar experience and chose the thing that
+
+00:32:10.150 --> 00:32:11.509
+you want to choose.
+
+00:32:11.509 --> 00:32:14.300
+Find this person or this people and it’s
+going to rub into you.
+
+00:32:14.300 --> 00:32:20.260
+I get asked by my students often how do I
+become funnier, how do I become smarter like
+
+00:32:20.260 --> 00:32:21.260
+by [inaudible 00:32:21].
+
+00:32:21.260 --> 00:32:26.190
+What I give them all the time is surround
+yourself with people that you want to be like.
+
+00:32:26.190 --> 00:32:27.190
+You want to be funny?
+
+00:32:27.190 --> 00:32:28.519
+Just sleep next to comedians.
+
+00:32:28.519 --> 00:32:30.770
+Just go within the same room they are and
+just sit with them.
+
+00:32:30.770 --> 00:32:35.600
+Its’ going to rub onto you by osmosis because
+it’s the environment that surrounds us that
+
+00:32:35.600 --> 00:32:37.429
+really changes everything.
+
+00:32:37.429 --> 00:32:41.039
+Other people said that before but I’ll tell
+you what the neuroscience behind it.
+
+00:32:41.039 --> 00:32:48.029
+We know now that brains interact with each
+other through language in a way that synchronizes
+
+00:32:48.029 --> 00:32:49.179
+the brains.
+
+00:32:49.179 --> 00:32:53.440
+When I talk to you right now, if you’re
+engaged with what I say, it means that if
+
+00:32:53.440 --> 00:32:58.980
+we scan our brain right now, our brains are
+going to look alike, more than yours and someone
+
+00:32:58.980 --> 00:33:00.470
+on the street that isn't here.
+
+00:33:00.470 --> 00:33:05.940
+Two people in the same room, as soon as they
+interact, their brains literally start to,
+
+00:33:05.940 --> 00:33:07.919
+if you want, pulsing in the same way.
+
+00:33:07.919 --> 00:33:11.340
+Part of their brain light up in the same way,
+parts shut down.
+
+00:33:11.340 --> 00:33:12.390
+This is how we affect each other.
+
+00:33:12.390 --> 00:33:14.700
+This is how communication made humans who
+they are.
+
+00:33:14.700 --> 00:33:17.889
+This is the one thing that makes us better
+than all the other animals because we are
+
+00:33:17.889 --> 00:33:22.200
+able to communicate using language, affect
+each other’s brain and create narrative
+
+00:33:22.200 --> 00:33:23.260
+that only exist together.
+
+00:33:23.260 --> 00:33:28.620
+We both believe in things that we’ve never
+seen before like God or ideas that’s like
+
+00:33:28.620 --> 00:33:33.330
+democracy or money, like those things we invented,
+we can communicate them and create this image
+
+00:33:33.330 --> 00:33:36.870
+in people’s brains, and they all share this
+thing.
+
+00:33:36.870 --> 00:33:40.789
+In the same way, if you surround yourself
+by people that you want to be like, you hear
+
+00:33:40.789 --> 00:33:43.929
+them communicate, they change your brain,
+and it’s going to rub onto you.
+
+00:33:43.929 --> 00:33:47.480
+You’re going to actually become funnier
+if you sit and listen to funny people next
+
+00:33:47.480 --> 00:33:48.480
+to you.
+
+00:33:48.480 --> 00:33:51.440
+You’ll actually become more motivated if
+you’re next to people that are motivated.
+
+00:33:51.440 --> 00:33:54.860
+The next version of that, if you cannot find
+them, if you're sitting right now in the rural
+
+00:33:54.860 --> 00:33:58.110
+part of Alaska and you can’t just find yourself
+in Los Angeles with the people you want to
+
+00:33:58.110 --> 00:34:01.770
+be with, is to actually just look at them
+on videos, on books.
+
+00:34:01.770 --> 00:34:05.900
+That’s the way our brain basically gets
+content and change.
+
+00:34:05.900 --> 00:34:09.300
+Changing brains happens in many, many ways
+but the easiest one that anyone can try is
+
+00:34:09.300 --> 00:34:13.929
+to say what kind of world I want to be in
+and bring this world to you in the form of
+
+00:34:13.929 --> 00:34:17.579
+movies, stories, TV shows, all people.
+
+00:34:17.579 --> 00:34:22.450
+That’s the ways to get things that you want
+next to you.
+
+00:34:22.450 --> 00:34:27.679
+Tom: Do you think when you’re doing that
+that you’re getting into a repetitive brain-firing
+
+00:34:27.679 --> 00:34:29.780
+pattern that ultimately wires?
+
+00:34:29.780 --> 00:34:32.149
+Moran: You actually change your brain.
+
+00:34:32.149 --> 00:34:35.179
+We didn’t mention that the science behind
+it match like in terms of what we do.
+
+00:34:35.179 --> 00:34:39.290
+We put electrodes in people’s brains and
+we look at their brains while things happen
+
+00:34:39.290 --> 00:34:40.290
+to them.
+
+00:34:40.290 --> 00:34:41.350
+We actually see it in action.
+
+00:34:41.350 --> 00:34:43.720
+We see how the brain changes when people communicate.
+
+00:34:43.720 --> 00:34:46.609
+We see how the brain looks.
+
+00:34:46.609 --> 00:34:50.079
+When you watch a movie, we see how your brain
+aligns with the movie.
+
+00:34:50.079 --> 00:34:53.220
+When you tell someone else the story about
+the movie, their brain aligns with your brain
+
+00:34:53.220 --> 00:34:56.130
+but aligns also with the brain of the director
+of the movie.
+
+00:34:56.130 --> 00:35:01.310
+Communication is this mechanism by which information
+flows between brains and changes the brain.
+
+00:35:01.310 --> 00:35:06.320
+Actually, if you want to take it one step
+above, this is also how we change ourselves
+
+00:35:06.320 --> 00:35:08.820
+because we [inaudible 00:35:06] all the time.
+
+00:35:08.820 --> 00:35:13.270
+You drive your car or you walk to work and
+you’re just alone with yourself and you
+
+00:35:13.270 --> 00:35:14.900
+communicate, you also change your brain.
+
+00:35:14.900 --> 00:35:19.430
+You solidify the things that you want to be
+more like and you suppress the ones you don’t
+
+00:35:19.430 --> 00:35:20.430
+want.
+
+00:35:20.430 --> 00:35:21.430
+We always talk.
+
+00:35:21.430 --> 00:35:24.930
+Those voices, those are basically the other
+characters in our brain that talk to each
+
+00:35:24.930 --> 00:35:25.930
+other.
+
+00:35:25.930 --> 00:35:30.079
+You can choose which ones to give more weight
+to so this is how you become the better person
+
+00:35:30.079 --> 00:35:31.079
+you want to be.
+
+00:35:31.079 --> 00:35:35.650
+We actually now play with things that change
+behavior during the night when you’re sleeping
+
+00:35:35.650 --> 00:35:37.410
+in the following way.
+
+00:35:37.410 --> 00:35:42.010
+[crosstalk 00:35:37]
+This is another new thing from the last 10
+
+00:35:42.010 --> 00:35:50.730
+years in neuroscience that was finally discovered
+which is you can learn change and transfer
+
+00:35:50.730 --> 00:35:51.730
+overnight.
+
+00:35:51.730 --> 00:35:55.940
+If you look at the night if you go to sleep
+for eight-hour sleep, it’s not a uniformed
+
+00:35:55.940 --> 00:35:56.940
+experience.
+
+00:35:56.940 --> 00:36:00.400
+It’s not really just to fall asleep and
+you spend eight hours in the same state.
+
+00:36:00.400 --> 00:36:01.400
+You actually have phases.
+
+00:36:01.400 --> 00:36:03.819
+We call them stages and cycles.
+
+00:36:03.819 --> 00:36:07.440
+There have different things that’s happening
+in them and one of them is the stage where
+
+00:36:07.440 --> 00:36:08.440
+you’re dreaming.
+
+00:36:08.440 --> 00:36:13.220
+That’s when our brain basically simulate
+future options and shows us a movie of things
+
+00:36:13.220 --> 00:36:17.630
+that could happen and allow us to live through
+them, thinking the realities, the ultimate
+
+00:36:17.630 --> 00:36:18.630
+VR.
+
+00:36:18.630 --> 00:36:22.540
+We actually live life thinking that we’re
+there, thinking how it would be to live with
+
+00:36:22.540 --> 00:36:25.609
+her in Alaska or to quit the job and move
+to Vancouver.
+
+00:36:25.609 --> 00:36:29.349
+Really that experience filled it to our emotions
+and then wake up with the answer what to do.
+
+00:36:29.349 --> 00:36:30.349
+This is one stage.
+
+00:36:30.349 --> 00:36:33.390
+There’s another thing stage that’s really
+interesting, Stage 3 and 4 of the sleep.
+
+00:36:33.390 --> 00:36:34.390
+We call it slow-wave sleep.
+
+00:36:34.390 --> 00:36:38.450
+It’s a stage of the night where your brain
+essentially takes all the experiences from
+
+00:36:38.450 --> 00:36:44.450
+the day before and waits them, and chooses
+which ones to keep and which ones to take
+
+00:36:44.450 --> 00:36:45.450
+out.
+
+00:36:45.450 --> 00:36:49.480
+If you think about life when you go through
+your day, there are many, many moments you
+
+00:36:49.480 --> 00:36:50.480
+call the present.
+
+00:36:50.480 --> 00:36:54.500
+About every one-and-a-half second you have
+a different present, and then it goes in the
+
+00:36:54.500 --> 00:36:55.500
+past.
+
+00:36:55.500 --> 00:36:56.500
+It becomes a memory.
+
+00:36:56.500 --> 00:36:59.380
+You go to the next moment and you live it
+and then you store it in the memory.
+
+00:36:59.380 --> 00:37:04.110
+Then when you go to sleep, your brain looks
+at all those 50,000 moments that you had.
+
+00:37:04.110 --> 00:37:05.200
+It says, okay.
+
+00:37:05.200 --> 00:37:08.369
+When I walk from home to the bank, I had 20
+of those moments.
+
+00:37:08.369 --> 00:37:09.369
+They’re not really important.
+
+00:37:09.369 --> 00:37:10.609
+I should compress them into one.
+
+00:37:10.609 --> 00:37:11.609
+Keep just one.
+
+00:37:11.609 --> 00:37:12.750
+Remove the others.
+
+00:37:12.750 --> 00:37:16.691
+When I kissed her, it was a moment that I
+want to remember every fraction of so I want
+
+00:37:16.691 --> 00:37:21.300
+to keep all of them individually like one
+big stock of experiences.
+
+00:37:21.300 --> 00:37:22.619
+Your brain does it.
+
+00:37:22.619 --> 00:37:23.990
+You’re in slow-wave sleep during this mode.
+
+00:37:23.990 --> 00:37:27.140
+You choose out of all of them and picks the
+ones that’s important.
+
+00:37:27.140 --> 00:37:32.190
+What we learned in the last five years, 10
+years, is that it can actually do things to
+
+00:37:32.190 --> 00:37:33.700
+you at this stage.
+
+00:37:33.700 --> 00:37:36.210
+When you’re sleeping, it will make you change
+the pointer.
+
+00:37:36.210 --> 00:37:40.470
+We can choose for you to focus on the walk
+to the bank rather than the kiss, and in doing
+
+00:37:40.470 --> 00:37:44.240
+so, we’re going to basically make you strengthen
+those memories at the expense of others.
+
+00:37:44.240 --> 00:37:49.480
+We do that by using smells or sounds that
+we play to your ears.
+
+00:37:49.480 --> 00:37:53.480
+In the right moment, the smell of the …
+Tom: You judge that right moment because you’re
+
+00:37:53.480 --> 00:37:54.630
+actually watching like [inaudible 00:37:55]
+[crosstalk 00:37:54]
+
+00:37:54.630 --> 00:37:55.630
+Moran: It has to be done.
+
+00:37:55.630 --> 00:37:57.200
+The important thing is you can’t do that
+at home.
+
+00:37:57.200 --> 00:37:59.390
+You can’t just spray the smell and do it
+all the time.
+
+00:37:59.390 --> 00:38:02.780
+You have to do it in the right moment because
+if you just spray in the room, it’s going
+
+00:38:02.780 --> 00:38:03.780
+to wash out.
+
+00:38:03.780 --> 00:38:06.550
+You have to target the brain at the right
+moment, but then the brain is going to say
+
+00:38:06.550 --> 00:38:08.359
+I smell this thing.
+
+00:38:08.359 --> 00:38:12.550
+This means that I want to focus on this moment
+and strengthen that.
+
+00:38:12.550 --> 00:38:16.470
+What the experiments that we are doing and
+others are doing right now show is that you
+
+00:38:16.470 --> 00:38:19.109
+can actually make a person learn things when
+they’re sleeping.
+
+00:38:19.109 --> 00:38:20.380
+You can actually change their behavior.
+
+00:38:20.380 --> 00:38:24.480
+You can make them choose to focus on different
+behaviors that they want to change and wake
+
+00:38:24.480 --> 00:38:25.829
+up not doing these things.
+
+00:38:25.829 --> 00:38:27.000
+You can actually do things.
+
+00:38:27.000 --> 00:38:31.910
+The classic experiment that was really popular
+in the last three years since 2015 was people
+
+00:38:31.910 --> 00:38:34.430
+come to lab and they’re smokers and they
+want to sleep.
+
+00:38:34.430 --> 00:38:37.300
+They go to sleep for two hours.
+
+00:38:37.300 --> 00:38:41.720
+The experiment just wait for the moment when
+they’re brain is in this state when it’s
+
+00:38:41.720 --> 00:38:45.079
+listening to the outside world and reassessing
+life.
+
+00:38:45.079 --> 00:38:49.570
+They spray the smell of nicotine into their
+nose making their brain think, okay, out of
+
+00:38:49.570 --> 00:38:52.530
+all the memories I have, let’s focus on
+those that have to do with smoking.
+
+00:38:52.530 --> 00:38:56.970
+Then immediately after, they blast the brain
+with a smell of rotten eggs which basically
+
+00:38:56.970 --> 00:39:02.930
+makes the brain rewire and take nicotine and
+wire it with like bad experiences.
+
+00:39:02.930 --> 00:39:04.020
+You do that a few times.
+
+00:39:04.020 --> 00:39:06.010
+When they’re sleeping, they wake up, they
+have no idea what happened.
+
+00:39:06.010 --> 00:39:08.520
+Then suddenly, they say, "I don’t really
+want to smoke anymore."
+
+00:39:08.520 --> 00:39:10.359
+For a few days they actually changed their
+behavior.
+
+00:39:10.359 --> 00:39:12.480
+They don’t want to smoke, not knowing what
+happened.
+
+00:39:12.480 --> 00:39:14.890
+They just came, took a nap, wake up, and they
+don’t want to smoke.
+
+00:39:14.890 --> 00:39:16.700
+This is change in behavior neuroscience.
+
+00:39:16.700 --> 00:39:20.640
+You find the moment, you hit the brain with
+it, you change the wiring, and the person
+
+00:39:20.640 --> 00:39:22.020
+wakes up a different person.
+
+00:39:22.020 --> 00:39:23.020
+Tom: That is amazing.
+
+00:39:23.020 --> 00:39:25.790
+Do people freak out about that like good or
+bad?
+
+00:39:25.790 --> 00:39:29.230
+Moran: The answer is they do but they shouldn’t.
+
+00:39:29.230 --> 00:39:33.420
+I have an analogy that’s going to be the
+way I look at it.
+
+00:39:33.420 --> 00:39:37.319
+Go back 406 years ago, 1610.
+
+00:39:37.319 --> 00:39:41.990
+Galileo Galilee points his telescope to the
+moons of Jupiter and he looks at the orbit
+
+00:39:41.990 --> 00:39:43.930
+and he expected it to go in one way but it
+doesn’t.
+
+00:39:43.930 --> 00:39:45.580
+It goes in a different way.
+
+00:39:45.580 --> 00:39:47.950
+He tries to understand what’s going on there.
+
+00:39:47.950 --> 00:39:54.099
+The only way to solve the equation is to realign
+the planets of our Milky Way galaxy and specifically
+
+00:39:54.099 --> 00:39:58.819
+the solar system by putting the sun in the
+center and put earth as the number three planet
+
+00:39:58.819 --> 00:40:02.410
+in the system which to him is the [inaudible
+00:40:03] of humankind.
+
+00:40:02.410 --> 00:40:03.410
+What does it mean?
+
+00:40:03.410 --> 00:40:05.030
+That we’re just one more planet out of many?
+
+00:40:05.030 --> 00:40:06.110
+We’re not the center.
+
+00:40:06.110 --> 00:40:07.760
+It feels horrible to him.
+
+00:40:07.760 --> 00:40:08.760
+It changes everything.
+
+00:40:08.760 --> 00:40:11.910
+The equations require that so he does it.
+
+00:40:11.910 --> 00:40:16.579
+In doing so, he basically allows us to now
+see the wide [inaudible 00:40:15] universe.
+
+00:40:16.579 --> 00:40:19.910
+Suddenly we see that the universe is much
+bigger than we imagined and we can explore
+
+00:40:19.910 --> 00:40:20.910
+it.
+
+00:40:20.910 --> 00:40:24.880
+In the next 400 years, we saw more of the
+universe and we learned a lot about what is
+
+00:40:24.880 --> 00:40:25.880
+out there.
+
+00:40:25.880 --> 00:40:30.520
+Now in the same way, in the last five years,
+we’re beginning to understand that in our
+
+00:40:30.520 --> 00:40:34.220
+own brain, there are many, many voices and
+we are not the most important one.
+
+00:40:34.220 --> 00:40:35.510
+We’re not even the center.
+
+00:40:35.510 --> 00:40:40.290
+We’re just one more voice out of many in
+our head and we’re the one who think that
+
+00:40:40.290 --> 00:40:41.290
+they’re the most important.
+
+00:40:41.290 --> 00:40:44.809
+Actually, the quiet ones that don’t really
+talk to us are the center of our universe.
+
+00:40:44.809 --> 00:40:47.980
+Now, this to us, again, feels like a [inaudible
+00:40:48] of humankind.
+
+00:40:47.980 --> 00:40:49.619
+What does it mean that I’m not the center
+of my own universe?
+
+00:40:49.619 --> 00:40:53.130
+The reality is that this will allow us to
+understand the most important and interesting
+
+00:40:53.130 --> 00:40:55.020
+thing in the universe which is us.
+
+00:40:55.020 --> 00:40:57.250
+That’s I think a profound understanding.
+
+00:40:57.250 --> 00:41:02.651
+Yes, it’s scary that we’re not responsible
+for our choices that happen to us, that we
+
+00:41:02.651 --> 00:41:06.400
+are creating a narrative based on things that
+we’re not really full in control.
+
+00:41:06.400 --> 00:41:10.150
+That’s the beauty of us because now we can
+actually explore more things in our brain
+
+00:41:10.150 --> 00:41:15.349
+and learn how things happen, and maybe we’ll
+understand how to become better people.
+
+00:41:15.349 --> 00:41:16.900
+Tom: It’s really interesting.
+
+00:41:16.900 --> 00:41:18.550
+Moran: I somehow ended up being a preacher
+tonight.
+
+00:41:18.550 --> 00:41:22.460
+I have no idea how it happened but I’m going
+to take it.
+
+00:41:22.460 --> 00:41:23.460
+Tom: Yes, please.
+
+00:41:23.460 --> 00:41:31.810
+Preach now about the self-deception, how essentially
+it feels like the layer that we view is also
+
+00:41:31.810 --> 00:41:37.430
+the voice … to use your vernacular, the
+voice that we view as us is trying to cobble
+
+00:41:37.430 --> 00:41:42.910
+together this narrative based on these decisions
+that are made by the quiet voices.
+
+00:41:42.910 --> 00:41:50.330
+How can we leverage that to either just tell
+ourselves a more empowering story or to actually
+
+00:41:50.330 --> 00:41:57.940
+get the quiet voices to do what we want them
+to do that’s more in line with our goals.
+
+00:41:57.940 --> 00:42:07.460
+Very specifically with self-deception, how
+can that become a tool that we’re using
+
+00:42:07.460 --> 00:42:09.559
+in a self-aware way to push us forward.
+
+00:42:09.559 --> 00:42:15.730
+Moran: It is tool that we're deceiving ourselves
+but we have to change the valance of the statement
+
+00:42:15.730 --> 00:42:17.329
+to a positive one.
+
+00:42:17.329 --> 00:42:19.170
+Set of deception sounds like a bad thing.
+
+00:42:19.170 --> 00:42:20.880
+This is our brain’s way of saving us.
+
+00:42:20.880 --> 00:42:22.119
+This is our brain’s … it’s [inaudible
+00:42:22].
+
+00:42:22.119 --> 00:42:25.830
+It’s still not living to reality the way
+it is.
+
+00:42:25.830 --> 00:42:30.099
+This is actually mechanisms that our brain
+created to optimize the world.
+
+00:42:30.099 --> 00:42:35.819
+We know that our eyes offer us only a small
+fraction of all the things that the world
+
+00:42:35.819 --> 00:42:37.619
+has but we call this reality.
+
+00:42:37.619 --> 00:42:42.079
+We know that our nose smells only what’s
+right here, and our noses [inaudible 00:42:42]
+
+00:42:42.079 --> 00:42:43.079
+to where the smells are.
+
+00:42:43.079 --> 00:42:44.780
+The smells are down here and our noses are
+up here.
+
+00:42:44.780 --> 00:42:46.740
+We don’t even smell … We don’t have
+it in place.
+
+00:42:46.740 --> 00:42:49.220
+All of those things may not … Our brain
+deceives us.
+
+00:42:49.220 --> 00:42:52.730
+It always offers us a reality that isn’t
+true.
+
+00:42:52.730 --> 00:42:54.430
+That’s great.
+
+00:42:54.430 --> 00:43:00.520
+This allows us to have a different view of
+the universe that we get to create ourselves.
+
+00:43:00.520 --> 00:43:03.569
+On one hand, we want to know what’s out
+there.
+
+00:43:03.569 --> 00:43:09.200
+That’s why we have x-ray sensors and ultraviolet
+sensors because we want to actually know what
+
+00:43:09.200 --> 00:43:12.730
+are all the rays of light that are out there
+that our eyes cannot see.
+
+00:43:12.730 --> 00:43:19.069
+That’s why we developed all those smart
+tools to hear things that are beyond the frequencies
+
+00:43:19.069 --> 00:43:20.460
+that our ear can get.
+
+00:43:20.460 --> 00:43:24.750
+We want to know what’s out there, but our
+brain through years of illusion created this
+
+00:43:24.750 --> 00:43:28.020
+set of deception that we call reality in a
+way that’s perfect for us.
+
+00:43:28.020 --> 00:43:30.730
+It allows us to live life in a comfortable
+way.
+
+00:43:30.730 --> 00:43:35.000
+Tom: One of the things you talked about along
+the lines of self-deception is people are
+
+00:43:35.000 --> 00:43:39.150
+really bad at understanding what they want
+and whether they’re intentionally deceiving
+
+00:43:39.150 --> 00:43:42.359
+themselves, intentionally deceiving you as
+a researcher.
+
+00:43:42.359 --> 00:43:47.880
+One thing I get asked a lot is somebody wants
+to be fulfilled.
+
+00:43:47.880 --> 00:43:49.690
+They want to find a career that they love.
+
+00:43:49.690 --> 00:43:52.089
+They want to start a company but they don’t
+know what.
+
+00:43:52.089 --> 00:43:56.369
+How can people get good at understanding what
+they want?
+
+00:43:56.369 --> 00:44:00.070
+Moran: I would say that the best way is to
+be aware.
+
+00:44:00.070 --> 00:44:03.990
+Be aware meaning like [crosstalk 00:44:01]
+take a note.
+
+00:44:03.990 --> 00:44:09.329
+What you see actually when you look at the
+brains of people, we see how few repetitions
+
+00:44:09.329 --> 00:44:15.099
+of a message does it take for your brain to
+rewire and now have it solidified.
+
+00:44:15.099 --> 00:44:17.130
+We can show you eight times.
+
+00:44:17.130 --> 00:44:18.450
+Tom: Eight?
+
+00:44:18.450 --> 00:44:23.680
+Moran: It varies but that’s the area.
+
+00:44:23.680 --> 00:44:30.810
+We show you eight times this person next to
+this item, and first when you see this person,
+
+00:44:30.810 --> 00:44:32.150
+this cell lights up in your brain.
+
+00:44:32.150 --> 00:44:35.040
+The cell, it codes Tiger Woods, lights up
+when you see Tiger Woods.
+
+00:44:35.040 --> 00:44:37.970
+They show you Gillette, another cell lights
+up.
+
+00:44:37.970 --> 00:44:41.260
+We start showing you the two of them together,
+after eight repetitions of seeing them together,
+
+00:44:41.260 --> 00:44:45.250
+suddenly the cell for Tiger Woods also codes
+Gillette and the cell for Gillette code Tiger
+
+00:44:45.250 --> 00:44:46.250
+Woods.
+
+00:44:46.250 --> 00:44:48.370
+Suddenly, the cell [crosstalk 00:44:46] and
+that’s it.
+
+00:44:48.370 --> 00:44:49.821
+Eight repetitions is very little.
+
+00:44:49.821 --> 00:44:52.910
+This is the amount of time that commercials
+need to be shown on TV before you say, "Okay,
+
+00:44:52.910 --> 00:44:56.230
+now I know that this is the [inaudible 00:44:55].
+
+00:44:56.230 --> 00:45:02.150
+That means that it’s very easy to place
+in our brain things that we’re going to
+
+00:45:02.150 --> 00:45:03.150
+change it.
+
+00:45:03.150 --> 00:45:07.849
+Now that we also learned that these numbers
+are pretty small, we can also look at what
+
+00:45:07.849 --> 00:45:08.849
+times of the day.
+
+00:45:08.849 --> 00:45:11.160
+We know that there’s times of the day where
+it’s even three times.
+
+00:45:11.160 --> 00:45:12.461
+Tom: Why do you think it has to do with this?
+
+00:45:12.461 --> 00:45:14.180
+Is that like a circadian rhythm thing?
+
+00:45:14.180 --> 00:45:20.010
+Is that a level of alertness tied to food
+like … I’m surprised by that.
+
+00:45:20.010 --> 00:45:21.690
+Moran: All of the above.
+
+00:45:21.690 --> 00:45:24.890
+Our brain has a lot of clocks in it, if you
+want.
+
+00:45:24.890 --> 00:45:29.849
+There’s clocks and there's environment.
+
+00:45:29.849 --> 00:45:31.099
+In a way, it’s simple.
+
+00:45:31.099 --> 00:45:35.160
+The neuroscience proves what we can do behaviorally
+very easily.
+
+00:45:35.160 --> 00:45:42.200
+Just pay attention, learn, surround ourselves
+with people that we care about, and decide
+
+00:45:42.200 --> 00:45:44.200
+when we want to be fooled and when we don’t
+want to be fooled.
+
+00:45:44.200 --> 00:45:48.599
+I think that this historian I really like
+said that hundred years ago the biggest threat
+
+00:45:48.599 --> 00:45:51.569
+to humanity were famine, plague and war.
+
+00:45:51.569 --> 00:45:52.790
+Basically, it’s over.
+
+00:45:52.790 --> 00:45:55.180
+Those are no longer a threat for us.
+
+00:45:55.180 --> 00:45:59.890
+If someone is hungry right now, it’s because
+politically we want them to be hungry.
+
+00:45:59.890 --> 00:46:03.890
+There shouldn’t be any hunger in the world
+but there is because of reasons that’s beyond
+
+00:46:03.890 --> 00:46:04.890
+us.
+
+00:46:04.890 --> 00:46:08.829
+Basically, we conquered the things that we
+should be … right now, it’s a lot more
+
+00:46:08.829 --> 00:46:09.829
+scary.
+
+00:46:09.829 --> 00:46:12.420
+You’re a lot more likely to die from overeating
+than under-eating, right.
+
+00:46:12.420 --> 00:46:15.750
+Diabetes is a lot bigger threat to us than
+malnourishment.
+
+00:46:15.750 --> 00:46:18.200
+In that sense, I think we conquered a lot
+of things.
+
+00:46:18.200 --> 00:46:20.640
+Now, we’re at the level we start playing
+God.
+
+00:46:20.640 --> 00:46:24.280
+We’re starting to think what can we do to
+the body that’s going to make it better.
+
+00:46:24.280 --> 00:46:25.490
+We have privileges.
+
+00:46:25.490 --> 00:46:27.490
+We are focusing out on happiness and what
+would make us happy.
+
+00:46:27.490 --> 00:46:32.069
+We are extending life to its limit and now
+we’re realizing that the one thing that
+
+00:46:32.069 --> 00:46:37.050
+we don’t know how to deal with is not the
+extension of life but the quality of life.
+
+00:46:37.050 --> 00:46:41.140
+A lot of us are going to get to age 150, you
+and I, but we might spend the last 50 years
+
+00:46:41.140 --> 00:46:43.569
+not being there.
+
+00:46:43.569 --> 00:46:49.920
+Our bodies are going to be there but our brain
+is going to be basically not able to do the
+
+00:46:49.920 --> 00:46:50.920
+thinking.
+
+00:46:50.920 --> 00:46:55.299
+A bunch of neuroscientists, and I’m helping
+a little bit, but it’s a project that is
+
+00:46:55.299 --> 00:46:58.120
+beyond me are trying to fix that.
+
+00:46:58.120 --> 00:47:00.160
+This is really the science fiction aspect.
+
+00:47:00.160 --> 00:47:05.829
+The way to fix it is not by actually fixing
+the brain using drugs but by placing components
+
+00:47:05.829 --> 00:47:06.829
+of it.
+
+00:47:06.829 --> 00:47:09.850
+What we’re doing right now …
+Tom: With synthetic biology or …
+
+00:47:09.850 --> 00:47:12.890
+Moran: Yes, with the chips like you basically
+take a chip and you … There are positive
+
+00:47:12.890 --> 00:47:19.359
+brain almost like a bridge so things come
+from the in and get processed through and
+
+00:47:19.359 --> 00:47:21.480
+go out.
+
+00:47:21.480 --> 00:47:24.130
+A lot of things could come in, a lot of things
+could come out, but it’s finite sense.
+
+00:47:24.130 --> 00:47:27.809
+There is a table of millions of things that
+could come in, and for them there’s a clear
+
+00:47:27.809 --> 00:47:29.010
+what comes out.
+
+00:47:29.010 --> 00:47:33.470
+The idea is that when you’re starting to
+decay, when your Alzheimer emerges, we’re
+
+00:47:33.470 --> 00:47:36.890
+going to put electrodes in your brain and
+learn how the in-looks and the outlooks and
+
+00:47:36.890 --> 00:47:39.890
+learn that while you’re decaying and when
+you get to the state where you’re really
+
+00:47:39.890 --> 00:47:42.801
+no longer out there, we’re going to take
+out the part of the brain that’s biological
+
+00:47:42.801 --> 00:47:43.801
+that failed.
+
+00:47:43.801 --> 00:47:46.060
+We’re going to put a chip instead.
+
+00:47:46.060 --> 00:47:50.410
+That chip is going to now take the input from
+here.
+
+00:47:50.410 --> 00:47:55.710
+Now you can open it to questions like is it
+still me, if any of those chips bypass …
+
+00:47:55.710 --> 00:47:56.760
+Tom: That’s being worked on right now?
+
+00:47:56.760 --> 00:47:57.910
+Moran: It’s already working with rats.
+
+00:47:57.910 --> 00:48:03.359
+With rats, you can actually induce Alzheimer
+and then replace the faulty parts with chips
+
+00:48:03.359 --> 00:48:04.359
+that do the mapping.
+
+00:48:04.359 --> 00:48:07.750
+It's done here in Los Angeles [inaudible 00:48:07]
+by guys at USC.
+
+00:48:07.750 --> 00:48:11.819
+Tom: Man, you’re really getting … It’s,
+A, exciting.
+
+00:48:11.819 --> 00:48:16.430
+B, you’re opening Pandora’s Box like this
+is insane.
+
+00:48:16.430 --> 00:48:17.430
+I love this show.
+
+00:48:17.430 --> 00:48:18.790
+Moran: Yeah, we should talk about ethics in
+the end.
+
+00:48:18.790 --> 00:48:20.200
+Whatever you tell me [inaudible 00:48:19]
+…
+
+00:48:20.200 --> 00:48:21.330
+Tom: Let’s talk about ethics.
+
+00:48:21.330 --> 00:48:23.430
+Moran: … because there is an interesting
+part.
+
+00:48:23.430 --> 00:48:27.990
+I’m spending my time, half my days, in a
+business school.
+
+00:48:27.990 --> 00:48:35.370
+This could be seen like a really selling your
+soul to the devil by helping people sell [inaudible
+
+00:48:35.370 --> 00:48:40.530
+00:48:37] and crunch overnight to a person
+who’s in phase three of their night.
+
+00:48:40.530 --> 00:48:42.540
+You can bombard their brain with [inaudible
+00:48:42] crunch and they’re going to wake
+
+00:48:42.540 --> 00:48:44.710
+up and they want [inaudible 00:48:44] and
+crunch instead of less.
+
+00:48:44.710 --> 00:48:47.150
+Tom: Can we switch that to crossbars?
+
+00:48:47.150 --> 00:48:48.350
+Moran: Please.
+
+00:48:48.350 --> 00:48:53.650
+The idea is that there’s like a war right
+now where neuroscientists are splitting up
+
+00:48:53.650 --> 00:48:54.829
+and they’re finding things.
+
+00:48:54.829 --> 00:48:56.849
+They’re finding how to change behavior over
+the night.
+
+00:48:56.849 --> 00:49:02.700
+We’re learning how we can change your biome
+and make you a different person by playing
+
+00:49:02.700 --> 00:49:06.770
+with your gut bacteria that makes you different.
+
+00:49:06.770 --> 00:49:08.280
+We know how smell affects your behavior.
+
+00:49:08.280 --> 00:49:11.690
+We can make you like this woman, not that
+woman by playing different smells.
+
+00:49:11.690 --> 00:49:17.210
+A lot of things happening and no one is in
+control of that because policymakers are slow.
+
+00:49:17.210 --> 00:49:19.540
+It takes them a while to create the policies.
+
+00:49:19.540 --> 00:49:22.710
+The people who are really fast are businessmen
+and marketing departments.
+
+00:49:22.710 --> 00:49:23.710
+They are really fast.
+
+00:49:23.710 --> 00:49:25.430
+They hear about it and they say, okay, let’s
+apply that.
+
+00:49:25.430 --> 00:49:31.200
+My students, the MBA students, are the ones
+to say, "Hmm, it’s interesting."
+
+00:49:31.200 --> 00:49:35.290
+My job … and that’s why I feel it’s
+important to say it here, is to remind those
+
+00:49:35.290 --> 00:49:40.079
+students how bad they felt when they saw the
+6.99.
+
+00:49:40.079 --> 00:49:41.349
+They say, "Oh, come on.
+
+00:49:41.349 --> 00:49:42.680
+I feel like I’m being schooled.
+
+00:49:42.680 --> 00:49:46.550
+Someone tells me that it’s 6.99 to fool
+me but I want it to be just the fair price
+
+00:49:46.550 --> 00:49:47.550
+of $7.
+
+00:49:47.550 --> 00:49:48.550
+I would know.
+
+00:49:48.550 --> 00:49:50.910
+Why do they play with my …"
+In 20 years, you’re going to be the guy
+
+00:49:50.910 --> 00:49:56.140
+who sets the price of an item and you’re
+going to have the option as well to go for
+
+00:49:56.140 --> 00:50:00.700
+6.99 and make a person buy or you can say
+I’m going to be the better person.
+
+00:50:00.700 --> 00:50:06.289
+I’m going to not try to play on all those
+biases and kind of change things.
+
+00:50:06.289 --> 00:50:09.559
+I think this is the reality we have to have
+right now because scientists are going to
+
+00:50:09.559 --> 00:50:16.309
+offer you a lot of tools to do good or bad
+and we have to choose as society how we play
+
+00:50:16.309 --> 00:50:17.309
+with them.
+
+00:50:17.309 --> 00:50:19.359
+Tom: Can I give you what I think is the right
+answer now?
+
+00:50:19.359 --> 00:50:25.299
+I’m talking to the school of management
+guy and the neuroscientist here.
+
+00:50:25.299 --> 00:50:32.200
+As an entrepreneur, as somebody who’s built
+a food company in particular, the answer that
+
+00:50:32.200 --> 00:50:37.660
+I came to because I’m very much trying to
+convince you to buy, and what I realized is
+
+00:50:37.660 --> 00:50:43.520
+we’re living in an era where companies have
+an obligation, a moral obligation in my opinion,
+
+00:50:43.520 --> 00:50:48.059
+a moral obligation to make products worthy
+of being used.
+
+00:50:48.059 --> 00:50:52.070
+If you’re making a product that actually
+delivers value, and that’s so important,
+
+00:50:52.070 --> 00:50:54.720
+and yes I get it, who determines the value.
+
+00:50:54.720 --> 00:50:58.530
+I honestly think that the companies have to
+be able to look themselves in the eye and
+
+00:50:58.530 --> 00:51:01.619
+say I believe this product is good for you.
+
+00:51:01.619 --> 00:51:02.819
+Moran: Hundred percent.
+
+00:51:02.819 --> 00:51:07.740
+Tom: If you believe that it’s good for the
+person that you’re selling it to, then using
+
+00:51:07.740 --> 00:51:10.770
+the tools and techniques to get people to
+buy it that makes sense to me.
+
+00:51:10.770 --> 00:51:14.720
+It all comes down to what you’re pushing
+and promoting because if you’re … Think
+
+00:51:14.720 --> 00:51:20.430
+about policymakers trying to get adoption
+on even just policies like getting STD test
+
+00:51:20.430 --> 00:51:25.030
+or whatever the case may be that things that
+are good, not just for that person but for
+
+00:51:25.030 --> 00:51:26.539
+society as a whole.
+
+00:51:26.539 --> 00:51:27.539
+You have to sell it.
+
+00:51:27.539 --> 00:51:30.900
+You have to get people to believe in that
+thing.
+
+00:51:30.900 --> 00:51:35.360
+As long as that thing is good for you, I think
+getting people to believe in it is all right.
+
+00:51:35.360 --> 00:51:38.839
+Moran: I think the thing that as scientist
+we have to explore the world.
+
+00:51:38.839 --> 00:51:44.160
+This is why we’re here to all the options
+and including the ones that will be good for
+
+00:51:44.160 --> 00:51:46.670
+you and the ones that are going to be bad
+for you, and then have you really understand
+
+00:51:46.670 --> 00:51:49.369
+how to make a choice better yourself.
+
+00:51:49.369 --> 00:51:50.869
+Tom: That’s good.
+
+00:51:50.869 --> 00:51:51.880
+One last question for you.
+
+00:51:51.880 --> 00:51:53.869
+What’s the impact that you want to have
+on the world?
+
+00:51:53.869 --> 00:51:59.140
+Moran: The one thing that I’m really good
+[inaudible 00:51:55] do is find ways to take
+
+00:51:59.140 --> 00:52:03.750
+complex ideas and make them into something
+that is tangible for everyone.
+
+00:52:03.750 --> 00:52:04.750
+This is the impact that I want to be.
+
+00:52:04.750 --> 00:52:13.990
+I want to find ways, movies, conversations,
+products, students to have everyone have the
+
+00:52:13.990 --> 00:52:14.990
+option.
+
+00:52:14.990 --> 00:52:19.210
+I want everyone in the world to know enough
+so they can make a decision by themselves.
+
+00:52:19.210 --> 00:52:20.589
+Tom: I love it.
+
+00:52:20.589 --> 00:52:22.680
+Moran, thank you so much…
+Moran: Thank you so much.
+
+00:52:22.680 --> 00:52:24.150
+Tom: … for coming on the show, man.
+
+00:52:24.150 --> 00:52:25.150
+That was incredible.
+
+00:52:25.150 --> 00:52:27.650
+Guys, I think we all are thinking the same
+thing right now.
+
+00:52:27.650 --> 00:52:29.930
+Where can we find you online?
+
+00:52:29.930 --> 00:52:36.020
+Moran: I have a website that I built in the
+last couple of weeks that’s pretty good
+
+00:52:36.020 --> 00:52:37.020
+I think.
+
+00:52:37.020 --> 00:52:43.859
+It has my name, morancerf.com, but, then again,
+I have so many stories I told and students
+
+00:52:43.859 --> 00:52:46.069
+that take the message there.
+
+00:52:46.069 --> 00:52:49.840
+If you just look for ideas, you’ll find
+me somewhere buried in them.
+
+00:52:49.840 --> 00:52:50.840
+Tom: Nice.
+
+00:52:50.840 --> 00:52:53.589
+Well, I can tell you from experience if you
+drop his name in the YouTube, you’re going
+
+00:52:53.589 --> 00:52:56.109
+to get a treasure trove of amazing talks.
+
+00:52:56.109 --> 00:52:57.109
+Watch them all.
+
+00:52:57.109 --> 00:52:58.349
+They’re incredible.
+
+00:52:58.349 --> 00:53:01.789
+I hope you guys had as much fun with this
+man as I have.
+
+00:53:01.789 --> 00:53:05.200
+I promise you I will be working to get him
+back for round two.
+
+00:53:05.200 --> 00:53:09.770
+It is rare that I say that on the spot, but
+I’m telling you I could go for round two.
+
+00:53:09.770 --> 00:53:10.770
+That will be amazing.
+
+00:53:10.770 --> 00:53:15.060
+I had so much fun picking this man’s brain,
+the diverse way that he approaches.
+
+00:53:15.060 --> 00:53:16.480
+Everything he does is incredible.
+
+00:53:16.480 --> 00:53:19.270
+You’re going to see that as you dive into
+his world.
+
+00:53:19.270 --> 00:53:22.030
+Watch the talks and hear him go from one subject
+to another.
+
+00:53:22.030 --> 00:53:27.530
+He can go deep business and really like nuts
+and bolts business, marketing, and then switch
+
+00:53:27.530 --> 00:53:32.561
+it over and show you photos of an actual brain
+with electrodes in it and what they’re learning
+
+00:53:32.561 --> 00:53:33.561
+from that.
+
+00:53:33.561 --> 00:53:34.561
+It is utterly astonishing.
+
+00:53:34.561 --> 00:53:40.160
+I have rarely seen a human being who can so
+rapidly and beautifully traverse the line
+
+00:53:40.160 --> 00:53:42.829
+between academia and business.
+
+00:53:42.829 --> 00:53:46.359
+For anybody out there that wants to be at
+the cutting edge of what’s happening in
+
+00:53:46.359 --> 00:53:48.079
+marketing, you’re going to want to look
+him up.
+
+00:53:48.079 --> 00:53:50.430
+It is absolutely phenomenal.
+
+00:53:50.430 --> 00:53:55.420
+From one narrator to another, as somebody
+who believes in the power of story, my friend,
+
+00:53:55.420 --> 00:53:57.559
+you have a unique ability to do it.
+
+00:53:57.559 --> 00:53:59.500
+It’s absolutely incredible.
+
+00:53:59.500 --> 00:54:01.650
+Watch him on the Moth Storytelling.
+
+00:54:01.650 --> 00:54:05.069
+See the stories that allowed him to win the
+awards.
+
+00:54:05.069 --> 00:54:06.400
+They’re amazing.
+
+00:54:06.400 --> 00:54:08.400
+All right, guys.
+
+00:54:08.400 --> 00:54:09.400
+This is a weekly show.
+
+00:54:09.400 --> 00:54:13.320
+If you’re not already following me, you
+better be @tombilyeu.
+
+00:54:13.320 --> 00:54:14.320
+Hit it up.
+
+00:54:14.320 --> 00:54:15.590
+We’re doing really cool stuff on my socials.
+
+00:54:15.590 --> 00:54:19.920
+If you’re not already following Impact Theory,
+get on it.
+
+00:54:19.920 --> 00:54:20.940
+It’s @impacttheory.
+
+00:54:20.940 --> 00:54:25.569
+Guys, as you know this is a weekly show so
+be sure to subscribe, hit that bottom.
+
+00:54:25.569 --> 00:54:28.270
+Until next week, my friends.
+
+00:54:28.270 --> 00:54:29.430
+Be legendary.
+
+00:54:29.430 --> 00:54:30.430
+Take care.
+
+00:54:30.430 --> 00:54:32.599
+Thank you so much.
+
+00:54:32.599 --> 00:54:34.650
+What a pleasure man.
+
+00:54:34.650 --> 00:54:35.650
+Hey, everybody.
+
+00:54:35.650 --> 00:54:38.610
+Thanks so much for joining us for another
+episode of Impact Theory.
+
+00:54:38.610 --> 00:54:43.700
+If this content is adding value to your life,
+our one ask is that you go to iTunes and Stitcher
+
+00:54:43.700 --> 00:54:45.260
+and rate and review.
+
+00:54:45.260 --> 00:54:49.420
+Not only does that help us build this community
+which at the end of the day is all we care
+
+00:54:49.420 --> 00:54:54.099
+about but it also helps us get even more amazing
+guests on here to share their knowledge with
+
+00:54:54.099 --> 00:54:55.099
+all of us.
+
+00:54:55.099 --> 00:54:58.900
+Thank you, guys, so much for being a part
+of this community and until next time.
+
+00:54:58.900 --> 00:54:59.900
+Be legendary, my friends.
+
+00:54:59.900 --> 00:55:00.900
+How did we do?
+
+00:55:00.900 --> 00:55:00.917
+If you rate this transcript 3 or below, this
+agent will not work on your future orders
+
