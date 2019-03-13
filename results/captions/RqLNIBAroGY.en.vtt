@@ -1,0 +1,2694 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.170 --> 00:00:02.430
+- Hi, it's me, Tim Dodd,
+The Everyday Astronaut.
+
+00:00:02.430 --> 00:00:04.250
+We're at a really exciting time,
+
+00:00:04.250 --> 00:00:06.090
+where the number of crewed vehicles
+
+00:00:06.090 --> 00:00:07.930
+going to the International Space Station
+
+00:00:07.930 --> 00:00:10.500
+will go from just one to three.
+
+00:00:10.500 --> 00:00:12.680
+The Soyuz's eight year monopoly
+
+00:00:12.680 --> 00:00:15.520
+for getting humans up to the
+International Space Station
+
+00:00:15.520 --> 00:00:17.000
+is finally coming to an end.
+
+00:00:17.000 --> 00:00:18.810
+So today we're gonna take a deep dive
+
+00:00:18.810 --> 00:00:21.240
+on the two new spaceships that
+are going to be responsible
+
+00:00:21.240 --> 00:00:23.410
+for taking humans to and from
+
+00:00:23.410 --> 00:00:26.030
+the International Space
+Station from the United States.
+
+00:00:26.030 --> 00:00:26.863
+So we're gonna compare
+
+00:00:26.863 --> 00:00:29.100
+the Boeing Starliner,
+riding an Atlas V rocket,
+
+00:00:29.100 --> 00:00:31.647
+to SpaceX's Crew Dragon
+on their Falcon 9 Rocket.
+
+00:00:31.647 --> 00:00:33.480
+And to see how we've progressed
+
+00:00:33.480 --> 00:00:35.680
+in the world of human spaceflight,
+we're also gonna compare
+
+00:00:35.680 --> 00:00:38.060
+all of these systems alongside
+Russia's Soyuz capsule
+
+00:00:38.060 --> 00:00:39.870
+and the United States'
+retired Space Shuttle,
+
+00:00:39.870 --> 00:00:41.330
+in a side by side comparison.
+
+00:00:41.330 --> 00:00:43.840
+We'll take a look at the
+designs, the rockets they ride,
+
+00:00:43.840 --> 00:00:46.540
+the dimensions, the cost,
+the safety considerations,
+
+00:00:46.540 --> 00:00:49.490
+and any other unique feature
+that each vehicle offers.
+
+00:00:49.490 --> 00:00:51.360
+Considering I've been
+up close and personal
+
+00:00:51.360 --> 00:00:55.180
+with SpaceX's Crew Dragon
+Capsule and Boeing's Starliner,
+
+00:00:55.180 --> 00:00:57.440
+I think I've got some pretty
+good insight on these vehicles.
+
+00:00:57.440 --> 00:00:58.322
+Let's get started!
+
+00:00:58.322 --> 00:01:00.438
+- [Technician] Three, two, one.
+
+00:01:00.438 --> 00:01:01.271
+And liftoff!
+
+00:01:01.271 --> 00:01:03.650
+(upbeat rhythmic music)
+
+00:01:03.650 --> 00:01:06.973
+- [Neil] That's one small step for man.
+
+00:01:06.973 --> 00:01:08.893
+- [Technician] Let's clear
+the traffic for the test one.
+
+00:01:08.893 --> 00:01:09.726
+(beeping)
+
+00:01:09.726 --> 00:01:10.620
+- The International Space Station
+
+00:01:10.620 --> 00:01:14.020
+is still one the greatest
+feats of human engineering.
+
+00:01:14.020 --> 00:01:16.150
+I mean after all, it's
+a football field-sized
+
+00:01:16.150 --> 00:01:19.850
+floating laboratory traveling
+10 times faster than a bullet,
+
+00:01:19.850 --> 00:01:22.610
+circling the Earth every 90 minutes.
+
+00:01:22.610 --> 00:01:26.120
+It's taken 33 launches to put
+all of its pieces into orbit
+
+00:01:26.120 --> 00:01:29.340
+and has been home to over 230 people
+
+00:01:29.340 --> 00:01:31.010
+from almost 20 countries.
+
+00:01:31.010 --> 00:01:34.210
+The ISS typically has
+six astronauts onboard.
+
+00:01:34.210 --> 00:01:35.940
+Crew are sent up in groups of three
+
+00:01:35.940 --> 00:01:38.920
+and usually reside at the
+station for six months.
+
+00:01:38.920 --> 00:01:40.870
+There is typically a three month overlap
+
+00:01:40.870 --> 00:01:43.600
+for existing crew and newly arriving crew.
+
+00:01:43.600 --> 00:01:46.720
+But since the Space Shuttle
+program ended in 2011,
+
+00:01:46.720 --> 00:01:50.350
+there's only been a
+single ride to the ISS,
+
+00:01:50.350 --> 00:01:52.170
+that's Russia's Soyuz vehicle.
+
+00:01:52.170 --> 00:01:54.260
+But we're coming up on
+a really exciting time,
+
+00:01:54.260 --> 00:01:56.820
+as the United States prepares
+to send U.S. astronauts
+
+00:01:56.820 --> 00:01:59.440
+to the International Space
+Station from U.S. soil
+
+00:01:59.440 --> 00:02:01.780
+on two brand new spaceships!
+
+00:02:01.780 --> 00:02:03.050
+And what I think is most exciting,
+
+00:02:03.050 --> 00:02:05.390
+is NASA has hired private companies
+
+00:02:05.390 --> 00:02:07.650
+to do the development and the operations
+
+00:02:07.650 --> 00:02:10.320
+in a new program called the
+Commercial Crew Program.
+
+00:02:10.320 --> 00:02:12.280
+The two companies that won the contracts
+
+00:02:12.280 --> 00:02:14.150
+are SpaceX and Boeing.
+
+00:02:14.150 --> 00:02:15.230
+I'm not really going to get into
+
+00:02:15.230 --> 00:02:17.290
+how the Commercial Crew
+Program got started
+
+00:02:17.290 --> 00:02:19.450
+or has progressed in today's video,
+
+00:02:19.450 --> 00:02:21.570
+I mostly want to talk about the hardware,
+
+00:02:21.570 --> 00:02:24.070
+starting off with Boeing
+and their Starliner.
+
+00:02:24.070 --> 00:02:25.680
+Boeing started designing the Starliner,
+
+00:02:25.680 --> 00:02:28.860
+originally known as the CST-100, in 2010,
+
+00:02:28.860 --> 00:02:32.200
+after winning a contract from
+NASA for the CCDev program.
+
+00:02:32.200 --> 00:02:33.650
+The Starliner is the traditional
+
+00:02:33.650 --> 00:02:35.520
+truncated-cone capsule design,
+
+00:02:35.520 --> 00:02:38.370
+much like previous spacecraft
+from the United States.
+
+00:02:38.370 --> 00:02:41.070
+It can carry up to seven
+astronauts at a time,
+
+00:02:41.070 --> 00:02:43.990
+although NASA won't use more
+than four seats at a time.
+
+00:02:43.990 --> 00:02:46.410
+The Starliner will be
+the first orbital capsule
+
+00:02:46.410 --> 00:02:49.120
+to land on solid ground
+in the United States.
+
+00:02:49.120 --> 00:02:51.700
+Now this is similar to how
+the Soyuz capsule lands,
+
+00:02:51.700 --> 00:02:53.440
+and also how Blue Origin's
+
+00:02:53.440 --> 00:02:55.990
+Suborbital New Shepard capsule lands.
+
+00:02:55.990 --> 00:02:57.930
+There are five landing sites proposed
+
+00:02:57.930 --> 00:02:59.130
+in the Western United States,
+
+00:02:59.130 --> 00:03:00.470
+but the two prime sites will be
+
+00:03:00.470 --> 00:03:03.910
+the U.S's. Army's White Sands
+Missile Range in New Mexico
+
+00:03:03.910 --> 00:03:06.720
+and the Army's Dugway
+Proving Grounds in Utah.
+
+00:03:06.720 --> 00:03:08.500
+Starliner will land using parachutes
+
+00:03:08.500 --> 00:03:10.210
+and a set of large airbags.
+
+00:03:10.210 --> 00:03:11.730
+A pair of drogue chutes are deployed
+
+00:03:11.730 --> 00:03:13.700
+at about nine kilometers in altitude,
+
+00:03:13.700 --> 00:03:17.300
+followed by a trio of main
+chutes at 3.6 kilometers,
+
+00:03:17.300 --> 00:03:19.250
+and at 1.5 kilometers in altitude,
+
+00:03:19.250 --> 00:03:22.300
+the heat shield is ditched and
+the six airbags are inflated.
+
+00:03:22.300 --> 00:03:24.480
+These airbags serve a dual purpose.
+
+00:03:24.480 --> 00:03:26.900
+In nominal cases, the airbags
+will soften the landing
+
+00:03:26.900 --> 00:03:29.700
+when landing on land,
+and in off-nominal cases,
+
+00:03:29.700 --> 00:03:32.010
+like an abort or an emergency reentry,
+
+00:03:32.010 --> 00:03:35.470
+the airbags offer buoyancy and
+balance for water landings.
+
+00:03:35.470 --> 00:03:38.690
+Touching down on land will
+allow the Starliner an easy path
+
+00:03:38.690 --> 00:03:40.480
+to refurbishment and reusability.
+
+00:03:40.480 --> 00:03:42.280
+Boeing is hoping to be
+able to turn one around
+
+00:03:42.280 --> 00:03:46.750
+in just six months and
+reuse them up to 10 times!
+
+00:03:46.750 --> 00:03:48.930
+That's definitely a good thing.
+
+00:03:48.930 --> 00:03:51.380
+Since the crew will land on solid ground,
+
+00:03:51.380 --> 00:03:54.770
+recovery of crew is quite
+different than a splashdown.
+
+00:03:54.770 --> 00:03:56.010
+On the edge of the landing zone
+
+00:03:56.010 --> 00:03:59.850
+there will be a Mobile Data
+Tracking Vehicle, or MDTV,
+
+00:03:59.850 --> 00:04:03.137
+as well as a Mobile Landing
+Control Center, or MLCC,
+
+00:04:03.137 --> 00:04:06.440
+and a host of other recovery
+vehicles waiting to pounce.
+
+00:04:06.440 --> 00:04:09.660
+Once touchdown is confirmed,
+a small army of vehicles
+
+00:04:09.660 --> 00:04:11.850
+will race their way across the desert.
+
+00:04:11.850 --> 00:04:13.320
+Now I picture this pretty much
+
+00:04:13.320 --> 00:04:16.120
+being like a real life Mad Max scenario,
+
+00:04:16.120 --> 00:04:18.840
+so Boeing, please send us videos of this.
+
+00:04:18.840 --> 00:04:20.510
+Upon arrival, a crew will check
+
+00:04:20.510 --> 00:04:22.100
+and stabilize the hydrazine fuels
+
+00:04:22.100 --> 00:04:24.680
+and then ground the vehicle
+for static electricity.
+
+00:04:24.680 --> 00:04:27.430
+After that, an HVAC truck will roll up
+
+00:04:27.430 --> 00:04:28.900
+and start to cool the spacecraft,
+
+00:04:28.900 --> 00:04:30.670
+including the crew and the fuels.
+
+00:04:30.670 --> 00:04:33.760
+Next up a Mobile Landing
+Platform will pull up with stairs
+
+00:04:33.760 --> 00:04:35.700
+and begin to evacuate the crew.
+
+00:04:35.700 --> 00:04:37.900
+Boeing has to pull crew
+out within one hour
+
+00:04:37.900 --> 00:04:39.420
+and cargo out within two.
+
+00:04:39.420 --> 00:04:41.620
+The person who actually extracts the crew
+
+00:04:41.620 --> 00:04:44.350
+is a member of Boeing's
+Fire and Rescue team,
+
+00:04:44.350 --> 00:04:45.660
+which I think is pretty cool.
+
+00:04:45.660 --> 00:04:46.610
+The crew is taken out
+
+00:04:46.610 --> 00:04:48.480
+and then sent over to a
+truck for medical check ups
+
+00:04:48.480 --> 00:04:51.380
+and then whisked away
+on a NASA helicopter.
+
+00:04:51.380 --> 00:04:52.860
+Eventually the capsule itself
+
+00:04:52.860 --> 00:04:54.760
+will be loaded up with a small crane truck
+
+00:04:54.760 --> 00:04:56.750
+and taken back to begin refurbishment.
+
+00:04:56.750 --> 00:04:58.020
+The cockpit of Starliner
+
+00:04:58.020 --> 00:05:00.970
+takes a fairly conservative
+and familiar approach.
+
+00:05:00.970 --> 00:05:03.160
+Although it's a lot less cluttery
+
+00:05:03.160 --> 00:05:04.930
+than the Space Shuttle's cockpit,
+
+00:05:04.930 --> 00:05:07.790
+it still features familiar
+and traditional controls,
+
+00:05:07.790 --> 00:05:10.040
+buttons and non-touch screens.
+
+00:05:10.040 --> 00:05:12.970
+The Starliner will dock
+to the ISS and not berth.
+
+00:05:12.970 --> 00:05:14.660
+Docking is where the vehicle actually does
+
+00:05:14.660 --> 00:05:16.340
+all the final maneuvering,
+
+00:05:16.340 --> 00:05:18.430
+until it connects itself
+up with the docking port.
+
+00:05:18.430 --> 00:05:20.700
+Dragon 1 and Cygnus cargo vehicles
+
+00:05:20.700 --> 00:05:22.970
+both currently berth to the station,
+
+00:05:22.970 --> 00:05:25.030
+meaning they park and then
+are grappled to the station
+
+00:05:25.030 --> 00:05:27.250
+via the Canada Arm or Canadarm.
+
+00:05:27.250 --> 00:05:30.450
+Astronauts get in and out of
+the side hatch when on Earth,
+
+00:05:30.450 --> 00:05:32.670
+but when docked, they'll
+crawl through the top part
+
+00:05:32.670 --> 00:05:34.710
+that connects to the
+International Space Station
+
+00:05:34.710 --> 00:05:37.750
+via the International
+Docking Adapter on the ISS.
+
+00:05:37.750 --> 00:05:40.270
+Initially getting into
+and out of the Starliner
+
+00:05:40.270 --> 00:05:42.770
+is admittedly a bit cumbersome.
+
+00:05:42.770 --> 00:05:44.630
+Astronauts need to
+shimmy into their seats,
+
+00:05:44.630 --> 00:05:46.010
+lying on their backs.
+
+00:05:46.010 --> 00:05:48.180
+The spacecraft is two main sections,
+
+00:05:48.180 --> 00:05:50.460
+the crew module and a service module.
+
+00:05:50.460 --> 00:05:54.180
+The crew module is, well
+exactly what you'd think,
+
+00:05:54.180 --> 00:05:55.380
+it's where the crew goes.
+
+00:05:55.380 --> 00:05:57.620
+It's also the part that survives reentry.
+
+00:05:57.620 --> 00:05:59.740
+The service module houses propellant tanks
+
+00:05:59.740 --> 00:06:02.620
+for orbital maneuvering, the
+orbital maneuvering thrusters,
+
+00:06:02.620 --> 00:06:03.830
+the launch abort motors,
+
+00:06:03.830 --> 00:06:06.740
+which are on the bottom
+in a pusher configuration,
+
+00:06:06.740 --> 00:06:10.310
+solar panels on the bottom,
+and radiators on the sides,
+
+00:06:10.310 --> 00:06:11.920
+as well as a host of other things.
+
+00:06:11.920 --> 00:06:16.130
+The abort motors are four
+Aerojet Rocketdyne RS-88 Bantams
+
+00:06:16.130 --> 00:06:18.620
+modified to run on hypergolic fuels,
+
+00:06:18.620 --> 00:06:20.850
+to function as a launch abort motor.
+
+00:06:20.850 --> 00:06:23.550
+The first uncrewed test flight, OFT-1
+
+00:06:23.550 --> 00:06:25.970
+will fly with the
+qualification test motors,
+
+00:06:25.970 --> 00:06:28.960
+but they'll be inactive since
+there will be no crew onboard.
+
+00:06:28.960 --> 00:06:30.650
+In the event of an issue with the booster,
+
+00:06:30.650 --> 00:06:33.230
+or a rapid unscheduled disassembly,
+
+00:06:33.230 --> 00:06:34.910
+these abort motors would be used
+
+00:06:34.910 --> 00:06:37.480
+up until a few minutes into
+flight, after which time
+
+00:06:37.480 --> 00:06:39.840
+the vehicle would just use
+the maneuvering thrusters.
+
+00:06:39.840 --> 00:06:42.750
+The Starliner offers a
+full envelope abort window,
+
+00:06:42.750 --> 00:06:44.100
+meaning the astronauts can abort
+
+00:06:44.100 --> 00:06:46.110
+at any time and remain safe.
+
+00:06:46.110 --> 00:06:47.440
+Boeing designed the Starliner
+
+00:06:47.440 --> 00:06:49.280
+to be able to ride on
+a variety of rockets,
+
+00:06:49.280 --> 00:06:53.210
+including the Atlas V, the
+Delta IV, and the Falcon 9.
+
+00:06:53.210 --> 00:06:54.100
+They wound up selecting
+
+00:06:54.100 --> 00:06:56.270
+United Launch Alliance's Atlas V for now,
+
+00:06:56.270 --> 00:06:58.610
+and eventually ULA's
+upcoming Vulcan rocket
+
+00:06:58.610 --> 00:07:00.040
+will likely fly Starliner.
+
+00:07:00.040 --> 00:07:02.980
+The exact Atlas V they selected is an N22.
+
+00:07:02.980 --> 00:07:04.650
+Now here's a quick
+reminder of those numbers.
+
+00:07:04.650 --> 00:07:07.450
+The first part of the name
+represents the fairing size,
+
+00:07:07.450 --> 00:07:11.820
+the options being four meters,
+five meters, or N for none.
+
+00:07:11.820 --> 00:07:14.370
+The middle number is the amount
+of strap-on rocket boosters
+
+00:07:14.370 --> 00:07:16.800
+and can range from zero to five.
+
+00:07:16.800 --> 00:07:19.390
+The last number is the
+number of RL-10 engines
+
+00:07:19.390 --> 00:07:21.200
+on the centaur upper stage.
+
+00:07:21.200 --> 00:07:24.270
+The centaur can have one or two RL-10s.
+
+00:07:24.270 --> 00:07:25.310
+So putting this all together,
+
+00:07:25.310 --> 00:07:27.220
+the Atlas V that will launch the Starliner
+
+00:07:27.220 --> 00:07:30.370
+will have no fairing, since
+it has a Starliner on top,
+
+00:07:30.370 --> 00:07:32.520
+it will have two solid rocket boosters
+
+00:07:32.520 --> 00:07:37.520
+and dual RL-10 engines on the
+upper stage, hence the N22.
+
+00:07:37.740 --> 00:07:40.260
+When the Starliner launches,
+it'll be the first time
+
+00:07:40.260 --> 00:07:43.670
+ULA's actually used a dual
+RL-10 centaur upper stage
+
+00:07:43.670 --> 00:07:46.590
+on the Atlas V, however
+the dual engine centaur
+
+00:07:46.590 --> 00:07:49.050
+has been flying since 1962
+
+00:07:49.050 --> 00:07:52.120
+and flew on the Atlas
+III as recently as 2005!
+
+00:07:52.120 --> 00:07:54.530
+So it's definitely not anything new.
+
+00:07:54.530 --> 00:07:58.008
+So why are Boeing and ULA
+using a dual-engine centaur
+
+00:07:58.008 --> 00:08:00.780
+when the Starliner is relatively light?
+
+00:08:00.780 --> 00:08:03.600
+The RL-10 engine is crazy efficient,
+
+00:08:03.600 --> 00:08:06.400
+but one thing it's not is powerful.
+
+00:08:06.400 --> 00:08:07.920
+In order to allow for enough time
+
+00:08:07.920 --> 00:08:09.250
+for a standard single engine
+
+00:08:09.250 --> 00:08:11.210
+to push the upper stage and it's payload
+
+00:08:11.210 --> 00:08:14.400
+into orbital velocities without
+reentering the atmosphere,
+
+00:08:14.400 --> 00:08:15.750
+the first stage of the Atlas V
+
+00:08:15.750 --> 00:08:18.700
+usually lofts itself into
+an extra high altitude,
+
+00:08:18.700 --> 00:08:20.530
+allowing for more time for the upper stage
+
+00:08:20.530 --> 00:08:22.000
+to do its circularization burn.
+
+00:08:22.000 --> 00:08:24.030
+This works great for standard payloads,
+
+00:08:24.030 --> 00:08:25.390
+but in the case of an abort,
+
+00:08:25.390 --> 00:08:27.910
+this trajectory is actually way too steep,
+
+00:08:27.910 --> 00:08:31.020
+generating crazy high,
+unsurvivable G forces
+
+00:08:31.020 --> 00:08:32.110
+when it hits the atmosphere.
+
+00:08:32.110 --> 00:08:35.000
+So in order to maintain a
+nice, safe, shallow profile
+
+00:08:35.000 --> 00:08:37.210
+for the fragile and
+precious humans onboard,
+
+00:08:37.210 --> 00:08:39.350
+the upper stage needed more oomph,
+
+00:08:39.350 --> 00:08:42.210
+and the solution to that
+was the dual-engine centaur!
+
+00:08:42.210 --> 00:08:44.530
+If you need more info on this
+unique engineering solution,
+
+00:08:44.530 --> 00:08:46.350
+Scott Manley has an awesome video on it.
+
+00:08:46.350 --> 00:08:48.100
+Boeing and ULA will also be running
+
+00:08:48.100 --> 00:08:51.130
+a secondary flight computer
+that'll be running in parallel
+
+00:08:51.130 --> 00:08:54.100
+to the primary flight computer
+on the centaur upper stage.
+
+00:08:54.100 --> 00:08:56.100
+It'll catch any errors in the flight plan
+
+00:08:56.100 --> 00:08:58.150
+faster than a human reaction time,
+
+00:08:58.150 --> 00:09:00.400
+shutting down the engines
+and triggering an abort.
+
+00:09:00.400 --> 00:09:01.700
+Another design consideration
+
+00:09:01.700 --> 00:09:04.230
+is due to the blunt nose of the Starliner.
+
+00:09:04.230 --> 00:09:05.810
+You'll see these little lattice structures
+
+00:09:05.810 --> 00:09:07.120
+around the outside.
+
+00:09:07.120 --> 00:09:08.240
+The Starliner was designed
+
+00:09:08.240 --> 00:09:10.550
+to be as stable as possible for reentry,
+
+00:09:10.550 --> 00:09:13.370
+which means having a
+short and stout design.
+
+00:09:13.370 --> 00:09:14.203
+The lattice structure
+
+00:09:14.203 --> 00:09:16.180
+helps diffuse the
+airflow over the vehicle,
+
+00:09:16.180 --> 00:09:18.060
+helping to make sure
+there are no shock waves
+
+00:09:18.060 --> 00:09:19.560
+or inadvertent pressure areas
+
+00:09:19.560 --> 00:09:22.560
+over the lower portion
+of the vehicle on ascent,
+
+00:09:22.560 --> 00:09:24.960
+especially since the
+rocket actually tapers down
+
+00:09:24.960 --> 00:09:27.000
+to the skinny centaur upper stage.
+
+00:09:27.000 --> 00:09:29.100
+They also added an aerodynamic skirt
+
+00:09:29.100 --> 00:09:30.900
+to ensure smooth airflow.
+
+00:09:30.900 --> 00:09:33.800
+Despite the Apollo Spacecraft
+being a similar shape,
+
+00:09:33.800 --> 00:09:37.620
+the Saturn V it rode on top
+of, kind of wedding caked out,
+
+00:09:37.620 --> 00:09:39.220
+tapering wider and wider,
+
+00:09:39.220 --> 00:09:41.800
+and therefore didn't have
+those design considerations.
+
+00:09:41.800 --> 00:09:43.480
+Starliner Astronauts will take off
+
+00:09:43.480 --> 00:09:46.190
+from ULA's launch pad SLC-41
+
+00:09:46.190 --> 00:09:48.820
+at Cape Canaveral Air
+Force Station in Florida.
+
+00:09:48.820 --> 00:09:51.300
+The pad has already been
+fitted with the crew access arm
+
+00:09:51.300 --> 00:09:53.640
+in preparations for the
+first crew launches.
+
+00:09:53.640 --> 00:09:55.040
+This will be the first time
+
+00:09:55.040 --> 00:09:57.500
+humans have launched from
+this particular launch pad,
+
+00:09:57.500 --> 00:09:59.690
+which is awesome and also the first time
+
+00:09:59.690 --> 00:10:02.680
+humans have launched from Cape
+Canaveral Air Force Station
+
+00:10:02.680 --> 00:10:05.590
+since Apollo 7 in 1968.
+
+00:10:05.590 --> 00:10:08.760
+We'll get into the dimensions,
+the designs, prices, and more
+
+00:10:08.760 --> 00:10:11.154
+when we do a side by side
+comparison of all the vehicles.
+
+00:10:11.154 --> 00:10:14.404
+(upbeat melodic music)
+
+00:10:16.540 --> 00:10:18.640
+Now onto the other new spaceship,
+
+00:10:18.640 --> 00:10:20.860
+SpaceX's Crew Dragon or Dragon 2.
+
+00:10:20.860 --> 00:10:22.210
+Dragon 2 is the follow up
+
+00:10:22.210 --> 00:10:24.760
+to SpaceX's very successful Dragon capsule
+
+00:10:24.760 --> 00:10:28.300
+that has flown cargo to and
+from the ISS since 2012.
+
+00:10:28.300 --> 00:10:30.610
+The Dragon capsule was
+originally called DragonRider
+
+00:10:30.610 --> 00:10:32.240
+when it was initially proposed to NASA
+
+00:10:32.240 --> 00:10:33.785
+for the CCDev program.
+
+00:10:33.785 --> 00:10:36.520
+SpaceX was not selected
+for the first round,
+
+00:10:36.520 --> 00:10:39.820
+perhaps because the Dragon
+capsule had noses all around it,
+
+00:10:39.820 --> 00:10:41.390
+but SpaceX was selected
+
+00:10:41.390 --> 00:10:43.040
+during the second round of contracts.
+
+00:10:43.040 --> 00:10:44.510
+The original DragonRider capsule
+
+00:10:44.510 --> 00:10:46.560
+was essentially just a crew rated version
+
+00:10:46.560 --> 00:10:47.930
+of their Dragon Capsule,
+
+00:10:47.930 --> 00:10:49.320
+which at the time was getting ready
+
+00:10:49.320 --> 00:10:51.360
+for its first test flights to orbit
+
+00:10:51.360 --> 00:10:54.280
+and was already on contract
+to resupply the ISS
+
+00:10:54.280 --> 00:10:56.000
+which it would later do in 2012.
+
+00:10:56.000 --> 00:10:57.910
+In 2014, SpaceX revealed
+
+00:10:57.910 --> 00:11:00.010
+the updated version of the Dragon capsule
+
+00:11:00.010 --> 00:11:02.970
+which would carry astronauts
+at their HQ in Hawthorne.
+
+00:11:02.970 --> 00:11:05.160
+The Dragon 2 was a massive redesign
+
+00:11:05.160 --> 00:11:06.700
+of the original Dragon Capsule,
+
+00:11:06.700 --> 00:11:09.420
+including seating for
+up to seven astronauts,
+
+00:11:09.420 --> 00:11:12.810
+although again, NASA won't be
+using more than four at a time
+
+00:11:12.810 --> 00:11:14.090
+for the Commercial Crew Program.
+
+00:11:14.090 --> 00:11:15.500
+Dragon 2 was originally planning
+
+00:11:15.500 --> 00:11:18.710
+to also touch down back on
+land using the abort motors,
+
+00:11:18.710 --> 00:11:20.770
+assuming they weren't used for an abort,
+
+00:11:20.770 --> 00:11:23.390
+to come to a nice soft touchdown anywhere.
+
+00:11:23.390 --> 00:11:25.300
+However, due to a few reasons,
+
+00:11:25.300 --> 00:11:27.300
+SpaceX ditched propulsive landings
+
+00:11:27.300 --> 00:11:28.950
+and will do a parachute recovery
+
+00:11:28.950 --> 00:11:30.430
+and splashdown in the ocean,
+
+00:11:30.430 --> 00:11:32.210
+much like the current Dragon Capsule.
+
+00:11:32.210 --> 00:11:33.890
+If you need to know more about why SpaceX
+
+00:11:33.890 --> 00:11:36.570
+canceled propulsively
+landing their Dragon Capsule,
+
+00:11:36.570 --> 00:11:37.530
+I've already got you covered.
+
+00:11:37.530 --> 00:11:39.440
+The Crew Dragon's primary landing zone
+
+00:11:39.440 --> 00:11:40.620
+is the Atlantic ocean,
+
+00:11:40.620 --> 00:11:42.870
+which is different from
+the current Dragon Capsule
+
+00:11:42.870 --> 00:11:44.960
+which has been splashing
+down in the Pacific Ocean
+
+00:11:44.960 --> 00:11:47.410
+since its first launch
+and recovery in 2010.
+
+00:11:47.410 --> 00:11:49.540
+SpaceX also filed to
+have the Gulf of Mexico
+
+00:11:49.540 --> 00:11:51.670
+be a contingency landing site too,
+
+00:11:51.670 --> 00:11:53.970
+which I believe would be a first.
+
+00:11:53.970 --> 00:11:55.520
+SpaceX has a pair of ships,
+
+00:11:55.520 --> 00:11:57.430
+named Go Searcher and Go Navigator,
+
+00:11:57.430 --> 00:11:59.500
+that'll be in charge of crew recoveries.
+
+00:11:59.500 --> 00:12:00.970
+Go Searcher features a hoist
+
+00:12:00.970 --> 00:12:03.310
+capable of lifting the
+Dragon capsule onto the deck
+
+00:12:03.310 --> 00:12:04.860
+and then offloading the crew.
+
+00:12:04.860 --> 00:12:06.060
+There's also communication relays
+
+00:12:06.060 --> 00:12:07.370
+and a helicopter landing pad
+
+00:12:07.370 --> 00:12:09.300
+to get the crew home after splashdown.
+
+00:12:09.300 --> 00:12:11.820
+Go Searcher has been part of
+SpaceX's fleet for a while,
+
+00:12:11.820 --> 00:12:12.860
+aiding in the recovery efforts
+
+00:12:12.860 --> 00:12:14.460
+of Falcon 9 drone ship landings,
+
+00:12:14.460 --> 00:12:16.420
+as well as Dragon 1 recoveries.
+
+00:12:16.420 --> 00:12:17.510
+Despite the ocean landings,
+
+00:12:17.510 --> 00:12:21.130
+SpaceX does has refurbishment
+and reuse plans for Dragon 2,
+
+00:12:21.130 --> 00:12:23.520
+although not quite like
+you might be thinking.
+
+00:12:23.520 --> 00:12:26.110
+Refurbished Dragon 2's
+won't carry humans again,
+
+00:12:26.110 --> 00:12:27.380
+but they'll eventually be used
+
+00:12:27.380 --> 00:12:29.950
+to carry cargo for CRS-2 missions.
+
+00:12:29.950 --> 00:12:31.240
+SpaceX already has experience
+
+00:12:31.240 --> 00:12:33.280
+refurbishing splash
+downed Dragon Capsules,
+
+00:12:33.280 --> 00:12:36.320
+and has reflown five
+Dragon capsules to date,
+
+00:12:36.320 --> 00:12:38.650
+although according to Elon Musk in 2017,
+
+00:12:38.650 --> 00:12:40.620
+he mentions it's almost as expensive
+
+00:12:40.620 --> 00:12:42.750
+to refurbish the splash downed Dragons
+
+00:12:42.750 --> 00:12:44.210
+as it is to build new ones.
+
+00:12:44.210 --> 00:12:45.150
+But I'm sure since then
+
+00:12:45.150 --> 00:12:47.520
+they've implemented streamlined processes
+
+00:12:47.520 --> 00:12:49.210
+which have helped made
+the efforts worthwhile.
+
+00:12:49.210 --> 00:12:50.960
+The design of the Crew Dragon capsule
+
+00:12:50.960 --> 00:12:53.080
+is extremely minimalistic.
+
+00:12:53.080 --> 00:12:55.180
+It's easy to see that
+the design was influenced
+
+00:12:55.180 --> 00:12:57.320
+by Elon who likes things simple.
+
+00:12:57.320 --> 00:12:59.970
+The interior looks like the
+Tesla Model 3 of spaceships
+
+00:12:59.970 --> 00:13:02.360
+compared to Knight Rider's car, Kitt.
+
+00:13:02.360 --> 00:13:03.910
+Some unique features of the interior
+
+00:13:03.910 --> 00:13:06.710
+are touchscreens and movable chairs.
+
+00:13:06.710 --> 00:13:08.550
+When Dragon 2 was first revealed,
+
+00:13:08.550 --> 00:13:11.240
+Elon sat in a seat and pulled
+the screen down to him,
+
+00:13:11.240 --> 00:13:13.590
+that's now reversed, as
+the screens are stationary
+
+00:13:13.590 --> 00:13:15.370
+and the seats move up to them.
+
+00:13:15.370 --> 00:13:17.090
+Again, just like the Starliner,
+
+00:13:17.090 --> 00:13:19.820
+the Dragon 2 is designed
+to be fully autonomous
+
+00:13:19.820 --> 00:13:23.340
+with manual overrides really
+only there as contingencies.
+
+00:13:23.340 --> 00:13:24.750
+But the Dragon 2 does something
+
+00:13:24.750 --> 00:13:27.740
+that the old Dragon 1
+couldn't do, and that's dock.
+
+00:13:27.740 --> 00:13:28.960
+Getting into the Crew Dragon capsule
+
+00:13:28.960 --> 00:13:30.690
+is done via the side hatch.
+
+00:13:30.690 --> 00:13:31.740
+Once you poke your head in,
+
+00:13:31.740 --> 00:13:34.200
+it's very spacious and minimalistic.
+
+00:13:34.200 --> 00:13:37.010
+It's easy to plop into
+the seat and get comfy.
+
+00:13:37.010 --> 00:13:39.300
+I actually really think
+this layout makes sense.
+
+00:13:39.300 --> 00:13:40.180
+Like the Starliner,
+
+00:13:40.180 --> 00:13:42.800
+the Dragon 2 is actually
+two sections as well.
+
+00:13:42.800 --> 00:13:44.830
+There's the Crew Module and the Trunk.
+
+00:13:44.830 --> 00:13:47.780
+The crew module is again, the
+part that holds the humans,
+
+00:13:47.780 --> 00:13:50.300
+but it also has the
+Super Draco abort motors
+
+00:13:50.300 --> 00:13:51.900
+integrated onto it.
+
+00:13:51.900 --> 00:13:54.370
+Since this portion of the
+spacecraft is recovered,
+
+00:13:54.370 --> 00:13:57.800
+the Super Draco motors
+are also recovered, yay!
+
+00:13:57.800 --> 00:13:59.030
+Just like the Starliner,
+
+00:13:59.030 --> 00:14:01.100
+the Super Dracos run on
+hypergolic propellants
+
+00:14:01.100 --> 00:14:04.180
+and offer a full envelope
+abort window as well.
+
+00:14:04.180 --> 00:14:07.050
+The trunk is an unpressurized
+section of the spacecraft,
+
+00:14:07.050 --> 00:14:08.780
+just like it is on Dragon 1.
+
+00:14:08.780 --> 00:14:10.980
+This allows for the ability
+to take up larger components
+
+00:14:10.980 --> 00:14:12.890
+that wouldn't fit
+through the docking port,
+
+00:14:12.890 --> 00:14:15.860
+or items that are installed
+on the outside of the station.
+
+00:14:15.860 --> 00:14:17.840
+Items that are inside
+the trunk are retrieved
+
+00:14:17.840 --> 00:14:21.160
+via the Canadarm2 or
+another arm named Dextre.
+
+00:14:21.160 --> 00:14:23.360
+The trunk of the Dragon
+2 offers a unique layout
+
+00:14:23.360 --> 00:14:24.840
+with stationary solar panels
+
+00:14:24.840 --> 00:14:26.400
+covering one side of the vehicle
+
+00:14:26.400 --> 00:14:28.640
+and radiators on the other side.
+
+00:14:28.640 --> 00:14:31.480
+The old Dragon 1 had
+extending solar panels.
+
+00:14:31.480 --> 00:14:32.313
+This makes sense
+
+00:14:32.313 --> 00:14:34.650
+because you want the solar
+panels to be facing the sun,
+
+00:14:34.650 --> 00:14:36.970
+and you want the radiators
+away from the sun.
+
+00:14:36.970 --> 00:14:39.040
+So, pretty cool design.
+
+00:14:39.040 --> 00:14:40.620
+The trunk also has some fins
+
+00:14:40.620 --> 00:14:43.110
+to help stabilize the vehicle
+in the event of an abort.
+
+00:14:43.110 --> 00:14:45.010
+And again, I already did
+a video all about this,
+
+00:14:45.010 --> 00:14:47.400
+so if you want to learn more
+about the fins on the Dragon,
+
+00:14:47.400 --> 00:14:50.320
+and why they matter during an
+abort, check out this video.
+
+00:14:50.320 --> 00:14:52.370
+The trunk is detached prior to reentry
+
+00:14:52.370 --> 00:14:54.770
+and burns up due to a
+lack of a heat shield.
+
+00:14:54.770 --> 00:14:57.870
+This allows for disposal of
+some on station items as well.
+
+00:14:57.870 --> 00:15:00.660
+A very fiery garbage service.
+
+00:15:00.660 --> 00:15:03.970
+The Dragon 2 is designed to
+exclusively fly on the Falcon 9,
+
+00:15:03.970 --> 00:15:05.010
+although there were plans
+
+00:15:05.010 --> 00:15:06.960
+for it to fly on Falcon
+Heavy at one point,
+
+00:15:06.960 --> 00:15:09.880
+but SpaceX no longer plans
+to human-certify Falcon Heavy
+
+00:15:09.880 --> 00:15:11.870
+and instead is focusing on Starship.
+
+00:15:11.870 --> 00:15:13.920
+In order for the Falcon
+9 to be crew rated,
+
+00:15:13.920 --> 00:15:16.610
+NASA required a design freeze
+of their Block 5 variant
+
+00:15:16.610 --> 00:15:20.140
+since SpaceX tends to upgrade
+their vehicles so frequently,
+
+00:15:20.140 --> 00:15:23.440
+they sometimes introduce
+unintended consequences.
+
+00:15:23.440 --> 00:15:25.470
+Part of this design freeze
+also required the use
+
+00:15:25.470 --> 00:15:28.833
+of a new Composite Overwrapped
+Pressure Vessel or COPV.
+
+00:15:28.833 --> 00:15:32.540
+A COPV failure was the root
+cause of the AMOS-6 pad anomaly
+
+00:15:32.540 --> 00:15:36.620
+and a COPV strut was the
+cause of the CRS-7 failure.
+
+00:15:36.620 --> 00:15:38.850
+SpaceX started flying
+a newly designed COPV
+
+00:15:38.850 --> 00:15:40.310
+at the end of 2018.
+
+00:15:40.310 --> 00:15:43.280
+It's kind of unusual that
+NASA required a design freeze.
+
+00:15:43.280 --> 00:15:45.460
+I mean considering NASA has
+considered flying humans
+
+00:15:45.460 --> 00:15:49.070
+on the 2nd launch of
+SLS, or even more crazy,
+
+00:15:49.070 --> 00:15:49.990
+there's even been talks
+
+00:15:49.990 --> 00:15:52.870
+of them putting humans on
+the first flight of SLS.
+
+00:15:52.870 --> 00:15:56.090
+But SpaceX is known to
+make changes, all the time,
+
+00:15:56.090 --> 00:15:58.690
+in the constant pursuit of improvement,
+
+00:15:58.690 --> 00:16:01.490
+so I think a safer, more
+conservative approach,
+
+00:16:01.490 --> 00:16:04.130
+is a good idea when
+human lives are involved.
+
+00:16:04.130 --> 00:16:06.010
+The Falcon 9's flight
+profile with the crew
+
+00:16:06.010 --> 00:16:08.740
+also had to be altered
+compared to the cargo versions
+
+00:16:08.740 --> 00:16:11.770
+to ensure the safest
+profile in case of an abort.
+
+00:16:11.770 --> 00:16:13.890
+Due to the shallower, flatter profile,
+
+00:16:13.890 --> 00:16:16.310
+it also means the first
+stage booster of the Falcon 9
+
+00:16:16.310 --> 00:16:18.960
+will not do a return
+to launch site landing
+
+00:16:18.960 --> 00:16:21.180
+and will have to land
+downrange on the drone ship.
+
+00:16:21.180 --> 00:16:22.410
+The upper stage of the Falcon 9
+
+00:16:22.410 --> 00:16:24.330
+uses the Merlin 1D Vacuum engine
+
+00:16:24.330 --> 00:16:28.350
+which is extremely powerful,
+but not very efficient.
+
+00:16:28.350 --> 00:16:31.410
+It will have no problem
+maintaining a shallow profile.
+
+00:16:31.410 --> 00:16:34.170
+Crew will climb on top
+of a Block 5 Falcon 9
+
+00:16:34.170 --> 00:16:36.090
+poised at Launch Complex 39A
+
+00:16:36.090 --> 00:16:37.870
+at Kennedy Space Center in Florida.
+
+00:16:37.870 --> 00:16:39.900
+Now I have to say, not
+that it's a contest,
+
+00:16:39.900 --> 00:16:43.180
+but SpaceX definitely does have
+the coolest launch pad ever.
+
+00:16:43.180 --> 00:16:45.220
+I mean after all, this
+is the same launch pad
+
+00:16:45.220 --> 00:16:47.640
+that humans took off
+from to go to the moon.
+
+00:16:47.640 --> 00:16:49.410
+Crew will go up the
+Fixed Service Structure
+
+00:16:49.410 --> 00:16:51.510
+that's a relic from the Space Shuttle era,
+
+00:16:51.510 --> 00:16:53.130
+although SpaceX has done a lot of work
+
+00:16:53.130 --> 00:16:56.480
+to remove the rotating service
+structure, repaint the tower,
+
+00:16:56.480 --> 00:16:59.610
+add cladding, and attach
+their mobile access arm.
+
+00:16:59.610 --> 00:17:01.230
+One thing that SpaceX will be doing
+
+00:17:01.230 --> 00:17:04.170
+that's completely new in the
+world of human spaceflight
+
+00:17:04.170 --> 00:17:05.900
+and actually took some convincing
+
+00:17:05.900 --> 00:17:08.100
+to make NASA consider a valid option,
+
+00:17:08.100 --> 00:17:10.600
+is a load and go fueling procedure.
+
+00:17:10.600 --> 00:17:13.400
+Since SpaceX uses super
+chilled propellants,
+
+00:17:13.400 --> 00:17:14.830
+they need to load them up into the vehicle
+
+00:17:14.830 --> 00:17:17.520
+as late as possible so they
+don't warm up and boil off
+
+00:17:17.520 --> 00:17:19.460
+before the vehicle takes off.
+
+00:17:19.460 --> 00:17:21.300
+SpaceX actually continues
+to fuel the rocket
+
+00:17:21.300 --> 00:17:24.130
+up until just three
+minutes before lift off.
+
+00:17:24.130 --> 00:17:25.230
+Now clearly three minutes
+
+00:17:25.230 --> 00:17:27.520
+isn't nearly enough
+time to get up the tower
+
+00:17:27.520 --> 00:17:29.330
+and strap the crew into
+the Dragon Capsule,
+
+00:17:29.330 --> 00:17:30.640
+and then leave the tower,
+
+00:17:30.640 --> 00:17:34.000
+so the crew will actually
+enter before propellant load
+
+00:17:34.000 --> 00:17:36.960
+and will remain onboard while
+the vehicle is fueled up.
+
+00:17:36.960 --> 00:17:39.000
+I can clearly understand
+how this is different,
+
+00:17:39.000 --> 00:17:41.740
+but I actually feel like
+it's kind of a safer move.
+
+00:17:41.740 --> 00:17:44.040
+I mean this means the
+astronaut and the ground crew
+
+00:17:44.040 --> 00:17:46.970
+never need to approach a fully
+loaded vehicle on the pad.
+
+00:17:46.970 --> 00:17:47.970
+Once fuel starts flowing,
+
+00:17:47.970 --> 00:17:50.570
+the crew is actually in the
+safest place imaginable,
+
+00:17:50.570 --> 00:17:52.420
+a tightly sealed pressure vessel
+
+00:17:52.420 --> 00:17:54.650
+armed with a powerful abort system.
+
+00:17:54.650 --> 00:17:56.760
+So despite the process of fueling up
+
+00:17:56.760 --> 00:18:00.430
+being pretty risky, the crew
+is in a very safe place.
+
+00:18:00.430 --> 00:18:03.170
+Can you imagine, this will
+be the first time in history
+
+00:18:03.170 --> 00:18:05.750
+a human ear will hear the
+sound of cryogenic fuel
+
+00:18:05.750 --> 00:18:07.270
+flowing into the vehicle.
+
+00:18:07.270 --> 00:18:09.340
+They'll hear all those creaks
+and strains of the vehicle
+
+00:18:09.340 --> 00:18:11.340
+as it comes to life.
+
+00:18:11.340 --> 00:18:12.460
+That's gonna be crazy!
+
+00:18:12.460 --> 00:18:14.680
+Another fun fact is the crew
+will arrive to the launch site
+
+00:18:14.680 --> 00:18:18.010
+in Tesla Model Xs, of course!
+
+00:18:18.010 --> 00:18:21.470
+Man, SpaceX will be putting on
+a new show, that's for sure.
+
+00:18:21.470 --> 00:18:24.280
+Now lastly, before we get
+to the direct comparisons,
+
+00:18:24.280 --> 00:18:27.670
+did you know both launch pads
+have an amusement park ride?
+
+00:18:27.670 --> 00:18:31.180
+Well not quite, but each pad
+does have an emergency zipline
+
+00:18:31.180 --> 00:18:34.300
+capable of evacuating astronauts
+and ground crew in a hurry
+
+00:18:34.300 --> 00:18:37.420
+in the unlikely event
+of say a leak or a fire.
+
+00:18:37.420 --> 00:18:39.270
+While I'm sure there's limited use cases
+
+00:18:39.270 --> 00:18:41.470
+when these would be remotely useful,
+
+00:18:41.470 --> 00:18:43.520
+it does look like it'd be pretty fun,
+
+00:18:43.520 --> 00:18:46.561
+well, assuming you're not
+being chased by a fireball.
+
+00:18:46.561 --> 00:18:49.200
+Okay, wow, enough of the rundown.
+
+00:18:49.200 --> 00:18:51.430
+It's time to compare these
+vehicles side by side
+
+00:18:51.430 --> 00:18:53.200
+and see how these new vehicles compare
+
+00:18:53.200 --> 00:18:54.806
+to the Soyuz and the Space Shuttle.
+
+00:18:54.806 --> 00:18:58.056
+(upbeat melodic music)
+
+00:18:59.570 --> 00:19:03.180
+So first off, let's just line
+these vehicles up side by side
+
+00:19:03.180 --> 00:19:05.270
+and compare their sizes.
+
+00:19:05.270 --> 00:19:07.430
+Yeah, the Space Shuttle Orbiter
+
+00:19:07.430 --> 00:19:12.430
+clearly dwarfs these vehicles
+in size, that thing is huge!
+
+00:19:12.540 --> 00:19:15.030
+And because of its immense
+size, we're gonna focus in
+
+00:19:15.030 --> 00:19:17.180
+on just the crew module
+portion of the Shuttle,
+
+00:19:17.180 --> 00:19:19.090
+so we can see these other vehicles.
+
+00:19:19.090 --> 00:19:20.720
+But don't forget about the rest of it,
+
+00:19:20.720 --> 00:19:22.870
+we'll still be talking
+about the system as a whole,
+
+00:19:22.870 --> 00:19:24.830
+since the aft end is its service module
+
+00:19:24.830 --> 00:19:26.420
+and the cargo bay is similar in nature
+
+00:19:26.420 --> 00:19:30.600
+to the trunk of the Dragon
+capsule, just way, way bigger.
+
+00:19:30.600 --> 00:19:32.660
+But notice how much bigger
+the Starliner and Dragon are
+
+00:19:32.660 --> 00:19:33.830
+compared to the Soyuz!
+
+00:19:33.830 --> 00:19:35.100
+So let's run through their dimensions
+
+00:19:35.100 --> 00:19:36.520
+starting with their height.
+
+00:19:36.520 --> 00:19:38.240
+The Starliner stands five meters tall
+
+00:19:38.240 --> 00:19:39.920
+with the service module attached,
+
+00:19:39.920 --> 00:19:42.720
+the Crew Dragon is 8.1
+meters tall with the trunk
+
+00:19:42.720 --> 00:19:45.350
+and the Soyuz is 7.5 meters tall
+
+00:19:45.350 --> 00:19:48.120
+with the orbital module and
+service module attached.
+
+00:19:48.120 --> 00:19:50.580
+The Space Shuttle, we'll
+show its length as height,
+
+00:19:50.580 --> 00:19:53.140
+because that's the way it stood
+when was it was on the pad.
+
+00:19:53.140 --> 00:19:56.650
+It stood 37 meter tall from tail to nose.
+
+00:19:56.650 --> 00:19:57.820
+Next their width.
+
+00:19:57.820 --> 00:20:00.170
+The Starliner is 4.5 metes wide,
+
+00:20:00.170 --> 00:20:04.210
+the Dragon Capsule 3.7 meters
+wide, the Soyuz 2.2 meters,
+
+00:20:04.210 --> 00:20:06.480
+and the Space Shuttle's crew
+compartment and payload bay
+
+00:20:06.480 --> 00:20:08.500
+were 4.6 meters wide,
+
+00:20:08.500 --> 00:20:10.550
+we'll ignore the wings
+for this comparison.
+
+00:20:10.550 --> 00:20:12.540
+I feel like we're gonna
+have a lot of asterisks
+
+00:20:12.540 --> 00:20:14.300
+when we compare these
+vehicles to the Space Shuttle,
+
+00:20:14.300 --> 00:20:17.630
+because that thing was a
+completely different beast.
+
+00:20:17.630 --> 00:20:18.790
+Next up, dry mass.
+
+00:20:18.790 --> 00:20:22.790
+Starliner is 13 tonnes,
+Dragon is 9.5 tonnes,
+
+00:20:22.790 --> 00:20:26.460
+the Soyuz capsule is
+shockingly light at 7.1 tonnes,
+
+00:20:26.460 --> 00:20:28.590
+and the Space Shuttle,
+yeah you can imagine,
+
+00:20:28.590 --> 00:20:32.280
+this is quite a bit
+heavier at 68.5 tonnes.
+
+00:20:32.280 --> 00:20:33.113
+As mentioned earlier,
+
+00:20:33.113 --> 00:20:35.840
+Crew capacity for both
+Starliner and Dragon is seven,
+
+00:20:35.840 --> 00:20:38.130
+but again, NASA will only use four.
+
+00:20:38.130 --> 00:20:41.020
+The Soyuz Capsule can fit three, barely,
+
+00:20:41.020 --> 00:20:42.720
+and the Shuttle could fit up to eight,
+
+00:20:42.720 --> 00:20:44.870
+although seven was much more common.
+
+00:20:44.870 --> 00:20:48.270
+Now for volume, both
+pressurized and unpressurized.
+
+00:20:48.270 --> 00:20:49.770
+Starliner has 11 cubic meters
+
+00:20:49.770 --> 00:20:52.290
+of pressurized volume
+and no unpressurized.
+
+00:20:52.290 --> 00:20:54.960
+Dragon 2 has 10 cubic
+meters of pressurized volume
+
+00:20:54.960 --> 00:20:57.810
+and 14 cubic meters of
+unpressurized volume.
+
+00:20:57.810 --> 00:21:00.410
+Soyuz has 8.5 cubic meters of pressurized
+
+00:21:00.410 --> 00:21:02.015
+and no unpressurized volume.
+
+00:21:02.015 --> 00:21:03.950
+The Space Shuttle is of course king here
+
+00:21:03.950 --> 00:21:07.550
+with 74.3 cubic meters
+of pressurized volume
+
+00:21:07.550 --> 00:21:11.300
+and 300 cubic meters of
+unpressurized volume.
+
+00:21:11.300 --> 00:21:14.720
+In other words, you could
+almost fit all three spaceships
+
+00:21:14.720 --> 00:21:16.890
+inside the payload bay of the Shuttle.
+
+00:21:16.890 --> 00:21:20.090
+So now, how long can these
+vehicles stay in space?
+
+00:21:20.090 --> 00:21:22.490
+The Starliner can go 60 hours on its own
+
+00:21:22.490 --> 00:21:24.870
+and 210 days while docked,
+
+00:21:24.870 --> 00:21:26.990
+Crew Dragon can do one week on its own
+
+00:21:26.990 --> 00:21:29.350
+and also 210 days when docked,
+
+00:21:29.350 --> 00:21:31.240
+the Soyuz can go 30 days on its own
+
+00:21:31.240 --> 00:21:33.210
+and 180 days when docked,
+
+00:21:33.210 --> 00:21:35.760
+and the Space Shuttle couldn't
+go much beyond 17 days
+
+00:21:35.760 --> 00:21:37.820
+due to being powered by fuel cells.
+
+00:21:37.820 --> 00:21:39.810
+Next up, how about their abort systems?
+
+00:21:39.810 --> 00:21:41.100
+The Starliner and Crew Dragon
+
+00:21:41.100 --> 00:21:43.990
+both have a pusher-type
+system that's full envelope,
+
+00:21:43.990 --> 00:21:46.910
+meaning they can abort safely
+at any time during ascent,
+
+00:21:46.910 --> 00:21:49.010
+the Soyuz has a puller or tractor system
+
+00:21:49.010 --> 00:21:51.000
+with an abort tower
+and fairing motors too,
+
+00:21:51.000 --> 00:21:54.320
+which also offers a full
+envelope escape, and of course,
+
+00:21:54.320 --> 00:21:57.540
+the Space Shuttle had no
+mechanical abort systems.
+
+00:21:57.540 --> 00:21:59.750
+And a quick little note
+here on abort systems,
+
+00:21:59.750 --> 00:22:01.660
+pushers push up from the bottom
+
+00:22:01.660 --> 00:22:03.170
+or the middle of the spacecraft
+
+00:22:03.170 --> 00:22:05.430
+and tractors or puller abort systems
+
+00:22:05.430 --> 00:22:08.210
+pull from the top using a
+tower or something like that.
+
+00:22:08.210 --> 00:22:10.045
+Now where do these all land?
+
+00:22:10.045 --> 00:22:13.810
+Starliner, Shuttle and
+Soyuz all touchdown on land,
+
+00:22:13.810 --> 00:22:15.930
+while Crew Dragon splashes down.
+
+00:22:15.930 --> 00:22:19.180
+Now how about
+reusability/refurbishment-ability?
+
+00:22:19.180 --> 00:22:21.620
+The Starliner is capable
+of up to 10 reuses,
+
+00:22:21.620 --> 00:22:23.370
+Crew Dragon is capable of reuse,
+
+00:22:23.370 --> 00:22:25.520
+but for now only as a cargo variant,
+
+00:22:25.520 --> 00:22:29.450
+Soyuz is expendable and the
+Space Shuttle was also reusable.
+
+00:22:29.450 --> 00:22:30.710
+So now the launch vehicles
+
+00:22:30.710 --> 00:22:32.270
+that gets these to space.
+
+00:22:32.270 --> 00:22:35.320
+Starliner will ride the Atlas V N22,
+
+00:22:35.320 --> 00:22:36.810
+Crew Dragon the Falcon 9,
+
+00:22:36.810 --> 00:22:40.290
+Soyuz the Soyuz FG rocket
+and soon the Soyuz 2,
+
+00:22:40.290 --> 00:22:43.110
+and the Shuttle was part of the
+space transportation system.
+
+00:22:43.110 --> 00:22:44.390
+While we have these rockets pulled up,
+
+00:22:44.390 --> 00:22:47.540
+I think it's important we take
+a note on their reliability.
+
+00:22:47.540 --> 00:22:49.050
+We're gonna ignore partial failures
+
+00:22:49.050 --> 00:22:50.570
+and only talk about mission success,
+
+00:22:50.570 --> 00:22:53.770
+in which case the Atlas
+V really comes up on top,
+
+00:22:53.770 --> 00:22:56.830
+at 100% success in 79 flights.
+
+00:22:56.830 --> 00:23:00.370
+The Falcon 9 has had 69 missions
+and has had two failures,
+
+00:23:00.370 --> 00:23:02.960
+one of them actually happening
+before the launch occurred,
+
+00:23:02.960 --> 00:23:06.100
+giving it a 97.1% success rate.
+
+00:23:06.100 --> 00:23:07.630
+The Soyuz is complicated
+
+00:23:07.630 --> 00:23:09.950
+because it's been flying since the 60s
+
+00:23:09.950 --> 00:23:14.517
+in some form or another, so
+in total it's 996 out of 1028
+
+00:23:15.360 --> 00:23:20.360
+for a 96.9% success rate, but
+its newest variant, the FG,
+
+00:23:21.270 --> 00:23:23.350
+has only had one failure out of 66,
+
+00:23:23.350 --> 00:23:26.130
+making it 98.5% successful.
+
+00:23:26.130 --> 00:23:29.250
+And the Shuttle had two
+failures out of 135 launches,
+
+00:23:29.250 --> 00:23:31.820
+also making it 98.5% successful.
+
+00:23:31.820 --> 00:23:34.210
+It should also be noted that
+thanks to the abort system,
+
+00:23:34.210 --> 00:23:38.270
+the one failure of the Soyuz
+FG lead to no loss in life.
+
+00:23:38.270 --> 00:23:39.220
+And another quick note,
+
+00:23:39.220 --> 00:23:42.000
+this time about the use
+of solid rocket boosters.
+
+00:23:42.000 --> 00:23:43.000
+The solid rocket booster
+
+00:23:43.000 --> 00:23:45.200
+lead to the loss of
+the Challenger vehicle,
+
+00:23:45.200 --> 00:23:47.410
+but that's not to say solids on their own
+
+00:23:47.410 --> 00:23:50.240
+are inherently more dangerous per se.
+
+00:23:50.240 --> 00:23:52.230
+The mixture of a solid rocket booster
+
+00:23:52.230 --> 00:23:54.660
+and the lack of a mechanical abort system,
+
+00:23:54.660 --> 00:23:56.340
+is really what was dangerous.
+
+00:23:56.340 --> 00:23:58.050
+We've learned a lot
+since the Space Shuttle,
+
+00:23:58.050 --> 00:24:01.890
+and the Atlas V's use of
+SRBs is considered very safe,
+
+00:24:01.890 --> 00:24:02.723
+and due to the fact
+
+00:24:02.723 --> 00:24:05.330
+that the Starliner does
+have an abort system,
+
+00:24:05.330 --> 00:24:06.950
+if there was a failure,
+
+00:24:06.950 --> 00:24:08.950
+the crew would be able to
+get away from the rocket.
+
+00:24:08.950 --> 00:24:12.600
+So we really shouldn't compare
+the Atlas's use of SRBs
+
+00:24:12.600 --> 00:24:14.700
+to the Space Shuttle's use of SRBs.
+
+00:24:14.700 --> 00:24:16.810
+And now we're do all four
+of these launch from?
+
+00:24:16.810 --> 00:24:18.410
+Launch sites are SLC-41
+
+00:24:18.410 --> 00:24:20.700
+at Cape Canaveral Air
+Force Base for Starliner,
+
+00:24:20.700 --> 00:24:22.640
+right next door is the Falcon 9,
+
+00:24:22.640 --> 00:24:25.940
+which will launch from LC-39A
+at Kennedy Space Center,
+
+00:24:25.940 --> 00:24:30.080
+the Soyuz launches from Baikonur LC-1/5,
+
+00:24:30.080 --> 00:24:35.080
+and the Shuttle launched from
+both LC-39A and LC-39B at KSC.
+
+00:24:35.230 --> 00:24:37.560
+And lastly we're gonna
+talk about price per seat,
+
+00:24:37.560 --> 00:24:40.250
+and this one has a pretty
+big asterisk as well.
+
+00:24:40.250 --> 00:24:41.690
+Both Starliner and Crew Dragon
+
+00:24:41.690 --> 00:24:44.880
+have a price tag of $58 million per seat,
+
+00:24:44.880 --> 00:24:48.380
+the Soyuz Capsule is now
+up to $82 million per seat,
+
+00:24:48.380 --> 00:24:51.280
+and the Shuttle, well, this is a hard one.
+
+00:24:51.280 --> 00:24:52.760
+On paper, the Shuttle would cost
+
+00:24:52.760 --> 00:24:55.200
+around $214 million per seat,
+
+00:24:55.200 --> 00:24:57.510
+but don't forget the
+Shuttle did a lot more
+
+00:24:57.510 --> 00:24:58.910
+than just take crew up,
+
+00:24:58.910 --> 00:25:00.710
+it often would carry an additional payload
+
+00:25:00.710 --> 00:25:03.130
+of a dozen tonnes or more!
+
+00:25:03.130 --> 00:25:04.150
+So maybe it's fair
+
+00:25:04.150 --> 00:25:07.670
+to take that $214 million
+dollars per seat per launch
+
+00:25:07.670 --> 00:25:09.960
+and then take 80% off
+
+00:25:09.960 --> 00:25:12.270
+because 80% of the volume of the vehicle
+
+00:25:12.270 --> 00:25:14.540
+was dedicated to cargo.
+
+00:25:14.540 --> 00:25:16.370
+But maybe that's not fair either,
+
+00:25:16.370 --> 00:25:17.560
+so let's just say it's somewhere
+
+00:25:17.560 --> 00:25:20.990
+between $43 million and $214 million.
+
+00:25:20.990 --> 00:25:22.010
+The last thing I want to mention,
+
+00:25:22.010 --> 00:25:24.050
+but only for the
+Starliner and Crew Dragon,
+
+00:25:24.050 --> 00:25:26.130
+is their cost of development.
+
+00:25:26.130 --> 00:25:29.197
+So the Starliner received $4.8 billion
+
+00:25:29.197 --> 00:25:31.930
+and SpaceX received 3.1 billion in total.
+
+00:25:31.930 --> 00:25:33.630
+But this includes two demo launches
+
+00:25:33.630 --> 00:25:36.220
+and six operational
+flights from each company.
+
+00:25:36.220 --> 00:25:37.890
+Now I really don't want to
+get into a spitting match
+
+00:25:37.890 --> 00:25:40.990
+over why each company got
+paid such different amounts,
+
+00:25:40.990 --> 00:25:43.600
+but it likely had to do with
+each companies proposal.
+
+00:25:43.600 --> 00:25:46.030
+Perhaps after SpaceX flies
+a few dozen astronauts,
+
+00:25:46.030 --> 00:25:47.010
+they can charge a little more
+
+00:25:47.010 --> 00:25:49.150
+for increased confidence from NASA.
+
+00:25:49.150 --> 00:25:51.110
+Kind of like how they're
+able to increase the price
+
+00:25:51.110 --> 00:25:52.810
+of the cargo resupply missions
+
+00:25:52.810 --> 00:25:54.530
+once they prove to be reliable,
+
+00:25:54.530 --> 00:25:56.130
+and after they've gained a better sense
+
+00:25:56.130 --> 00:25:57.950
+of the costs of running the program.
+
+00:25:57.950 --> 00:26:00.360
+So when it's all said and
+done, here's my opinion.
+
+00:26:00.360 --> 00:26:02.640
+First off, I couldn't be more excited
+
+00:26:02.640 --> 00:26:06.020
+to see an awesome pair of
+exciting new rides to space.
+
+00:26:06.020 --> 00:26:07.680
+It's about time!
+
+00:26:07.680 --> 00:26:10.340
+As solid and reliable
+as the Soyuz has been,
+
+00:26:10.340 --> 00:26:12.350
+it's about time humans
+have some other, newer,
+
+00:26:12.350 --> 00:26:14.080
+and more comfortable options.
+
+00:26:14.080 --> 00:26:15.620
+As far as each system goes,
+
+00:26:15.620 --> 00:26:17.940
+I've got my opinions
+and I'll keep 'em short,
+
+00:26:17.940 --> 00:26:20.080
+because I already know the comment section
+
+00:26:20.080 --> 00:26:22.650
+will have plenty of opinions to go around.
+
+00:26:22.650 --> 00:26:25.290
+The Starliner is an awesome spaceship.
+
+00:26:25.290 --> 00:26:27.150
+It's very well thought
+out, and you can tell,
+
+00:26:27.150 --> 00:26:29.500
+human safety is very much on top of mind
+
+00:26:29.500 --> 00:26:31.420
+for both Boeing and ULA.
+
+00:26:31.420 --> 00:26:32.663
+I'm glad to see their going
+to be landing on land,
+
+00:26:32.663 --> 00:26:33.960
+because I think it's cool,
+
+00:26:33.960 --> 00:26:36.560
+and I'm glad to see they
+can reuse the space craft.
+
+00:26:36.560 --> 00:26:38.130
+And I'm also happy the Atlas
+
+00:26:38.130 --> 00:26:39.640
+will finally be carrying humans again
+
+00:26:39.640 --> 00:26:42.160
+for the first time since Faith 7 launched
+
+00:26:42.160 --> 00:26:44.810
+with Mercury-Atlas in 1963!
+
+00:26:44.810 --> 00:26:47.030
+And as advanced as the Starliner is,
+
+00:26:47.030 --> 00:26:50.140
+I do wish Boeing had gone a
+few steps more progressive.
+
+00:26:50.140 --> 00:26:52.610
+It feels like the spaceship
+is just a little conservative,
+
+00:26:52.610 --> 00:26:55.280
+and you can tell they didn't
+want to take any design risks
+
+00:26:55.280 --> 00:26:57.530
+or really push any boundaries.
+
+00:26:57.530 --> 00:26:58.990
+And unfortunately, when I gotta sit in it,
+
+00:26:58.990 --> 00:27:01.630
+it just feels a little stale and cold.
+
+00:27:01.630 --> 00:27:03.770
+However, aesthetics and ergonomics
+
+00:27:03.770 --> 00:27:06.750
+are a very, very minor
+part of the equation
+
+00:27:06.750 --> 00:27:09.110
+when you're putting humans in space.
+
+00:27:09.110 --> 00:27:12.103
+So, now we come to SpaceX's
+Crew Dragon Capsule.
+
+00:27:12.103 --> 00:27:13.750
+There's really no arguing
+
+00:27:13.750 --> 00:27:15.710
+that SpaceX made the better looking
+
+00:27:15.710 --> 00:27:18.380
+and down right sexy spaceship.
+
+00:27:18.380 --> 00:27:20.340
+It truly is stunning.
+
+00:27:20.340 --> 00:27:22.840
+And quite frankly, the radical
+departure from the norm,
+
+00:27:22.840 --> 00:27:25.490
+really seems to have been
+pulled off brilliantly.
+
+00:27:25.490 --> 00:27:27.500
+Just look at how easy it
+is to get into this thing
+
+00:27:27.500 --> 00:27:28.878
+compared to the Starliner.
+
+00:27:28.878 --> 00:27:30.430
+And I have no doubt
+the Crew Dragon capsule
+
+00:27:30.430 --> 00:27:32.520
+didn't cut any corners in safety,
+
+00:27:32.520 --> 00:27:34.110
+considering they had to answer to NASA
+
+00:27:34.110 --> 00:27:36.660
+on every single millimeter of the thing,
+
+00:27:36.660 --> 00:27:39.380
+so when it comes to pure cool factor,
+
+00:27:39.380 --> 00:27:41.130
+I'm gonna have to give
+the leg up to SpaceX.
+
+00:27:41.130 --> 00:27:42.290
+After hearing from a few people
+
+00:27:42.290 --> 00:27:43.960
+who have used the touchscreens,
+
+00:27:43.960 --> 00:27:46.080
+we're talking about hardcore pilots here,
+
+00:27:46.080 --> 00:27:49.450
+they have voiced missing a more
+traditional control scheme.
+
+00:27:49.450 --> 00:27:51.750
+Saying it does feel a
+bit like flying an iPad.
+
+00:27:51.750 --> 00:27:54.590
+But lastly, seeing a Falcon 9 land
+
+00:27:54.590 --> 00:27:55.663
+after delivering crew to the ISS,
+
+00:27:55.663 --> 00:27:58.070
+will be a nice cherry on top.
+
+00:27:58.070 --> 00:27:59.660
+And although of course it won't be landing
+
+00:27:59.660 --> 00:28:01.410
+back at Kennedy Space Center,
+
+00:28:01.410 --> 00:28:03.400
+I never get tired of seeing this.
+
+00:28:03.400 --> 00:28:06.190
+So no matter how you cut
+it, you can't go wrong.
+
+00:28:06.190 --> 00:28:08.510
+NASA hired two incredible companies
+
+00:28:08.510 --> 00:28:12.100
+to come up with some truly
+exciting new rides to space.
+
+00:28:12.100 --> 00:28:14.180
+NASA should be proud of this new program.
+
+00:28:14.180 --> 00:28:17.570
+It's saved them money, and now
+offers a variety of options,
+
+00:28:17.570 --> 00:28:20.270
+so now they actually have
+some overlap and redundancy
+
+00:28:20.270 --> 00:28:22.250
+in humanities access to space.
+
+00:28:22.250 --> 00:28:23.083
+And although this video
+
+00:28:23.083 --> 00:28:25.480
+was intended to highlight
+the Commercial Crew Program,
+
+00:28:25.480 --> 00:28:26.630
+to be perfectly honest,
+
+00:28:26.630 --> 00:28:29.530
+I wound up really appreciating
+the Space Shuttle more,
+
+00:28:29.530 --> 00:28:30.890
+after diving into this.
+
+00:28:30.890 --> 00:28:33.260
+That thing was something really special.
+
+00:28:33.260 --> 00:28:35.480
+I mean yes of course it had its flaws,
+
+00:28:35.480 --> 00:28:37.230
+and it didn't quite live up to the hype
+
+00:28:37.230 --> 00:28:40.030
+of making space flight cheaper or safer,
+
+00:28:40.030 --> 00:28:43.800
+but boy oh boy did it have
+some unmatched capabilities.
+
+00:28:43.800 --> 00:28:47.030
+So great job NASA, Boeing and SpaceX!
+
+00:28:47.030 --> 00:28:48.730
+I honestly couldn't be more excited
+
+00:28:48.730 --> 00:28:50.710
+for this new chapter of spaceflight.
+
+00:28:50.710 --> 00:28:52.330
+And don't you all worry,
+
+00:28:52.330 --> 00:28:54.380
+I'll be doing my best to
+bring it all to you guys!
+
+00:28:54.380 --> 00:28:55.740
+I'm planning to try and make it down
+
+00:28:55.740 --> 00:28:59.360
+to all the demo missions and
+cover them live, in person!
+
+00:28:59.360 --> 00:29:00.470
+If you want to help contribute
+
+00:29:00.470 --> 00:29:03.370
+and ensure I can bring you
+the best coverage possible,
+
+00:29:03.370 --> 00:29:05.070
+consider becoming a Patreon supporter
+
+00:29:05.070 --> 00:29:08.303
+by visiting Patreon.com/everydayastronaut,
+
+00:29:08.303 --> 00:29:09.500
+where you'll also gain access
+
+00:29:09.500 --> 00:29:12.840
+to behind the scenes content
+and exclusive livestreams.
+
+00:29:12.840 --> 00:29:14.450
+If you want another fun
+way to support what I do,
+
+00:29:14.450 --> 00:29:18.030
+head over to my webstore at
+everydayastronaut.com/shop,
+
+00:29:18.030 --> 00:29:19.590
+where you'll find shirts like this,
+
+00:29:19.590 --> 00:29:23.430
+and Grid Fin Not-A-Coasters,
+and prints of rocket launches
+
+00:29:23.430 --> 00:29:25.240
+and lots of other fun stuff.
+
+00:29:25.240 --> 00:29:27.290
+You can even find all
+the music in my videos,
+
+00:29:27.290 --> 00:29:29.320
+which is always original.
+
+00:29:29.320 --> 00:29:30.153
+And not only that,
+
+00:29:30.153 --> 00:29:33.630
+be sure and check out my
+new EP called 27 Merlins,
+
+00:29:33.630 --> 00:29:36.680
+which I wrote the music to
+the Falcon Heavy launch.
+
+00:29:36.680 --> 00:29:38.070
+That's right, when you watch that video,
+
+00:29:38.070 --> 00:29:39.940
+you are watching the straight video
+
+00:29:39.940 --> 00:29:41.200
+off of SpaceX's livestream.
+
+00:29:41.200 --> 00:29:42.920
+It has not been cut in any way.
+
+00:29:42.920 --> 00:29:46.450
+The music was written to all
+of the events of the flight.
+
+00:29:46.450 --> 00:29:48.340
+So it's a fun new way to
+experience the launch,
+
+00:29:48.340 --> 00:29:50.440
+definitely check it out,
+right here on YouTube.
+
+00:29:50.440 --> 00:29:52.240
+Thanks everybody, that's
+gonna do it for me.
+
+00:29:52.240 --> 00:29:54.110
+I'm Tim Dodd, The Everyday Astronaut,
+
+00:29:54.110 --> 00:29:56.246
+bringing space down to
+earth for everyday people.
+
+00:29:56.246 --> 00:29:59.746
+(energetic melodic music)
+
