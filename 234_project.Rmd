@@ -1,0 +1,283 @@
+---
+output:
+  pdf_document:
+    number_sections: no
+  html_document:
+    df_print: paged
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+                      cache = FALSE, 
+                      warning = FALSE,
+                      message = FALSE,
+                      cache.lazy = FALSE,
+                      # force output to LaTeX (which forces the
+                      # imposition of fig.pos) and proper figure alignment
+                      fig.align = 'center',
+                      fig.pos = 'H')
+
+library(dplyr)
+library(here)
+library(tidyr)
+library(stringr)
+library(forcats)
+library(broom)
+library(readr)
+library(jsonlite)
+
+library(kableExtra)
+
+library(gridExtra)
+
+library(ggplot2)
+# needs to be run only once
+# extrafont::font_import()
+extrafont::loadfonts(quiet = TRUE)
+# devtools::install_github("hrbrmstr/hrbrthemes")
+library(GGally)
+library(hrbrthemes)
+theme_set(theme_ipsum())
+library(atheylab.utils)
+
+knitr::knit_hooks$set(inline = function(x) {
+  atheylab.utils::pretty_print_inline(x, decimals = 2)
+})
+
+library(texreg)
+
+```
+
+---
+title: "MS&E 234 Project"
+---
+
+```{r}
+################################################################################
+# data import + tidying
+################################################################################
+
+# raw video info
+read_csv(here::here('derived_data/video_info.csv'), na = c("", -1)) %>%
+  mutate_at(vars(category, dislikes, likes, views, n_comments), as.integer) -> raw
+
+# category id <-> category name crosswalk
+category_crosswalk <- read_csv(here::here('derived_data/category_crosswalk.csv'))
+
+# search info dataframe
+read_csv(here::here('derived_data/search_info.csv'), na = c("", -1)) %>%
+  select(-recommendations) %>%
+  mutate(search = stringr::str_replace_all(search, ' ', '_')) -> search_info
+
+# description sentiment 
+read_csv(here::here('derived_data/description_sentiments.csv')) %>%
+  rename(description_polarity = polarity) -> sentiment_descriptions
+
+# comment sentiment
+read_csv(here::here('derived_data/comment_sentiments.csv')) %>%
+  rename(comment_polarity = polarity) -> sentiment_comments
+
+# captions sentiment
+read_csv(here::here('derived_data/caption_sentiments.csv')) %>%
+  rename(caption_polarity = polarity) -> sentiment_captions
+
+raw %>%
+  left_join(sentiment_descriptions, by = 'video_id') %>%
+  left_join(sentiment_comments, by = 'video_id') %>%
+  left_join(sentiment_captions, by = 'video_id') -> video_info
+
+# add a variable for percent of likes
+video_info %>%
+  mutate(p_like = likes / (likes + dislikes)) -> video_info
+
+# video degrees
+degrees <- read_csv(here::here('derived_data/vertex_degrees.csv'))
+  
+```
+
+Basic summaries across all our variables:
+
+```{r}
+search_info %>%
+  left_join(video_info, by = 'video_id') -> search_w_info
+
+search_w_info %>%
+  rename_all(list(~ stringr::str_replace(., "_", "."))) %>%
+  select(views, likes, dislikes, n.comments, description.polarity, comment.polarity, caption.polarity) %>%
+  summarise_all(list(min = ~min(., na.rm = TRUE),
+                     median = ~median(., na.rm = TRUE),
+                     max = ~max(., na.rm = TRUE),
+                     mean = ~mean(., na.rm = TRUE),
+                     sd = ~sd(., na.rm = TRUE))) -> summary_stats
+
+summary_stats %>%
+  gather(stat, val) %>%
+  tidyr::separate(stat, into = c("var", "stat"), sep = "_", extra = "merge") %>%
+  spread(stat, val) %>%
+  select(Variable = var, mean, median, min, max, sd) %>%
+  kable(format = "latex",
+        caption = "Summaries",
+        booktabs = TRUE,
+        digits = 2) %>%
+  kable_styling(latex_options = c("HOLD_position", "striped"))
+
+```
+
+
+Now asking the question: did any features of our videos change (on average) as we traversed the trees?
+
+```{r}
+# get average statistics by search depth
+search_w_info %>%
+  group_by(depth) %>%
+  summarise_at(vars(likes, n_comments, views, description_polarity, comment_polarity, caption_polarity, p_like),
+               function(x) mean(x, na.rm = TRUE)) %>%
+  gather(stat, mean, -depth) -> mean_by_depth
+
+search_w_info %>%
+  group_by(depth) %>%
+  summarise_at(vars(likes, n_comments, views, description_polarity, comment_polarity, caption_polarity, p_like),
+               function(x) sd(x, na.rm = TRUE) / sqrt(length(x))) %>%
+  gather(stat, se, -depth) -> se_by_depth
+
+mean_by_depth %>%
+  left_join(se_by_depth, by = c('depth', 'stat')) -> stats_by_depth
+
+stats_by_depth %>%
+  ggplot(aes(depth, mean)) +
+  geom_line() +
+  facet_wrap(~ stat, scales="free_y")
+
+```
+
+This gives us an overview. For the sake of less ugly plots let's make these individually
+
+```{r}
+stats_by_depth %>%
+  filter(stat == "views") %>%
+  ggplot(aes(depth, mean)) +
+  geom_line() +
+  geom_errorbar(aes(ymin=mean-se, ymax=mean+se), width=0.2) +
+  ylab("Average Views") +
+  xlab("BFS Depth") +
+  scale_x_continuous(breaks=1:8)
+```
+
+
+```{r}
+stats_by_depth %>%
+  filter(stat == "comment_polarity") %>%
+  ggplot(aes(depth, mean)) +
+  geom_line() +
+  geom_errorbar(aes(ymin=mean-se, ymax=mean+se), width=0.2) +
+  ylab("Average Comment Polarity") +
+  xlab("BFS Depth") + 
+  scale_x_continuous(breaks=1:8)
+```
+
+```{r}
+stats_by_depth %>%
+  filter(stat == "description_polarity") %>%
+  ggplot(aes(depth, mean)) +
+  geom_line() +
+  geom_errorbar(aes(ymin=mean-se, ymax=mean+se), width=0.2) +
+  ylab("Average Description Polarity") +
+  xlab("BFS Depth") + 
+  scale_x_continuous(breaks=1:8)
+```
+
+
+```{r}
+stats_by_depth %>%
+  filter(stat == "caption_polarity") %>%
+  ggplot(aes(depth, mean)) +
+  geom_line() +
+  geom_errorbar(aes(ymin=mean-se, ymax=mean+se), width=0.2) +
+  ylab("Average Caption Polarity") +
+  xlab("BFS Depth") + 
+  scale_x_continuous(breaks=1:8)
+```
+
+
+```{r}
+stats_by_depth %>%
+  filter(stat == "p_like") %>%
+  mutate(mean = 1 - mean,
+         stat = "p_dislike") %>%
+  select(-se) -> dislikes
+
+stats_by_depth %>%
+  bind_rows(dislikes) %>%
+  filter(stat %in% c("p_like", "p_dislike")) %>%
+  mutate(stat = ifelse(stat == "p_like", "Likes", "Dislikes")) %>%
+  ggplot(aes(depth, mean, fill=stat)) +
+  geom_area() +
+  ylab("Fraction of Likes/Dislikes") +
+  xlab("BFS Depth") + 
+  scale_fill_manual(name = "", values = c("red", "darkgreen")) +
+  scale_x_continuous(breaks=1:8)
+
+```
+
+What happens to our categories as we go _deeperrr_?
+
+```{r}
+search_w_info %>%
+  left_join(category_crosswalk, by = c('category' = 'category_id')) %>%
+  mutate_at("category_name", as.factor) %>%
+  group_by(depth, category_name) %>%
+  summarise(n = n()) %>%
+  mutate(category_freq = n / sum(n)) -> category_freq
+
+category_freq %>%
+  group_by(depth) %>%
+  summarise(sum = sum(category_freq)) -> tst
+
+category_freq %>%
+  ggplot(aes(depth, category_freq, fill = category_name)) + 
+  geom_col() +
+  xlab("BFS Depth") + 
+  ylab("Frequency")
+
+```
+
+# Graphy things
+
+```{r}
+# degree distribution
+n_videos <- nrow(degrees)
+
+degrees %>%
+  group_by(in_deg) %>%
+  summarise(p = n() / n_videos) %>%
+  ggplot(aes(in_deg, p)) + 
+  geom_point() + 
+  scale_y_log10(breaks = scales::trans_breaks("log10", function(x) 10^x),
+                labels = scales::trans_format("log10", scales::math_format(10^.x))) + 
+  scale_x_log10(breaks = scales::trans_breaks("log10", function(x) 10^x),
+                labels = scales::trans_format("log10", scales::math_format(10^.x))) +
+  ylab("P(in-degree)") + 
+  xlab("in-degree") 
+  
+
+
+```
+
+Look at characteristics by in-degree. First: what did the videos with the highest in-degree look like?
+
+```{r}
+degrees %>%
+  select(video_id, in_deg) %>%
+  top_n(8, in_deg) %>%
+  arrange(-in_deg) %>%
+  left_join(video_info %>% select(video_id, title, channel, category), by = "video_id") %>%
+  left_join(category_crosswalk, by = c('category' = 'category_id')) %>%
+  select(-category) %>%
+  kable(format = "latex",
+        caption = "Top Videos by In-Degree",
+        col.names = c("Video", "In-Degree", "Title", "Channel", "Category"),
+        booktabs = TRUE,
+        digits = 2) %>%
+  kable_styling(latex_options = c("HOLD_position", "striped"))
+  
+```
+
