@@ -14,3 +14,10 @@ venv.bak/
 # Credentials
 credentials/*
 .Rproj.user
+
+# IPYNB
+.ipynb_checkpoints
+
+# Derived data
+derived_data/*
+
