@@ -1,0 +1,1130 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.130 --> 00:00:02.900
+Hi, it’s me, Tim Dodd, the Everyday Astronaut!
+
+00:00:02.900 --> 00:00:08.050
+What rocket has 9 engines on its first stage,
+is built by a privately owned aerospace company,
+
+00:00:08.050 --> 00:00:12.780
+uses the most advanced manufacturing techniques
+available, is one of the cheapest rides to
+
+00:00:12.780 --> 00:00:17.279
+space and has a body that’s almost entirely
+made out of carbon fiber?
+
+00:00:17.279 --> 00:00:22.939
+If you said SpaceX’s Falcon 9 rocket you’d
+be wrong! (its body made out of aluminum)
+
+00:00:22.939 --> 00:00:25.419
+Move over SpaceX, there’s a new kid on
+the block!
+
+00:00:25.419 --> 00:00:30.529
+Well, maybe don't move over, but pull up a chair
+to the orbital class rocket table!
+
+00:00:30.529 --> 00:00:35.550
+That’s right, Rocket Lab has officially
+become the second privately owned rocket company
+
+00:00:35.550 --> 00:00:38.510
+to achieve orbit with their beautiful Electron
+rocket.
+
+00:00:38.510 --> 00:00:41.650
+Today we’re going to give you a deep run
+down on some of the exciting features about
+
+00:00:41.650 --> 00:00:45.780
+the Electron, then we’re going to compare
+it to similar rockets including other upcoming
+
+00:00:45.780 --> 00:00:50.130
+small sat rockets, and past small sat rockets
+like SpaceX’s Falcon 1.
+
+00:00:50.130 --> 00:00:53.590
+We’re even going to throw in a Falcon 9
+for comparison to see which rocket takes the
+
+00:00:53.590 --> 00:00:57.020
+cake for the cheapest ride to space with a
+cost per kilogram comparison.
+
+00:00:57.020 --> 00:01:00.620
+Oh, and I mean it when I say cake, I had this
+made for the winner.
+
+00:01:03.180 --> 00:01:05.100
+Let’s get started!
+
+00:01:24.040 --> 00:01:29.840
+On January 21st, 2018, Rocket Lab officially
+became the second private company to make
+
+00:01:29.840 --> 00:01:34.249
+it into orbit on private funds, and the first
+private company to launch something into orbit
+
+00:01:34.249 --> 00:01:38.189
+from a private launch site, launching their
+Electron rocket from their gorgeous launch
+
+00:01:38.189 --> 00:01:42.289
+pad located on the north island of New Zealand
+on the Mahia Peninsula.
+
+00:01:42.289 --> 00:01:46.869
+The mission was cheekily named “still testing”,
+a fun follow up to their first test flight
+
+00:01:46.869 --> 00:01:51.829
+of the electron called “It’s a test”
+and their upcoming launch will be called
+
+00:01:51.829 --> 00:01:52.829
+“It’s Business time.”
+
+00:01:52.829 --> 00:01:53.829
+I love that.
+
+00:01:53.829 --> 00:01:58.219
+Not only was the mission a perfect success
+on just their second attempt at an orbital
+
+00:01:58.219 --> 00:02:03.039
+flight, but they even stowed away and tested
+a secret kick stage that allows for flexibility
+
+00:02:03.039 --> 00:02:04.590
+in satellite deployment.
+
+00:02:04.590 --> 00:02:07.969
+It all went off perfectly and is incredibly
+impressive!
+
+00:02:07.969 --> 00:02:13.130
+And to top it ALL OFF, Rocket Lab went even
+one step further and included ANOTHER secret
+
+00:02:13.130 --> 00:02:17.360
+item inside the payload fairing, a little
+treat for all of us humans down here on Earth
+
+00:02:17.360 --> 00:02:19.140
+called Humanity Star.
+
+00:02:19.140 --> 00:02:23.970
+Ok, so they basically launched a disco ball
+that would be highly reflective and due to
+
+00:02:23.970 --> 00:02:28.080
+its spin would create a beautiful blinking shooting
+star when viewed under the right conditions
+
+00:02:28.080 --> 00:02:29.080
+here on Earth.
+
+00:02:29.080 --> 00:02:33.760
+Unfortunately it’ll only stay in orbit for
+a couple months after it launched, so by the
+
+00:02:33.760 --> 00:02:36.530
+time you’re watching this, it’ll probably
+be too late to see it.
+
+00:02:36.530 --> 00:02:42.800
+Actually as I'm editing this, I just found
+out it deorbited today, Thursday, March 22nd, 2018.
+
+00:02:42.920 --> 00:02:44.980
+Rest in pieces Humanity Star.
+
+00:02:44.980 --> 00:02:49.060
+The company is already full of fun, young
+and fresh aerospace culture, again,
+
+00:02:49.120 --> 00:02:50.120
+akin to SpaceX.
+
+00:02:50.700 --> 00:02:52.920
+For instance they made T-Shirts from this
+quote -
+
+00:02:52.930 --> 00:02:55.960
+"As in do you want to hold at t minus 18 or
+20?"
+
+00:02:55.960 --> 00:02:57.720
+"I never want to hold again"
+
+00:02:57.720 --> 00:03:01.900
+Ok, now before we get into the awesome Electron
+rocket that completed this exciting feat,
+
+00:03:01.900 --> 00:03:04.750
+let’s do a quick summary on who Rocket Lab
+is.
+
+00:03:04.750 --> 00:03:09.510
+Rocket Lab is a United States aerospace manufacturer
+who’s funded entirely by private investment
+
+00:03:09.510 --> 00:03:10.510
+from backers.
+
+00:03:10.510 --> 00:03:14.650
+Their CEO and CTO, Peter Beck, founded the
+company in 2006.
+
+00:03:14.650 --> 00:03:19.040
+A fellow New Zealander named, uh, Mark….
+
+00:03:19.040 --> 00:03:20.180
+Mark…
+
+00:03:20.180 --> 00:03:21.120
+Rocket...
+
+00:03:22.100 --> 00:03:23.600
+No seriously.
+
+00:03:23.610 --> 00:03:27.660
+Mark Rocket was a seed investor and co-director
+from 2007 until 2011.
+
+00:03:27.660 --> 00:03:29.710
+What a fitting name.
+
+00:03:29.710 --> 00:03:33.650
+Rocket Lab’s goal is to provide a dedicated
+launch vehicle for the growing small satellite
+
+00:03:33.650 --> 00:03:35.230
+and cubesat market.
+
+00:03:35.230 --> 00:03:39.290
+Typically, smaller satellites have to hitch
+a ride on a bigger rocket and they take a
+
+00:03:39.290 --> 00:03:40.930
+back seat in priority as well.
+
+00:03:40.930 --> 00:03:45.930
+A good example of a secondary smallsat payload
+getting the short end of the stick is SpaceX’s
+
+00:03:45.930 --> 00:03:51.410
+fourth Falcon 9 mission, CRS-1, which launched
+in October of 2012.
+
+00:03:51.410 --> 00:03:55.300
+SpaceX launched their first contracted Dragon
+Capsule stuffed with supplies to the International
+
+00:03:55.300 --> 00:03:59.940
+Space Station, but they had a secondary payload
+of an Orbcomm satellite that weighed only
+
+00:03:59.940 --> 00:04:03.090
+172 kgs or 379 pounds.
+
+00:04:03.090 --> 00:04:07.900
+One of the 9 Merlin engines on the first stage
+of the Falcon 9 failed on ascent, which resulted
+
+00:04:07.900 --> 00:04:12.040
+in the secondary payload failing to enter
+its proper orbit and due to International
+
+00:04:12.040 --> 00:04:17.100
+Space Station visiting vehicle safety rules,
+SpaceX wasn’t allowed a chance to boost
+
+00:04:17.100 --> 00:04:21.590
+the secondary payload into its proper orbit,
+which resulted in its loss and reentry just
+
+00:04:21.590 --> 00:04:22.660
+four days later.
+
+00:04:22.660 --> 00:04:26.760
+So Rocket Lab’s business case is to cater
+to this market that previously hasn’t had
+
+00:04:26.760 --> 00:04:29.790
+very good options other than ride sharing.
+
+00:04:29.790 --> 00:04:33.872
+Rocket Lab plans to launch around 50 times
+a year and they say they're licensed to fly
+
+00:04:33.872 --> 00:04:39.790
+every 72 hours which is 120 times a year,
+making for great flexibility and opportunities
+
+00:04:39.790 --> 00:04:41.270
+for these smaller payloads.
+
+00:04:41.270 --> 00:04:45.530
+With this increased launch cadence, Rocket
+Lab also says they have an incredibly agile
+
+00:04:45.530 --> 00:04:47.850
+approach to booking a flight.
+
+00:04:47.850 --> 00:04:52.790
+RocketLab can fulfill a launch in weeks rather
+than months or YEARS for more traditional
+
+00:04:52.790 --> 00:04:54.530
+aerospace companies...
+
+00:04:54.530 --> 00:04:55.600
+Now we’re talking!
+
+00:04:55.600 --> 00:04:59.490
+Speaking of flexibility, they can also launch
+their Electron rocket from Cape Canaveral
+
+00:04:59.490 --> 00:05:04.980
+in Florida, or the Pacific Spaceport complex
+in Alaska if the customer would need those options.
+
+00:05:05.320 --> 00:05:10.400
+So you might be asking, what the heck has
+Rocket Lab been up to since their founding in 2006???
+
+00:05:10.600 --> 00:05:15.240
+Well, in 2009 Rocket lab became for the first
+private company in the Southern Hemisphere
+
+00:05:15.240 --> 00:05:18.550
+to reach space with their Atea-1 sounding
+rocket.
+
+00:05:18.550 --> 00:05:24.340
+This thing was tiny, basically a giant hobby
+store model rocket only capable of launching
+
+00:05:24.340 --> 00:05:29.419
+2kgs or 4.4 pounds into space on a quick suborbital
+hop…
+
+00:05:29.419 --> 00:05:32.630
+After just one launch, Rocket Lab decided
+to move onto the next thing.
+
+00:05:32.630 --> 00:05:36.931
+The rocket that followed is the Electron,
+and it is awesome.
+
+00:05:36.931 --> 00:05:37.950
+Here’s a quick rundown.
+
+00:05:37.950 --> 00:05:43.490
+The Electron is a 2 stage orbital rocket which
+uses RP-1 fuel and Liquid Oxygen for its propellant,
+
+00:05:43.490 --> 00:05:49.740
+which is very common among rockets such as
+Russia’s Soyuz rocket, the Saturn V, SpaceX’s
+
+00:05:49.740 --> 00:05:55.620
+Falcon 9, ULA’s Atlas V, the first stage
+of Orbital ATK’s Antares and many, many more.
+
+00:05:55.920 --> 00:06:00.340
+The Electron uses 9 Rutherford engines on
+the first stage, and one vacuum optimized
+
+00:06:00.350 --> 00:06:01.930
+Rutherford engine on the upper stage.
+
+00:06:01.930 --> 00:06:06.550
+This is the same configuration as SpaceX who
+uses 9 of their Merlin engines on the first
+
+00:06:06.550 --> 00:06:10.790
+stage, and one vacuum-optimized Merlin engine
+on the upper stage of their Falcon 9 rocket.
+
+00:06:10.790 --> 00:06:13.210
+The Rutherford is an awesome little engine.
+
+00:06:13.210 --> 00:06:17.490
+Instead of using gas generator turbo pumps
+which burn fuel and oxidizer to pressure feed
+
+00:06:17.490 --> 00:06:22.380
+the combustion chambers like virtually all
+other rocket engines ever, the Rutherford
+
+00:06:22.380 --> 00:06:25.680
+uses electric motors to spin the pumps.
+
+00:06:25.680 --> 00:06:28.530
+This has a few cool advantages, one, it’s
+awesome.
+
+00:06:28.530 --> 00:06:29.530
+RIGHT?
+
+00:06:29.530 --> 00:06:31.389
+It’s like a hybrid rocket engine!
+
+00:06:31.389 --> 00:06:35.820
+And I’m thinking less Toyota Prius, more
+La Ferrari on the cool hybrid scale.
+
+00:06:35.820 --> 00:06:40.000
+Two, the engines are easy to start up and
+throttle, replacing hardware with software.
+
+00:06:40.000 --> 00:06:41.440
+I love that.
+
+00:06:41.440 --> 00:06:46.430
+And three, Rocket Lab claims they reduce mass
+compared to a more traditional gas generator.
+
+00:06:46.430 --> 00:06:50.580
+The next point might sound good, but it might
+not be very good the more you think about it.
+
+00:06:50.680 --> 00:06:54.940
+Instead of burning rocket fuel to power the
+pumps, it just uses batteries!
+
+00:06:54.949 --> 00:06:56.449
+That’s great, right?
+
+00:06:56.449 --> 00:06:58.770
+No need to waste fuel spinning the pumps!
+
+00:06:58.770 --> 00:07:01.580
+Well, there’s actually some disadvantages
+here.
+
+00:07:01.580 --> 00:07:06.560
+For one, electric batteries, despite great
+improvements lately in density and power output,
+
+00:07:06.560 --> 00:07:09.900
+are still WAY behind the energy density of
+rocket fuel.
+
+00:07:09.900 --> 00:07:14.150
+That means in order to get the same amount
+of energy from a pack of a lithium polymer
+
+00:07:14.150 --> 00:07:18.460
+batteries, it would weigh more than just having
+that amount of extra fuel on board.
+
+00:07:18.460 --> 00:07:23.320
+The other problem is when a battery is discharged,
+it still weighs the same amount, and therefore
+
+00:07:23.320 --> 00:07:26.150
+it's just dead weight once it’s been expended.
+
+00:07:26.150 --> 00:07:30.370
+Unlike propellant, which when in the process
+of being used up by those gas generators is
+
+00:07:30.370 --> 00:07:35.229
+literally thrown out the back of the rocket,
+thereby making the rocket continually lighter
+
+00:07:35.229 --> 00:07:37.880
+and that means there's less mass for the engines
+to have to push around.
+
+00:07:37.880 --> 00:07:40.350
+Ah but here’s a cool caveat.
+
+00:07:40.350 --> 00:07:44.990
+Rocket Lab came up with a wonderful solution
+to this problem to help offset that downfall.
+
+00:07:44.990 --> 00:07:48.979
+On the upper stage of the Electron, there
+are a few banks of batteries that detach when
+
+00:07:48.979 --> 00:07:50.320
+they’re depleted.
+
+00:07:50.320 --> 00:07:51.820
+Freeing up the dead weight!
+
+00:07:51.820 --> 00:07:52.820
+Brilliant!
+
+00:07:52.820 --> 00:07:57.460
+The Rutherford engine is also almost entirely
+3D printed using an electron beam melting
+
+00:07:57.460 --> 00:07:59.240
+process to save time and money.
+
+00:07:59.240 --> 00:08:02.479
+They can print a rocket engine in just 24
+hours.
+
+00:08:02.479 --> 00:08:04.410
+The cool tech doesn't end there!
+
+00:08:04.410 --> 00:08:09.160
+The main body of the rocket and the fuel tanks
+are made out of an advanced carbon composite material.
+
+00:08:09.500 --> 00:08:15.000
+This is very hard considering how cold liquid
+oxygen is and how it tends to not play nicely
+
+00:08:15.000 --> 00:08:16.669
+with carbon fiber.
+
+00:08:16.669 --> 00:08:20.980
+But it’s lightweight and strong and helps
+make the Electron very mass efficient.
+
+00:08:20.980 --> 00:08:25.440
+Rocket Lab also takes another page from SpaceX’s
+playbook by making their own flight computers
+
+00:08:25.440 --> 00:08:26.639
+in house.
+
+00:08:26.639 --> 00:08:31.140
+This allows them to make highly customizable,
+small and common avionics hardware.
+
+00:08:31.140 --> 00:08:35.960
+Lastly, we learned that not only did the Electron
+perform perfectly as planned, it actually
+
+00:08:35.960 --> 00:08:41.110
+exceeded public expectations by testing out
+a kick stage on their successful mission which
+
+00:08:41.110 --> 00:08:44.360
+Rocket Lab later announced was a complete
+success.
+
+00:08:44.360 --> 00:08:49.260
+Their kick stage consists of a small 3D printed
+engine called the Curie, which produces a modest
+
+00:08:49.260 --> 00:08:54.540
+120 Newtons or about 27 pounds of thrust and
+runs on a “green” mono prop fuel.
+
+00:08:54.540 --> 00:08:56.110
+What’s a kick stage?
+
+00:08:56.110 --> 00:08:58.330
+A kick stage is like a mini upper stage.
+
+00:08:58.330 --> 00:09:02.480
+It’s normal for rockets to deploy their
+payloads into an elliptical orbit, meaning
+
+00:09:02.480 --> 00:09:05.700
+the orbit looks like an oval instead of a
+circle.
+
+00:09:05.700 --> 00:09:10.710
+The spacecraft then normally has to circularize
+itself using its own onboard thrusters which
+
+00:09:10.710 --> 00:09:16.610
+are often very underpowered, time consuming
+and can detract from the lifespan of the mission.
+
+00:09:16.610 --> 00:09:20.740
+So a kick stage simply does one final burn
+at the highest point of the orbit to put the
+
+00:09:20.740 --> 00:09:25.360
+payload into a final circular orbit, leading
+to a lot of flexibility, and increasing the
+
+00:09:25.360 --> 00:09:27.960
+options of where the Electron can deliver
+the payload.
+
+00:09:27.960 --> 00:09:29.180
+BONUS STAGE!
+
+00:09:29.180 --> 00:09:32.960
+It can also help deliver multiple payloads
+to multiple destinations.
+
+00:09:32.960 --> 00:09:38.250
+And as if ALL of this wasn’t enough, Rocket
+Lab even makes their own cubesat dispensers
+
+00:09:38.250 --> 00:09:39.250
+in house!
+
+00:09:39.250 --> 00:09:42.180
+It’s called Maxwell, and it’s quite beautiful.
+
+00:09:42.180 --> 00:09:43.180
+Are you excited yet?
+
+00:09:43.180 --> 00:09:47.360
+Well, I think it’s time to do a side by
+side comparison of the Electron vs some other
+
+00:09:47.360 --> 00:09:50.600
+smallsat launchers past, present and future.
+
+00:09:52.410 --> 00:09:55.760
+So to start off the comparison, let’s talk
+about some competition.
+
+00:09:55.760 --> 00:09:59.740
+Beginning with maybe the Electron’s most
+direct competitor, the Vector-R made by a
+
+00:09:59.740 --> 00:10:02.450
+US company called Vector Space Systems.
+
+00:10:02.450 --> 00:10:06.940
+The Vector-R is in the testing phase and has
+only launched a pair of test flights.
+
+00:10:06.940 --> 00:10:12.330
+The Vector-R has yet to attempt an orbital
+flight, but hopes to attempt one mid 2018
+
+00:10:12.330 --> 00:10:16.950
+from their launch pad in Virginia known as
+MARS Pad 0B.
+
+00:10:16.950 --> 00:10:20.750
+Next we have Orbital ATK’s air-launched
+Pegasus launch system.
+
+00:10:20.750 --> 00:10:23.690
+That’s right, air launched baby!
+
+00:10:23.690 --> 00:10:29.260
+This is a rocket that’s carried up to 12
+km’s or 40,000 ft by an L-1011 jet where
+
+00:10:29.260 --> 00:10:31.300
+it’s then released and shoots off into orbit.
+
+00:10:31.300 --> 00:10:36.220
+It was first launched in 1990 and is still
+in operation today.
+
+00:10:36.220 --> 00:10:40.740
+Next we have another air-launched concept
+rocket called the Bloostar by a Spanish Company
+
+00:10:40.740 --> 00:10:42.360
+Zero to Infinity.
+
+00:10:42.360 --> 00:10:45.339
+This is one of my favorite future smallsat
+launch vehicles.
+
+00:10:45.339 --> 00:10:50.940
+It's a rocket that’s a donut, with another
+donut inside and then a muffin inside that
+
+00:10:50.940 --> 00:10:56.940
+that's carried up to above 99% of the atmosphere
+to 30 km’s or 19 miles in altitude by a
+
+00:10:56.940 --> 00:11:00.790
+large high altitude balloon where it’s then
+released and shoots off into orbit.
+
+00:11:00.790 --> 00:11:05.040
+I’ll do a video in the future about air-launched
+vehicles, because I think they’re super
+
+00:11:05.040 --> 00:11:08.950
+cool and it’s a question a lot of people
+ask often, “why don't they just launch a
+
+00:11:08.950 --> 00:11:11.060
+rocket from a balloon or jet?”...
+
+00:11:11.060 --> 00:11:15.150
+So stay tuned, or if you’re watching this
+in the future and I’ve already shot it,
+
+00:11:15.150 --> 00:11:17.200
+it’ll appear here in a YouTube card.
+
+00:11:17.200 --> 00:11:20.960
+And last we have a former smallsat rocket,
+the Falcon 1.
+
+00:11:20.960 --> 00:11:23.089
+The Falcon 1 was SpaceX’s first rocket.
+
+00:11:23.089 --> 00:11:27.670
+It was the first rocket to reach orbit by
+a private company on its fourth launch attempt
+
+00:11:27.670 --> 00:11:29.110
+in 2008.
+
+00:11:29.110 --> 00:11:34.300
+It only launched one more time in 2009 before
+Spacex moved on to its big brother, the Falcon 9.
+
+00:11:34.660 --> 00:11:38.899
+So first let’s line up these rockets in
+a side by side in length comparison.
+
+00:11:38.899 --> 00:11:44.191
+The Electron stands at 17 meters long, compared
+to the Vector-R at 12 meters, the bloostar
+
+00:11:44.200 --> 00:11:50.170
+which is around 3 meters, the pegasus which
+is 16.9 meters and the Falcon 1 which was
+
+00:11:50.170 --> 00:11:51.780
+21 meters tall.
+
+00:11:51.780 --> 00:11:53.580
+Next let’s check out their width.
+
+00:11:53.580 --> 00:11:58.740
+The Electron is 1.2 meters wide same as the
+Vector-R, the Bloostar is just over 2 meters
+
+00:11:58.740 --> 00:12:04.480
+wide, the pegasus 1.3 meters, and the Falcon
+1 which was 1.7 meters wide.
+
+00:12:04.480 --> 00:12:08.180
+So how heavy of a payload can each system
+deliver to Low Earth Orbit?
+
+00:12:08.180 --> 00:12:16.420
+The Electron can launch 225 KG, the Vector-R
+50 KG, the Bloostar, 75 KG, the Pegasus 443
+
+00:12:16.420 --> 00:12:19.340
+KG and the Falcon 1 670 KG.
+
+00:12:19.340 --> 00:12:23.940
+So now for the big, or hopefully small question,
+price.
+
+00:12:23.940 --> 00:12:31.730
+The Electron is $5 million, the Vector-R $1.5
+million, the Bloostar $2.5 million, the Pegasus
+
+00:12:31.730 --> 00:12:37.459
+$40 million and the Falcon 1 would cost around
+$7.5 million in today’s money.
+
+00:12:37.459 --> 00:12:39.050
+Now for the fun part.
+
+00:12:39.050 --> 00:12:40.430
+$ per KG.
+
+00:12:40.430 --> 00:12:50.350
+The Electron costs $22,222 per KG, the Vector-R
+$30,000 per KG, the Bloostar $25,000 per KG,
+
+00:12:50.350 --> 00:12:57.690
+the Pegasus $90,000 per KG and the Falcon
+1 would be $11,194 per KG.
+
+00:12:57.690 --> 00:13:01.620
+Let's see those in order of $ per KG ratio.
+
+00:13:01.620 --> 00:13:03.050
+Some notes about these numbers.
+
+00:13:03.050 --> 00:13:08.200
+Number one, of all these options, only the
+Electron and Pegasus are CURRENTLY available.
+
+00:13:08.200 --> 00:13:13.560
+I expect Bloostar and Vector-R to be available
+to customers here soon, but if you want to
+
+00:13:13.560 --> 00:13:18.300
+book a dedicated launch vehicle today for
+your smallsat, it really does look like the
+
+00:13:18.300 --> 00:13:20.390
+Electron is a fantastic option.
+
+00:13:20.390 --> 00:13:25.670
+Also, don’t take my cost per KG as stone
+cold fact because it was nearly impossible
+
+00:13:25.670 --> 00:13:31.870
+to find quotes to compare the exact same orbital
+parameters, so these are just decent estimates.
+
+00:13:31.870 --> 00:13:36.779
+Earlier, we compared the Electron to SpaceX’s
+Falcon 9 rocket due to their similar engine
+
+00:13:36.779 --> 00:13:37.870
+configurations.
+
+00:13:37.870 --> 00:13:41.980
+So just for funsies, let’s just put these
+two vehicles side by side to compare them,
+
+00:13:41.980 --> 00:13:42.820
+shall we?
+
+00:13:44.180 --> 00:13:46.100
+Woah.
+
+00:13:46.100 --> 00:13:47.839
+The Falcon 9 is huge!
+
+00:13:47.839 --> 00:13:53.579
+Standing at 70 meters or 230 feet tall, it
+is a significantly larger vehicle than the
+
+00:13:53.579 --> 00:13:57.000
+Electron which is at 17 meters or 56 feet
+tall.
+
+00:13:57.000 --> 00:14:03.860
+The Falcon 9 is also just over 3 times wider
+at 3.66 meters or 12 feet wide to the Electron’s
+
+00:14:03.860 --> 00:14:05.970
+1.2 meters or 4 feet wide.
+
+00:14:05.970 --> 00:14:07.899
+Now here’s where things get kind of silly.
+
+00:14:07.899 --> 00:14:13.589
+The Falcon 9 is capable of putting 22,800
+kgs to Low Earth Orbit compared to the Electron's
+
+00:14:13.589 --> 00:14:15.650
+225 kgs.
+
+00:14:15.650 --> 00:14:20.110
+The Falcon 9’s launch cost is $62 million
+to the Electrons $5 million.
+
+00:14:20.110 --> 00:14:23.290
+So lastly, we get their dollar per KG ratio.
+
+00:14:23.290 --> 00:14:29.390
+Remember, the Electron had an impressive $22,222
+per KG to low Earth orbit.
+
+00:14:29.390 --> 00:14:37.490
+But… that’s nothing compared to the Falcon
+9 which has a ridiculous $2,719 per KG and
+
+00:14:37.490 --> 00:14:41.790
+that’s without factoring in SpaceX’s future
+price drops due to being able to use previously
+
+00:14:41.790 --> 00:14:47.080
+flown launch vehicles which hopefully will
+bring the the cost down another 30-50%.
+
+00:14:47.080 --> 00:14:51.089
+So I know this comparison isn’t fair and
+it's not meant to put the Electron down, but
+
+00:14:51.089 --> 00:14:54.339
+for now, SpaceX, you still get the cake.
+
+00:14:54.339 --> 00:14:57.200
+Or what’s left of it…
+
+00:14:57.200 --> 00:15:00.050
+BUT WE CAN’T END THERE.
+
+00:15:00.050 --> 00:15:02.130
+We’re excited about the Electron!!
+
+00:15:02.130 --> 00:15:03.339
+It’s awesome!
+
+00:15:03.339 --> 00:15:07.529
+It launches from the most beautiful place
+in the world, it’s carbon fiber, it’s
+
+00:15:07.529 --> 00:15:11.310
+got an awesome hybrid electric turbo pump
+and 3D printed engines!!
+
+00:15:11.310 --> 00:15:12.970
+I mean come on.
+
+00:15:12.970 --> 00:15:16.380
+So let’s end with what exciting things Electron
+has in store.
+
+00:15:16.380 --> 00:15:19.769
+As we mentioned before, RocketLab’s third
+mission will be called “Business Time”
+
+00:15:19.769 --> 00:15:24.040
+and will be launching two Lemur-2 cubesats
+for the company Spire Global.
+
+00:15:24.040 --> 00:15:27.230
+The fourth mission will feature a dozen cubesats
+for NASA!
+
+00:15:27.230 --> 00:15:31.160
+But one of the most exciting destinations
+for an upcoming Electron mission is...
+
+00:15:31.160 --> 00:15:33.050
+You're not going to believe this...
+
+00:15:33.050 --> 00:15:34.050
+The MOON!!
+
+00:15:34.050 --> 00:15:35.050
+That’s right!
+
+00:15:35.050 --> 00:15:38.279
+The Electron is launching for Moon Express
+which is a Florida based company whose goal
+
+00:15:38.279 --> 00:15:40.500
+is to eventually mine the moon!
+
+00:15:40.500 --> 00:15:45.510
+They were competing and the leading contender
+to take home the Google Lunar X prize, a 20
+
+00:15:45.510 --> 00:15:49.520
+million dollar top prize contest that ended
+in March of 2018…
+
+00:15:49.520 --> 00:15:54.560
+The award would have gone to the first privately
+funded team to land a spacecraft on the moon,
+
+00:15:54.560 --> 00:15:59.930
+travel 500 meters and transmit back high-definition
+video and images.
+
+00:15:59.930 --> 00:16:04.990
+Unfortunately, despite trying really hard,
+Moon Express and Rocket Lab didn’t make
+
+00:16:04.990 --> 00:16:07.320
+it by then, leaving the prize unclaimed.
+
+00:16:07.320 --> 00:16:09.550
+This will be a mission you absolutely cannot
+miss.
+
+00:16:09.550 --> 00:16:13.660
+It’s so cool to think that such a small
+launch vehicle is capable of an awesome feat
+
+00:16:13.660 --> 00:16:14.990
+like doing a moon mission.
+
+00:16:14.990 --> 00:16:19.360
+While we’re talking about the future, let's
+talk about the future plans of Electron.
+
+00:16:19.360 --> 00:16:24.130
+I reached out to Rocketlab and asked them
+about reusability and any future plans for
+
+00:16:24.130 --> 00:16:26.320
+upgrades or larger launch vehicles.
+
+00:16:26.320 --> 00:16:27.769
+Here’s their response:
+
+00:16:27.769 --> 00:16:32.340
+“Currently, Rocket Lab are focusing on ramping
+up production to enable unprecedented launch
+
+00:16:32.340 --> 00:16:37.160
+frequencies and to service the numerous customers
+on our launch manifest.
+
+00:16:37.160 --> 00:16:42.100
+Electron was designed from the beginning to
+be quick, efficient and low-cost to produce.
+
+00:16:42.100 --> 00:16:46.510
+This path was chosen over pursuing reusability
+due to the added research and development
+
+00:16:46.510 --> 00:16:51.360
+time needed, and the importance of wanting
+to open up access to space as soon as possible
+
+00:16:51.360 --> 00:16:57.230
+for our customers who (until Sunday) had no
+dedicated, affordable orbital launcher.
+
+00:16:57.230 --> 00:17:02.420
+The added mass associated with booster reusability
+also impacts the payload capability of small
+
+00:17:02.420 --> 00:17:07.929
+launch vehicles more than larger launchers,
+so there are no current plans to pursue reusability
+
+00:17:07.929 --> 00:17:08.929
+in the future.”
+
+00:17:08.929 --> 00:17:09.929
+I get it.
+
+00:17:09.929 --> 00:17:14.360
+They have such a small payload capability
+now, adding hardware for reusability would
+
+00:17:14.360 --> 00:17:17.589
+just cut into that already limited payload
+mass.
+
+00:17:17.589 --> 00:17:22.530
+And although I agree, they should ramp up
+production and get to making some money, I
+
+00:17:22.530 --> 00:17:26.000
+hope that someday they make enough money to
+start looking towards bigger and reusable
+
+00:17:26.000 --> 00:17:27.209
+launch vehicles.
+
+00:17:27.209 --> 00:17:31.730
+Besides, their electronic turbo pumps would
+make for a very precise, highly controllable
+
+00:17:31.730 --> 00:17:34.840
+throttled rocket engine for propulsive landings.
+
+00:17:34.840 --> 00:17:37.170
+Woah that was a mouth full.
+
+00:17:37.170 --> 00:17:42.230
+Let’s try that again a little simpler Their
+engine that has that electric motor would
+
+00:17:42.230 --> 00:17:47.010
+be good at landing a rocket because it is
+precise and quick to react to stuff.
+
+00:17:47.010 --> 00:17:48.010
+There.
+
+00:17:48.010 --> 00:17:49.010
+Much better.
+
+00:17:49.010 --> 00:17:53.730
+So all in all Rocket Lab is the new cool kid
+on the block in the orbital rocket game.
+
+00:17:53.730 --> 00:17:57.260
+They’ve got an exciting future and are doing
+an excellent job of bringing everyone along
+
+00:17:57.260 --> 00:17:58.260
+for the ride.
+
+00:17:58.260 --> 00:18:00.850
+I look forward to seeing much much more from
+them!
+
+00:18:00.850 --> 00:18:02.560
+What do you think about Rocket Lab?
+
+00:18:02.560 --> 00:18:04.890
+Are you excited about their Electron rocket?
+
+00:18:04.890 --> 00:18:07.110
+Let me know your thoughts in the comments
+below!
+
+00:18:07.110 --> 00:18:11.510
+Also let me know if you have any other questions
+about Rocket Lab, the Electron, the Rutherford
+
+00:18:11.510 --> 00:18:14.530
+engine, or anything else space or rocket related!
+
+00:18:14.530 --> 00:18:19.059
+As always, I owe a huge thanks to my Patreon
+supporters for helping make this and other
+
+00:18:19.059 --> 00:18:21.160
+Everyday Astronaut content possible.
+
+00:18:21.160 --> 00:18:25.580
+I owe a super special thanks to those Patrons
+in our exclusive discord channel and our exclusive
+
+00:18:25.580 --> 00:18:28.320
+subreddit for helping me script and research.
+
+00:18:28.320 --> 00:18:32.260
+If you want to help contribute, please visit
+patreon.com/everydayastronaut
+
+00:18:32.280 --> 00:18:33.380
+Thank you!
+
+00:18:33.390 --> 00:18:37.679
+Don't forget to check out my web store for
+shirts, hats, mugs, prints of rocket launches
+
+00:18:37.679 --> 00:18:42.650
+and original artwork and lots of other fun
+stuff at everydayastronaut.com/shop
+
+00:18:42.650 --> 00:18:45.549
+And as always, all the music in my videos
+is original.
+
+00:18:45.549 --> 00:18:48.190
+The song in this video is called "Slow Orbit."
+
+00:18:48.190 --> 00:18:53.040
+Feel free to check it out and download it
+for free at soundcloud.com/everydayastronaut
+
+00:18:53.040 --> 00:18:54.080
+Tell a friend!
+
+00:18:54.080 --> 00:18:55.640
+Thanks everybody that does it for me.
+
+00:18:55.640 --> 00:18:57.870
+I'm Tim Dodd, the Everyday Astronaut.
+
+00:18:57.870 --> 00:18:59.659
+Bringing space down to Earth for everyday
+people.
+

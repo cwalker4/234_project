@@ -83,9 +83,11 @@ class YoutubeFollower():
                    "outtmpl": "results/captions/%(id)s.vtt",
                    "no_warnings": True,
                    "quiet": True}
-
-        with youtube_dl.YoutubeDL(yt_opts) as yt:
-            yt.download([url])
+        try:
+            with youtube_dl.YoutubeDL(yt_opts) as yt:
+                yt.download([url])
+        except:
+            pass
 
 
     def populate_info(self):
@@ -114,8 +116,8 @@ class YoutubeFollower():
                                          'channel': video_data['channel'],
                                          'title': video_data['title'],
                                          'has_captions': video_data['has_captions'],
-                                         'comments': comments} 
-            
+                                         'comments': comments}
+
             # Get captions if available
             if video_data['has_captions']:
                 self.get_subtitles(video_id)
@@ -126,10 +128,10 @@ class YoutubeFollower():
         Scrapes the recommendations corresponding to video_id
 
         INPUT:
-            video_id: (str) 
+            video_id: (str)
             n_recs: (int) number of recommendations to get
             depth: (int) depth of search
-            
+
         OUTPUT:
             recs: (list) list of recommended video_ids
         """
@@ -182,7 +184,7 @@ class YoutubeFollower():
 
     def get_recommendation_tree(self, seed, n_splits):
         """
-        Builds the recommendation tree via BFS. Calls functions to 
+        Builds the recommendation tree via BFS. Calls functions to
         populate video info and search info.
 
         INPUT:
@@ -227,12 +229,12 @@ if __name__ == "__main__":
         if os.path.exists(out_dir):
             print('Search already done; skipping\n\n\n')
             continue
-        
+
         yf = YoutubeFollower(
             n_splits=args.n_splits,
             depth=args.depth,
-            verbose=True, 
-            loc=args.loc, 
+            verbose=True,
+            loc=args.loc,
             lang=args.lang)
 
         yf.search(root_id=video_id)
