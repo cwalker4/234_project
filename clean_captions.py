@@ -28,10 +28,13 @@ def vtt_to_txt(filepath):
     
     result = []
     drop_regex = re.compile(r'-->')
+    corrupted_regex = re.compile(r'<c>')
     for line in captions[5:]:
         # if it's a timestamp line or empty skip it
         if drop_regex.search(line) or not line.strip():
             continue
+        if corrupted_regex.search(line):
+            return
         else:
             result.append(line.encode('utf-8', 'ignore').decode('utf-8').lower())
             

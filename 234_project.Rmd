@@ -91,6 +91,9 @@ video_info %>%
 
 # video degrees
 degrees <- read_csv(here::here('derived_data/vertex_degrees.csv'))
+
+# pageranks
+prs <- read_csv(here::here('derived_data/pageranks.csv'))
   
 ```
 
@@ -118,7 +121,7 @@ summary_stats %>%
         caption = "Summaries",
         booktabs = TRUE,
         digits = 2) %>%
-  kable_styling(latex_options = c("HOLD_position", "striped"))
+  kable_styling(latex_options = c("scale_down"))
 
 ```
 
@@ -156,10 +159,11 @@ stats_by_depth %>%
   filter(stat == "views") %>%
   ggplot(aes(depth, mean)) +
   geom_line() +
-  geom_errorbar(aes(ymin=mean-se, ymax=mean+se), width=0.2) +
+  geom_ribbon(aes(ymin=mean-se, ymax=mean+se), alpha=0.1) +
   ylab("Average Views") +
   xlab("BFS Depth") +
   scale_x_continuous(breaks=1:8)
+
 ```
 
 
@@ -168,7 +172,7 @@ stats_by_depth %>%
   filter(stat == "comment_polarity") %>%
   ggplot(aes(depth, mean)) +
   geom_line() +
-  geom_errorbar(aes(ymin=mean-se, ymax=mean+se), width=0.2) +
+  geom_ribbon(aes(ymin=mean-se, ymax=mean+se), alpha=0.1) +
   ylab("Average Comment Polarity") +
   xlab("BFS Depth") + 
   scale_x_continuous(breaks=1:8)
@@ -179,7 +183,7 @@ stats_by_depth %>%
   filter(stat == "description_polarity") %>%
   ggplot(aes(depth, mean)) +
   geom_line() +
-  geom_errorbar(aes(ymin=mean-se, ymax=mean+se), width=0.2) +
+  geom_ribbon(aes(ymin=mean-se, ymax=mean+se), alpha=0.1) +
   ylab("Average Description Polarity") +
   xlab("BFS Depth") + 
   scale_x_continuous(breaks=1:8)
@@ -191,7 +195,7 @@ stats_by_depth %>%
   filter(stat == "caption_polarity") %>%
   ggplot(aes(depth, mean)) +
   geom_line() +
-  geom_errorbar(aes(ymin=mean-se, ymax=mean+se), width=0.2) +
+  geom_ribbon(aes(ymin=mean-se, ymax=mean+se), alpha=0.1) +
   ylab("Average Caption Polarity") +
   xlab("BFS Depth") + 
   scale_x_continuous(breaks=1:8)
@@ -240,6 +244,64 @@ category_freq %>%
 
 ```
 
+
+
+```{r}
+# post date by depth
+search_w_info %>%
+  group_by(search) %>%
+  mutate(root_date = postdate[which(depth == 0)]) %>%
+  mutate(time_diff = difftime(postdate, root_date, units="days")) %>%
+  ungroup() %>%
+  select(depth, search, time_diff) -> time_diffs
+
+time_diffs %>%
+  group_by(depth) %>%
+  summarize(mean = mean(time_diff, na.rm = TRUE),
+           se = sd(time_diff, na.rm = TRUE) / sqrt(length(time_diff))) %>%
+  ggplot(aes(depth, mean)) +
+  geom_line() +
+  geom_ribbon(aes(ymin=mean-se, ymax=mean+se), alpha=0.1) +
+  ylab("Time Difference (days)")
+
+```
+
+```{r}
+search_w_info %>%
+  mutate(video_age = as.numeric(difftime(as.Date("2019-03-13", format="%Y-%m-%d"), postdate, units="days"))) %>%
+  mutate(age_bin = cut(video_age, seq(0, 4500, 50), labels=FALSE)) %>%
+  mutate(age_bin = age_bin * 50) %>%
+  group_by(age_bin) %>%
+  summarise(mean = mean(comment_polarity, na.rm = TRUE),
+            se = sd(comment_polarity, na.rm = TRUE) / sqrt(length(comment_polarity))) %>%
+  ungroup() %>%
+  ggplot(aes(age_bin, mean)) +
+  geom_point() +
+  ylab("Comment Polarity") + 
+  xlab("Video Age")
+
+```
+
+
+```{r}
+search_w_info %>%
+  mutate(video_age = as.numeric(difftime(as.Date("2019-03-13", format="%Y-%m-%d"), postdate, units="days"))) %>%
+  mutate(age_bin = cut(video_age, seq(0, 4500, 50), labels=FALSE)) %>%
+  mutate(age_bin = age_bin * 50) %>%
+  group_by(age_bin) %>%
+  summarise(mean = mean(views, na.rm = TRUE),
+            se = sd(views, na.rm = TRUE) / sqrt(length(views))) %>%
+  ungroup() %>%
+  ggplot(aes(age_bin, mean)) +
+  geom_point() +
+  ylab("Views") + 
+  xlab("Video Age")
+
+
+```
+
+
+
 # Graphy things
 
 ```{r}
@@ -262,22 +324,80 @@ degrees %>%
 
 ```
 
-Look at characteristics by in-degree. First: what did the videos with the highest in-degree look like?
+Look at characteristics by in-degree. First: what are the videos with the highest in-degree?
 
 ```{r}
 degrees %>%
   select(video_id, in_deg) %>%
   top_n(8, in_deg) %>%
   arrange(-in_deg) %>%
-  left_join(video_info %>% select(video_id, title, channel, category), by = "video_id") %>%
-  left_join(category_crosswalk, by = c('category' = 'category_id')) %>%
-  select(-category) %>%
+  left_join(video_info %>% select(video_id, title, channel), by = "video_id") %>%
   kable(format = "latex",
         caption = "Top Videos by In-Degree",
-        col.names = c("Video", "In-Degree", "Title", "Channel", "Category"),
+        col.names = c("Video", "In-Degree", "Title", "Channel"),
         booktabs = TRUE,
         digits = 2) %>%
-  kable_styling(latex_options = c("HOLD_position", "striped"))
+  kable_styling(latex_options = c("scale_down"))
   
 ```
+
+How do things vary with in-degree?
+
+```{r}
+degrees %>%
+  left_join(video_info, by = "video_id") %>%
+  select(-category, -channel, -has_captions, -postdate, -title, -out_deg) %>%
+  gather(stat, val, -c("video_id", "in_deg")) %>%
+  filter(!is.na(val)) -> deg_stats_long
+  
+deg_stats_long %>%
+  group_by(in_deg, stat) %>%
+  summarize(mean = mean(val, na.rm = TRUE),
+            se = sd(val, na.rm = TRUE) / sqrt(length(val)),
+            count = n()) -> deg_stats
+
+deg_stats %>%
+  filter(stat == "comment_polarity") %>%
+  ggplot(aes(in_deg, mean, size = count)) +
+  geom_point(alpha = 0.5) + 
+  xlim(c(0, 40)) + 
+  ylab("Comment Polarity") +
+  xlab("In Degree")
+
+```
+
+```{r}
+deg_stats %>%
+  filter(stat %in% c("views", "comment_polarity", "p_like", "caption_polarity")) %>%
+  mutate(stat = case_when(stat == "views" ~ "Views",
+                          stat == "caption_polarity" ~ "Caption Polarity",
+                          stat == "comment_polarity" ~ "Comment Polarity",
+                          stat == "p_like" ~ "Like Fraction")) %>%
+  ggplot(aes(in_deg, mean, size = count)) +
+  geom_point(alpha = 0.5) + 
+  facet_wrap(~stat, nrow=2, scales = "free_y") +
+  xlim(c(0, 40)) + 
+  ylab("Views") +
+  xlab("In Degree")
+```
+
+How do things vary with PageRanks?
+
+```{r}
+deg_stats_long %>%
+  filter(stat %in% c("views", "comment_polarity", "p_like", "caption_polarity")) %>%
+  left_join(prs, by = 'video_id') %>%
+  mutate(pagerank = cut(pagerank, seq(0, 0.005, 0.0005), labels = FALSE) * 0.0005) %>%
+  group_by(pagerank, stat) %>%
+  summarise(val = mean(val, na.rm = TRUE),
+            n = n()) %>%
+  ggplot(aes(pagerank, val, size = n)) +
+  geom_point(alpha=0.7) + 
+  facet_wrap(~stat, nrow=2, scales = "free_y") +
+  xlab("PageRank") + 
+  ylab("Mean")
+
+```
+
+
 
