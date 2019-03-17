@@ -18,6 +18,9 @@ credentials/*
 # IPYNB
 .ipynb_checkpoints
 
-# Derived data
+# data
 derived_data/*
+scrape_results/*
 
+# Presentation/paper resources
+presentation_resources/*
