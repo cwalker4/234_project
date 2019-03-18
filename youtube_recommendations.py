@@ -29,9 +29,9 @@ class YoutubeFollower():
         self._verbose = verbose
 
         # pull in video info from previous crawls to minimize API abuse
-        if os.path.exists('results/video_info.json'):
+        if os.path.exists('scrape_results/video_info.json'):
             print("Opening the thing")
-            with open('results/video_info.json') as f:
+            with open('scrape_results/video_info.json') as f:
                 self._video_info = json.load(f)
         else:
             self._video_info = {}
@@ -57,7 +57,7 @@ class YoutubeFollower():
 
         os.makedirs(out_dir)
 
-        with open(os.path.join('results/video_info.json'), 'w') as f:
+        with open(os.path.join('scrape_results/video_info.json'), 'w') as f:
             json.dump(yf._video_info, f)
 
         with open(os.path.join(out_dir, 'search_info.json'), 'w') as f:
@@ -224,7 +224,7 @@ if __name__ == "__main__":
     root_videos = youtube_utils.search(args.query, max_results=args.n_roots)
     for video_id in root_videos:
         print('Starting search with query {} and root video {}'.format(args.query, video_id))
-        out_dir = 'results/{}_{}'.format(args.query, video_id)
+        out_dir = 'scrape_results/{}_{}'.format(args.query, video_id)
 
         if os.path.exists(out_dir):
             print('Search already done; skipping\n\n\n')

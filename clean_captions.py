@@ -43,5 +43,5 @@ def vtt_to_txt(filepath):
         
 
 if __name__ == "__main__":
-    for file in os.listdir("results/captions"):
-        vtt_to_txt("results/captions/" + file)
+    for file in os.listdir("scrape_results/captions"):
+        vtt_to_txt("scrape_results/captions/" + file)
