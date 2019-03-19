@@ -399,5 +399,247 @@ deg_stats_long %>%
 
 ```
 
+# Polarization
+
+The motivation for this project was to get a sese of the polarization of the content that the Youtube recommendation engine points towards. I've scraped a few websites and compiled a list of media outlets / political sources and their political leaning: left, center, or right. I want to make a figure / do some analysis that captures the probability you land on a left- or right-leaning video conditional on your starting query -- I seeded my scrapes with the names of left- or right-leaning politicians. There are two ways I might condition:
+
+1. P(landing on bias _b_ at level _d_ | started with _b_ leaning query)
+2. P(landing on bias _b_ at level _d_ | started by _b_ leaning video)
+
+```{r}
+# import the channel-leaning information
+channel_leanings <- readr::read_csv(here::here('derived_data/channel_classification.csv'))
+
+# make a query <-> party affiliation crosswalk
+dems <- c("jim clyburn", "kagan", "aoc", "susan rice", "john podesta", "sotomayor", "krysten sinema",
+          "john lewis", "pelosi", "ruth bader ginsburg", "gavin newsom", "loretta lynch", "beto orourke",
+          "schumer", "democrats", "maxine waters", "john kelly", "david axelrod", "john kerry", "eric holder",
+          "dick durbin", "rahm emanuel", "biden", "obama", "clinton", "bernie", "cory booker", "tim geithner",
+          "kamala harris", "gillibrand", "dan pfeiffer")
+
+tibble(query = dems) %>%
+  mutate(query_leaning = "L") -> l_queries
+
+reps <- c("trump", "sarah huckabee sanders", "mike pompeo", "william barr", "wilbur ross", "pence", "ted cruz",
+          "mick mulvaney", "rick perry", "scott pruitt", "mcconnell", "rex tillerson", "ben carson", "kavanaugh",
+          "john cornyn", "paul ryan", "susan collins", "james mattis", "lindsay graham", "kevin mccarthy",
+          "steve mnuchin", "betsy devos", "jeff sessions", "kushner")
+
+tibble(query = reps) %>%
+  mutate(query_leaning = 'R') -> r_queries
+
+query_classifications <- bind_rows(l_queries, r_queries)
+
+# join the query and channel classifications into the saerch info dataframe
+search_w_info %>%
+  mutate_at("channel", tolower) %>%
+  left_join(channel_leanings, by = 'channel') %>%
+  left_join(query_classifications, by = 'query') %>%
+  select(search, query, video_id, depth, channel, leaning, query_leaning) -> search_leanings
+
+```
+
+```{r}
+# print out the table of queries and classifications
+
+query_classifications %>%
+  arrange(query) %>%
+  kable(format = "latex",
+        caption = "Queries and Leanings",
+        booktabs = TRUE,
+        digits = 2,
+        col.names = c("Query", "Leaning"),
+        longtable = TRUE) %>%
+  kable_styling()
+
+```
+
+
+First look at the counts of R vs L vs C leaning videos. Looks like we have mostly left leaning videos. Potentially use these as the baseline.
+
+```{r}
+search_leanings %>%
+  count(leaning) %>%
+  mutate(freq = n / sum(n)) -> leaning_freqs
+
+leaning_freqs %>%
+  kable(format = "latex",
+        caption = "Summaries",
+        booktabs = TRUE,
+        digits = 2,
+        col.names = c("Leaning", "Count", "Proportion")) %>%
+  kable_styling(latex_options = c("scale_down"))
+```
+
+What are the frequencies for just the base videos?
+
+```{r}
+search_leanings %>%
+  filter(depth == 0) %>%
+  count(leaning) %>%
+  mutate(freq = n / sum(n)) -> base_leanings
+
+base_leanings %>%
+  kable(format = "latex",
+        caption = "Summaries",
+        booktabs = TRUE,
+        digits = 2,
+        col.names = c("Leaning", "Count", "Proportion")) %>%
+  kable_styling(latex_options = c("scale_down"))
+```
+
+What sorts of queries return the most R vs L leaning videos?
+
+```{r}
+search_leanings %>%
+  filter(!is.na(leaning)) %>%
+  group_by(query, leaning) %>%
+  summarise(n = n()) %>%
+  mutate(freq = n / sum(n)) -> query_tree_leanings
+
+query_tree_leanings %>%
+  filter(leaning == 'L') %>%
+  select(query, freq) %>%
+  top_n(10) %>%
+  arrange(-freq)
+
+query_tree_leanings %>%
+  filter(leaning == 'R') %>%
+  select(query, freq) %>%
+  top_n(10) %>%
+  arrange(-freq)
+
+```
+
+
+Plot political leaning of channels by depth:
+
+```{r}
+search_leanings %>%
+  filter(!is.na(leaning)) %>%
+  group_by(depth, leaning) %>%
+  summarise(n = n()) %>%
+  mutate(freq = n / sum(n)) -> leaning_by_depth
+
+leaning_by_depth %>%
+  mutate(leaning = case_when(leaning == "C" ~ "Center",
+                             leaning == "L" ~ "Left",
+                             leaning == "R" ~ "Right")) %>%
+  ggplot() + 
+  geom_col(aes(depth, freq, fill = leaning)) + 
+  scale_fill_manual(values = c("purple", "blue", "red")) +
+  ylab("Frequency") + 
+  xlab("BFS Depth")
+
+```
+
+Breaking this up by leaning of the query:
+
+```{r}
+search_leanings %>%
+  filter(!is.na(leaning), !is.na(query_leaning)) %>%
+  group_by(query_leaning, depth, leaning) %>%
+  summarise(n = n()) %>%
+  mutate(freq = n / sum(n)) %>%
+  ungroup() %>%
+  mutate(query_leaning = ifelse(query_leaning == 'L', 'Left-Leaning Query', 'Right-Leaning Query'),
+         leaning = case_when(leaning == "C" ~ "Center",
+                             leaning == "L" ~ "Left",
+                             leaning == "R" ~ "Right")) %>%
+  ggplot() + 
+  geom_col(aes(depth, freq, fill = leaning)) + 
+  scale_fill_manual(values = c("purple", "blue", "red")) +
+  facet_wrap(~ query_leaning) +
+  ylab("Frequency") + 
+  xlab("BFS Depth")
+
+```
+
+Not a lot of action, although this may be a result of queries not containing a ton of information about the polarization of the initial video. Let's look instead at how political bias evolves by depth, broken up by the leaning of the seed (root) video.
+
+```{r}
+search_leanings %>%
+  group_by(search) %>%
+  mutate(seed_leaning = leaning[which.min(depth)]) %>%
+  ungroup() %>%
+  filter(seed_leaning %in% c('L', 'R'),
+         !is.na(leaning)) %>%
+  group_by(seed_leaning, depth, leaning) %>%
+  summarise(n = n()) %>%
+  mutate(freq = n / sum(n)) %>%
+  ungroup() %>%
+  mutate(seed_leaning = ifelse(seed_leaning == 'L', 'Left-Leaning Query', 'Right-Leaning Query'),
+       leaning = case_when(leaning == "C" ~ "Center",
+                           leaning == "L" ~ "Left",
+                           leaning == "R" ~ "Right")) %>%
+  ggplot() + 
+  geom_col(aes(depth, freq, fill = leaning)) + 
+  scale_fill_manual(values = c("purple", "blue", "red")) +
+  facet_wrap(~ seed_leaning) +
+  ylab("Frequency") + 
+  xlab("BFS Depth")
+```
+
+
+Isolation index? Count the relative frequency of different leanings (a root video is defined as "R" if it is a right-leaning query) arriving at a  particular video. Then calculate the isolation index a la Getnzkow & Alcott?
+
+# Isolation Index
+
+```{r}
+# get the conservative and liberal counts for each channel. Consider each tree as a search
+# by a single user. The user's political leaning is defined as the leaning of the very first (root) video
+# in the tree.
+search_leanings %>%
+  group_by(search) %>%
+  mutate(seed_leaning = leaning[which.min(depth)]) %>%
+  ungroup() %>%
+  filter(seed_leaning %in% c('L', 'R')) %>%
+  mutate(seed_leaning = factor(seed_leaning, levels=c('L', 'R'))) %>%
+  count(channel, seed_leaning, .drop = FALSE) -> leaning_visit_counts
+
+# get the conservative and liberal shares for each channel
+leaning_visit_counts %>%
+  tidyr::spread(seed_leaning, n) %>%
+  rename(n_l = L, n_r = R) %>%
+  mutate(p_l = (n_l) / (n_l + n_r),
+         p_r = (n_r) / (n_l + n_r)) -> leaning_info
+
+# get the total number of liberal/conservative seed videos.
+search_leanings %>%
+  group_by(search) %>%
+  mutate(seed_leaning = leaning[which.min(depth)]) %>%
+  ungroup() %>%
+  count(seed_leaning) -> total_visits_by_leaning
+
+n_cons_visits <- total_visits_by_leaning %>% filter(seed_leaning == 'R') %>% pull(n)
+n_lib_visits <- total_visits_by_leaning %>% filter(seed_leaning == 'L') %>% pull(n)
+
+leaning_info %>%
+  summarise(isolation = sum((p_r * n_r) / n_cons_visits, na.rm = TRUE)) %>%
+  pull(isolation) -> cons_exposure
+
+leaning_info %>%
+  summarise(isolation = sum((p_l * n_r)/n_lib_visits, na.rm = TRUE)) %>%
+  pull(isolation) -> lib_exposure
+
+isolation_index = cons_exposure - lib_exposure
+
+```
+
+
+```{r}
+channel_leanings %>%
+  arrange(channel) %>%
+  kable(format = "latex",
+        caption = "Channels and Classifications",
+        booktabs = TRUE,
+        col.names = c("Channel", "Bias"),
+        digits = 2,
+        longtable = TRUE) %>%
+  kable_styling()
+```
+
+
+
 
 
