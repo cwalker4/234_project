@@ -24,3 +24,7 @@ scrape_results/*
 
 # Presentation/paper resources
 presentation_resources/*
+
+# R
+.Rhistory
+
