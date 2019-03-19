@@ -121,7 +121,7 @@ summary_stats %>%
         caption = "Summaries",
         booktabs = TRUE,
         digits = 2) %>%
-  kable_styling(latex_options = c("scale_down"))
+  kable_styling()
 
 ```
 
@@ -142,8 +142,15 @@ search_w_info %>%
                function(x) sd(x, na.rm = TRUE) / sqrt(length(x))) %>%
   gather(stat, se, -depth) -> se_by_depth
 
+search_w_info %>%
+  group_by(depth) %>%
+  summarise_at(vars(likes, n_comments, views, description_polarity, comment_polarity, caption_polarity, p_like),
+               function(x) sd(x, na.rm = TRUE)) %>%
+  gather(stat, sd, -depth) -> sd_by_depth
+
 mean_by_depth %>%
-  left_join(se_by_depth, by = c('depth', 'stat')) -> stats_by_depth
+  left_join(se_by_depth, by = c('depth', 'stat')) %>%
+  left_join(sd_by_depth, by = c('depth', 'stat')) -> stats_by_depth
 
 stats_by_depth %>%
   ggplot(aes(depth, mean)) +
@@ -278,7 +285,8 @@ search_w_info %>%
   ggplot(aes(age_bin, mean)) +
   geom_point() +
   ylab("Comment Polarity") + 
-  xlab("Video Age")
+  xlab("Video Age") +
+  xlim(c(0, 2500))
 
 ```
 
@@ -295,7 +303,8 @@ search_w_info %>%
   ggplot(aes(age_bin, mean)) +
   geom_point() +
   ylab("Views") + 
-  xlab("Video Age")
+  xlab("Video Age (days)") +
+  xlim(c(0, 2500))
 
 
 ```
@@ -329,7 +338,7 @@ Look at characteristics by in-degree. First: what are the videos with the highes
 ```{r}
 degrees %>%
   select(video_id, in_deg) %>%
-  top_n(8, in_deg) %>%
+  top_n(10, in_deg) %>%
   arrange(-in_deg) %>%
   left_join(video_info %>% select(video_id, title, channel), by = "video_id") %>%
   kable(format = "latex",
@@ -462,13 +471,27 @@ search_leanings %>%
   count(leaning) %>%
   mutate(freq = n / sum(n)) -> leaning_freqs
 
-leaning_freqs %>%
+search_leanings %>%
+  distinct(video_id, leaning) %>%
+  count(leaning) %>%
+  mutate(frac_videos = n / sum(n)) %>%
+  rename(n_videos = n) -> video_leaning_counts
+
+search_leanings %>%
+  distinct(channel, leaning) %>%
+  count(leaning) %>%
+  mutate(frac_channels = n / sum(n)) %>%
+  rename(n_channels = n) -> channel_leaning_counts
+
+channel_leaning_counts %>%
+  left_join(video_leaning_counts, by = 'leaning') %>%
   kable(format = "latex",
         caption = "Summaries",
         booktabs = TRUE,
         digits = 2,
-        col.names = c("Leaning", "Count", "Proportion")) %>%
-  kable_styling(latex_options = c("scale_down"))
+        col.names = c("Leaning", "No. Channels", "Frac. Channels", "No. Videos", "Frac. Videos")) %>%
+  kable_styling()
+
 ```
 
 What are the frequencies for just the base videos?
@@ -485,7 +508,7 @@ base_leanings %>%
         booktabs = TRUE,
         digits = 2,
         col.names = c("Leaning", "Count", "Proportion")) %>%
-  kable_styling(latex_options = c("scale_down"))
+  kable_styling()
 ```
 
 What sorts of queries return the most R vs L leaning videos?
@@ -568,7 +591,7 @@ search_leanings %>%
   summarise(n = n()) %>%
   mutate(freq = n / sum(n)) %>%
   ungroup() %>%
-  mutate(seed_leaning = ifelse(seed_leaning == 'L', 'Left-Leaning Query', 'Right-Leaning Query'),
+  mutate(seed_leaning = ifelse(seed_leaning == 'L', 'Left-Leaning Seed', 'Right-Leaning Seed'),
        leaning = case_when(leaning == "C" ~ "Center",
                            leaning == "L" ~ "Left",
                            leaning == "R" ~ "Right")) %>%
@@ -578,6 +601,7 @@ search_leanings %>%
   facet_wrap(~ seed_leaning) +
   ylab("Frequency") + 
   xlab("BFS Depth")
+
 ```
 
 
